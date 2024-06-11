@@ -1,0 +1,85 @@
+name: Update GOH 
+
+on:
+    schedule:
+      - cron: 0 0/12 * * * 
+    workflow_dispatch:
+
+jobs:
+  Update:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: GetTime
+      id: date
+      run: echo "::set-output name=date::$(date -u -d '+8 hour' '+%Y.%m.%d %H:%M:%S')"
+
+    - name: 直播源
+      run: |       
+        # FreeviewMY
+        rm -f ./m3u/FreeviewMY.m3u8 && wget https://raw.githubusercontent.com/itszairi/FreeviewMY/main/FreeviewMY.m3u8 -O ./m3u/FreeviewMY.m3u8
+        sed -i '/#EXTM3U/d' ./m3u/FreeviewMY.m3u8
+        sed -i '/^\s*$/d' ./m3u/FreeviewMY.m3u8
+        
+        # mewatchsg
+        rm -f ./m3u/mewatchsg.m3u8 && wget https://raw.githubusercontent.com/samleong123/mewatchsg/main/mewatchsg_drm_wv_url.m3u8 -O ./m3u/mewatchsg.m3u8
+        sed -i '/#EXTM3U/d' ./m3u/mewatchsg.m3u8
+        sed -i '/^\s*$/d' ./m3u/mewatchsg.m3u8
+        
+        # my
+        rm -f ./m3u/my.m3u && wget https://github.com/weareblahs/freeview/blob/main/mytv_broadcasting.m3u8 -O ./m3u/my.m3u
+        sed -i '/#EXTM3U/d' ./m3u/my.m3u
+        
+        # tw
+        rm -f ./m3u/tw.m3u && wget https://raw.githubusercontent.com/iptv-org/iptv/master/streams/tw.m3u -O ./m3u/tw.m3u
+        sed -i 's/#EXTINF:-1/#EXTINF:-1 group-title="TW"/g' ./m3u/tw.m3u
+        sed -i '/^\s*$/d' ./m3u/tw.m3u
+        
+        # cn
+        rm -f ./m3u/cqyx.m3u && wget https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/cqyx.m3u -O ./m3u/cqyx.m3u
+        rm -f ./m3u/sxg.m3u && wget https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/sxg.m3u -O ./m3u/sxg.m3u
+        rm -f ./m3u/bestv.m3u && wget https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/bestv.m3u -O ./m3u/bestv.m3u
+        rm -f ./m3u/IPTV.m3u && wget https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/IPTV.m3u -O ./m3u/IPTV.m3u
+        rm -f ./m3u/iptv-org.m3u
+        sed -i '/#EXTM3U/d' ./m3u/IPTV.m3u
+        sed -i '/#EXTM3U/d' ./m3u/cqyx.m3u
+        sed -i '/#EXTM3U/d' ./m3u/sxg.m3u
+        sed -i '/#EXTM3U/d' ./m3u/bestv.m3u
+        cat ./m3u/cqyx.m3u >> ./m3u/iptv-org.m3u
+        cat ./m3u/sxg.m3u >> ./m3u/iptv-org.m3u
+        cat ./m3u/bestv.m3u >> ./m3u/iptv-org.m3u
+        cat ./m3u/IPTV.m3u >> ./m3u/iptv-org.m3u
+        sed -i '/^\s*$/d' ./m3u/iptv-org.m3u       
+        
+    
+    - name: 整合源
+      run: |         
+          # 整合源
+           rm -f LIVE-TV.m3u && touch LIVE-TV.m3u
+           cat ./m3u/my.m3u >> LIVE-TV.m3u
+           cat ./m3u/FreeviewMY.m3u8 >> LIVE-TV.m3u
+           cat ./m3u/mewatchsg.m3u8 >> LIVE-TV.m3u
+           cat ./m3u/tw.m3u >> LIVE-TV.m3u
+           cat ./m3u/iptv-org.m3u >> LIVE-TV.m3u
+           sed -i '1i #EXTM3U x-tvg-url="https://live-tv.gohkh7.eu.org/EPG/EPG.xml,https://live-tv.gohkh7.eu.org/EPG/EPG-1.xml,https://live-tv.gohkh7.eu.org/EPG/EPG-2.xml,https://live-tv.gohkh7.eu.org/EPG/EPG-3.xml"' LIVE-TV.m3u
+          
+    - name: 节目源
+      run: |        
+          # 节目源
+          rm -f ./EPG/EPG.xml && wget https://cutt.ly/FreeviewMY-EPG-1 -O ./EPG/EPG.xml
+          rm -f ./EPG/EPG-1.xml && wget https://cutt.ly/FreeviewMY-EPG-2 -O ./EPG/EPG-1.xml
+          rm -f ./EPG/EPG-2.xml && wget https://raw.githubusercontent.com/AqFad2811/epg/main/singapore.xml -O ./EPG/EPG-2.xml
+          rm -f ./EPG/EPG-3.xml && wget https://raw.githubusercontent.com/AqFad2811/epg/main/singapore.xml -O ./EPG/EPG-3.xml
+          echo "Auto Update LIVE-TV in ${{ steps.date.outputs.date }}" > README.md
+          
+       
+    - name: Clean
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add -A
+        git commit -a -m "${{ steps.date.outputs.date }}"
+    - name: Push
+      run: git push origin main
