@@ -1,4 +1,4 @@
-name: Update GOH 
+name: Master
 
 on:
     schedule:
