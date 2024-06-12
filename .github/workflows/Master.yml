@@ -20,8 +20,8 @@ jobs:
       run: |         
           # 整合源
            rm -f Master.m3u && touch Master.m3u
-           cat ./m3u/Kiki.m3u >> Master.m3u
            cat ./m3u/LIVE-TV.m3u >> Master.m3u
+           cat ./m3u/Kiki.m3u >> Master.m3u
            sed -i '1i #EXTM3U x-tvg-url="https://live-tv.gohkh7.eu.org/EPG/EPG.xml,https://live-tv.gohkh7.eu.org/EPG/EPG-1.xml,https://live-tv.gohkh7.eu.org/EPG/EPG-2.xml,https://live-tv.gohkh7.eu.org/EPG/EPG-3.xml"' Master.m3u
           
     - name: 节目源
