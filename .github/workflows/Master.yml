@@ -38,7 +38,7 @@ jobs:
 
     - name: Run the script to remove content
       run: |
-        python remove_content.py
+        python ./.github/workflows/remove_content.py
        
     - name: Clean
       run: |
