@@ -18,19 +18,17 @@ jobs:
 
     - name: 直播源
       run: |       
-        # gohkh0825
-        rm -f ./m3u/LIVE-TV.m3u && wget https://raw.githubusercontent.com/gohkh0825/LIVE-TV/main/LIVE-TV.m3u -O ./m3u/LIVE-TV.m3u
         
         # kiki4177
-        rm -f ./m3u/Kiki.m3u && wget https://raw.githubusercontent.com/kiki4177/iptv/main/Kiki -O ./m3u/Kiki.m3u
+        rm -f ./Kiki.m3u && wget https://raw.githubusercontent.com/kiki4177/iptv/main/Kiki -O ./Kiki.m3u
 
         
         # 159
-        rm -f ./m3u/159.m3u && wget http://www.52sw.top:678/play/oj1381/list.php?get=159%E6%AC%A7%E5%8D%8E -O ./m3u/159.m3u
+        rm -f ./159.m3u && wget http://www.52sw.top:678/play/oj1381/list.php?get=159%E6%AC%A7%E5%8D%8E -O ./159.m3u
 
         
         # 169
-        rm -f ./m3u/169.m3u && wget http://www.52sw.top:678/play/oj1381/list.php?get=169%E7%84%A6%E7%82%B9 -O ./m3u/169.m3u
+        rm -f ./169.m3u && wget http://www.52sw.top:678/play/oj1381/list.php?get=169%E7%84%A6%E7%82%B9 -O ./169.m3u
 
         
         
