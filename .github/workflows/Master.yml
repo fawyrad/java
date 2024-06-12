@@ -21,7 +21,7 @@ jobs:
           # 整合源
            rm -f Master.m3u && touch MAster.m3u
            cat ./m3u/Kiki.m3u >> MAster.m3u
-           cat ./m3u/LIVE-TV.m3u8 >> Master.m3u
+           cat ./m3u/LIVE-TV.m3u >> Master.m3u
          
        
     - name: Clean
