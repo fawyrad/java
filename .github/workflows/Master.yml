@@ -29,7 +29,16 @@ jobs:
           rm -f ./EPG/EPG.xml && wget https://cutt.ly/FreeviewMY-EPG-1 -O ./EPG/EPG.xml
           rm -f ./EPG/EPG-1.xml && wget https://cutt.ly/FreeviewMY-EPG-2 -O ./EPG/EPG-1.xml
           rm -f ./EPG/EPG-2.xml && wget https://raw.githubusercontent.com/AqFad2811/epg/main/singapore.xml -O ./EPG/EPG-2.xml
-          rm -f ./EPG/EPG-3.xml && wget https://raw.githubusercontent.com/AqFad2811/epg/main/singapore.xml -O ./EPG/EPG-3.xml        
+          rm -f ./EPG/EPG-3.xml && wget https://raw.githubusercontent.com/AqFad2811/epg/main/singapore.xml -O ./EPG/EPG-3.xml  
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x' # Specify the Python version you need
+
+    - name: Run the script to remove content
+      run: |
+        python remove_content.py
        
     - name: Clean
       run: |
