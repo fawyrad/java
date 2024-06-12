@@ -1,3 +1,4 @@
+#EXTM3U x-tvg-url="https://live-tv.gohkh7.eu.org/EPG/EPG.xml,https://live-tv.gohkh7.eu.org/EPG/EPG-1.xml,https://live-tv.gohkh7.eu.org/EPG/EPG-2.xml,https://live-tv.gohkh7.eu.org/EPG/EPG-3.xml"
 #EXTM3U x-tvg-url="https://bit.ly/pondan-epg, https://azimabid00.github.io/epg/astro_epg.xml" refresh="1440" billed-msg="OFFICIAL SHOPEE STORE JSTOREMY.OS & PRIMETV.OS" 
 vod_library="https://mantop.worst.workers.dev/index.html"  
 ###########################################################################################################################################################
