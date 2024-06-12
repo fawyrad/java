@@ -22,7 +22,15 @@ jobs:
            rm -f Master.m3u && touch Master.m3u
            cat ./m3u/Kiki.m3u >> Master.m3u
            cat ./m3u/LIVE-TV.m3u >> Master.m3u
-         
+           sed -i '1i #EXTM3U x-tvg-url="https://live-tv.gohkh7.eu.org/EPG/EPG.xml,https://live-tv.gohkh7.eu.org/EPG/EPG-1.xml,https://live-tv.gohkh7.eu.org/EPG/EPG-2.xml,https://live-tv.gohkh7.eu.org/EPG/EPG-3.xml"' LIVE-TV.m3u
+          
+    - name: 节目源
+      run: |        
+          # 节目源
+          rm -f ./EPG/EPG.xml && wget https://cutt.ly/FreeviewMY-EPG-1 -O ./EPG/EPG.xml
+          rm -f ./EPG/EPG-1.xml && wget https://cutt.ly/FreeviewMY-EPG-2 -O ./EPG/EPG-1.xml
+          rm -f ./EPG/EPG-2.xml && wget https://raw.githubusercontent.com/AqFad2811/epg/main/singapore.xml -O ./EPG/EPG-2.xml
+          rm -f ./EPG/EPG-3.xml && wget https://raw.githubusercontent.com/AqFad2811/epg/main/singapore.xml -O ./EPG/EPG-3.xml        
        
     - name: Clean
       run: |
