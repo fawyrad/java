@@ -1,21 +1,22 @@
 import re
 
-# Define marker and file paths
-marker = "##########VOD#########"
-input_file = "./Master.m3u"
-output_file = "./Master.m3u"
+def process_playlist(input_file, output_file, marker):
+    with open(input_file, 'r', encoding='utf-8') as file:
+        content = file.read()
 
-# Function to remove content after the marker
-def remove_content_after_marker(content, marker):
-    output = []
-    for line in content:
-        output.append(line)
+    # Remove content after the marker
+    content_lines = content.splitlines(keepends=True)
+    output_lines = []
+    marker_found = False
+    for line in content_lines:
+        output_lines.append(line)
         if marker in line:
+            marker_found = True
             break
-    return output
+    if marker_found:
+        content = ''.join(output_lines)
 
-# Function to perform replacements
-def replace_content(content):
+    # Perform replacements
     replacements = {
         r'#EXTGRP:Family/Kids': 'group-title="Family/Kids 2"',
         r'#EXTGRP:News/World': 'group-title="News/World 2"',
@@ -25,56 +26,27 @@ def replace_content(content):
         r'#EXTGRP:Radio': 'group-title="Radio 2"',
         r'#EXTGRP:\[\*\] PLUS: SEA\'s FTA Channels': 'group-title="FTA Channels 2"'
     }
-    content_str = ''.join(content)
     for old, new in replacements.items():
-        content_str = re.sub(old, new, content_str)
-    return content_str.splitlines(keepends=True)
+        content = re.sub(old, new, content)
 
-# Read the input file
-with open(input_file, "r") as file:
-    lines = file.readlines()
-
-# Remove content after the marker
-lines = remove_content_after_marker(lines, marker)
-
-# Perform replacements
-lines = replace_content(lines)
-
-# Pattern to match the #EXTINF line with attributes
-extinf_pattern = re.compile(r'(#EXTINF:-1)(.*?)(,.*)')
-group_title_pattern = re.compile(r'(group-title="[^"]*")')
-
-output_lines = []
-
-for i in range(len(lines)):
-    line = lines[i].strip()
     
-    if line.startswith("#EXTINF:-1"):
-        next_line = lines[i + 1].strip()
-        
-        if group_title_pattern.search(next_line):
-            # Extract the group-title value
-            group_title = group_title_pattern.search(next_line).group(1)
-            
-            # Remove group-title from the next line
-            next_line = group_title_pattern.sub('', next_line).strip()
-            
-            # Update the #EXTINF line
-            extinf_match = extinf_pattern.match(line)
-            if extinf_match:
-                updated_line = f"{extinf_match.group(1)} {group_title}{extinf_match.group(2)}{extinf_match.group(3)}"
-                output_lines.append(updated_line + "\n")
-            else:
-                output_lines.append(line + "\n")
-            
-            # Add the cleaned next line
-            output_lines.append(next_line + "\n")
-        else:
-            output_lines.append(line + "\n")
-    elif not group_title_pattern.search(line):
-        output_lines.append(line + "\n")
 
+    # Regular expression to match the desired pattern for rearranging group-title
+    pattern = re.compile(r'(#EXTINF:-1 .+?)(group-title="[^"]+")(.+?\nhttps[^\s]+)', re.DOTALL)
+    
+    # Function to rearrange the matched groups
+    def rearrange(match):
+        return f"{match.group(1)}{match.group(3)}\n{match.group(2)}"
 
-# Write the output to the same file
-with open(output_file, "w") as file:
-    file.writelines(lines)
+    # Substitute with the rearranged pattern
+    content = pattern.sub(rearrange, content)
+
+    with open(output_file, 'w', encoding='utf-8') as file:
+        file.write(content)
+
+# Specify the input and output file paths and the marker
+input_file = './Master.m3u'
+output_file = './Master.m3u'
+marker = '##########VOD#########'
+
+process_playlist(input_file, output_file, marker)
