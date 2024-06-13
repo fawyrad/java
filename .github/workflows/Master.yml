@@ -2,7 +2,7 @@ name: Master
 
 on:
     schedule:
-      - cron: 0 0/12 * * * 
+      - cron: 5 0/12 * * * 
     workflow_dispatch:
 
 jobs:
