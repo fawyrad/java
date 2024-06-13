@@ -4,16 +4,6 @@ def process_playlist(input_file, output_file, marker):
     with open(input_file, 'r', encoding='utf-8') as file:
         content = file.read()
 
-    # Regular expression to match the desired pattern for rearranging group-title
-    pattern = re.compile(r'(#EXTINF:-1 .+?)(group-title="[^"]+")(.+?\nhttps[^\s]+)', re.DOTALL)
-    
-    # Function to rearrange the matched groups
-    def rearrange(match):
-        return f"{match.group(1)}{match.group(3)}\n{match.group(2)}"
-
-    # Substitute with the rearranged pattern
-    content = pattern.sub(rearrange, content)
-
     # Remove content after the marker
     content_lines = content.splitlines(keepends=True)
     output_lines = []
@@ -38,6 +28,18 @@ def process_playlist(input_file, output_file, marker):
     }
     for old, new in replacements.items():
         content = re.sub(old, new, content)
+
+    
+
+    # Regular expression to match the desired pattern for rearranging group-title
+    pattern = re.compile(r'(#EXTINF:-1 .+?)(group-title="[^"]+")(.+?\nhttps[^\s]+)', re.DOTALL)
+    
+    # Function to rearrange the matched groups
+    def rearrange(match):
+        return f"{match.group(1)}{match.group(3)}\n{match.group(2)}"
+
+    # Substitute with the rearranged pattern
+    content = pattern.sub(rearrange, content)
 
     with open(output_file, 'w', encoding='utf-8') as file:
         file.write(content)
