@@ -39,7 +39,7 @@ for i in range(len(lines)):
         output_lines.append(line + "\n")
 
 # Write the output to a new file
-with open('./Master2.m3u', 'w', encoding='utf-8') as file:
+with open('./Master.m3u', 'w', encoding='utf-8') as file:
     file.writelines(output_lines)
 
-print("Processing complete. The modified file is saved as './Master2.m3u'.")
+print("Processing complete. The modified file is saved as './Master.m3u'.")
