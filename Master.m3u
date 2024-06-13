@@ -119,75 +119,88 @@ https://n01.rcs.revma.com/nzgauqq1v7zuv
 group-title="myFreeview: Radio"
 #################### FTA ####################
 #EXTINF:-1 tvg-chno="101" tvg-id="TV1" tvg-name="TV1" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/RTM1.png",RTM 1
-group-title="Family/Kids 2"
+
 #EXTVLCOPT:network-caching=1000
 https://d25tgymtnqzu8s.cloudfront.net/smil:tv1/index.m3u8?id=1
-#EXTINF:-1 tvg-chno="102" tvg-id="TV2" tvg-name="TV2" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main//channel-logos/RTM2.png",RTM 2
 group-title="Family/Kids 2"
+#EXTINF:-1 tvg-chno="102" tvg-id="TV2" tvg-name="TV2" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main//channel-logos/RTM2.png",RTM 2
+
 #EXTVLCOPT:network-caching=1000
 https://d25tgymtnqzu8s.cloudfront.net/smil:tv2/index.m3u8?id=2
-#EXTINF:-1 tvg-chno="103" tvg-id="Okey" tvg-name="Okey" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/RTM_Okey.png",RTM Okey
 group-title="Family/Kids 2"
+#EXTINF:-1 tvg-chno="103" tvg-id="Okey" tvg-name="Okey" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/RTM_Okey.png",RTM Okey
+
 #EXTVLCOPT:network-caching=1000
 https://d25tgymtnqzu8s.cloudfront.net/smil:okey/index.m3u8?id=3
+group-title="Family/Kids 2"
 #EXTINF:-1 tvg-chno="104" tvg-id="Sukan RTM" tvg-name="Sukan RTM" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/Sukan_RTM.png",Sukan RTM
-group-title="Sports 2"
+
 #EXTVLCOPT:network-caching=1000
 https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/index.m3u8?id=4
+group-title="Sports 2"
 #EXTINF:-1 tvg-chno="105" tvg-id="Berita RTM" tvg-name="Berita RTM" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/Berita_RTM.png",Berita RTM
-group-title="News/World 2"
+
 #EXTVLCOPT:network-caching=1000
 https://d25tgymtnqzu8s.cloudfront.net/smil:berita/index.m3u8?id=5
+group-title="News/World 2"
 #EXTINF:-1 tvg-chno="106" tvg-id="TV6" tvg-name="TV6" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/RTM6.png",RTM 6
-group-title="Family/Kids 2"
+
 #EXTVLCOPT:network-caching=1000
 https://d25tgymtnqzu8s.cloudfront.net/smil:tv6/index.m3u8?id=6
+group-title="Family/Kids 2"
 #EXTINF:-1 tvg-chno="107" tvg-id="Dewan Rakyat" tvg-name="Dewan Rakyat" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/RTMP_DewanRakyat.png",RTM Parlimen Dewan Rakyat
-group-title="News/World 2"
+
 #EXTVLCOPT:network-caching=1000
 https://d25tgymtnqzu8s.cloudfront.net/smil:rakyat/index.m3u8?id=7
-#EXTINF:-1 tvg-chno="108" tvg-id="Dewan Negara" tvg-name="Dewan Negara" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/RTMP_DewanNegara.png",RTM Parlimen Dewan Negara
 group-title="News/World 2"
+#EXTINF:-1 tvg-chno="108" tvg-id="Dewan Negara" tvg-name="Dewan Negara" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/RTMP_DewanNegara.png",RTM Parlimen Dewan Negara
+
 #EXTVLCOPT:network-caching=1000
 https://d25tgymtnqzu8s.cloudfront.net/smil:negara/index.m3u8?id=8
+group-title="News/World 2"
 #EXTINF:-1 tvg-chno="113" tvg-id="TV3" tvg-name="TV3" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/MPB_3.png",Media Prima TV3
-group-title="Family/Kids 2"
+
 #EXTVLCOPT:network-caching=1000
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"J6L3HYe/XrEFrwlvtmBdlw", "kid":"Ov4w7k6iSmf+Wi7wboPbCw" } ], "type":"temporary" }
 https://unifi-live03.secureswiftcontent.com/UnifiHD/live03.mpd
-#EXTINF:-1 tvg-chno="114" tvg-id="MPBDramaSangat" tvg-name="MPBDramaSangat" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/MPB_DS.png",Media Prima DramaSangat
 group-title="Family/Kids 2"
+#EXTINF:-1 tvg-chno="114" tvg-id="MPBDramaSangat" tvg-name="MPBDramaSangat" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/MPB_DS.png",Media Prima DramaSangat
+
 #EXTVLCOPT:network-caching=1000
 https://live-sg1.global.ssl.fastly.net/live-hls/tonton5_720p/index.m3u8
-#EXTINF:-1 tvg-chno="117" tvg-id="DidikTVKPM" tvg-name="DidikTVKPM" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/MPB_7.png",Media Prima NTV7
 group-title="Family/Kids 2"
+#EXTINF:-1 tvg-chno="117" tvg-id="DidikTVKPM" tvg-name="DidikTVKPM" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/MPB_7.png",Media Prima NTV7
+
 #EXTVLCOPT:network-caching=1000
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"4EDKKqQm33ibo4S6VhiRtA", "kid":"R6Ega0SCLIkyDnCRbPV7DA" } ], "type":"temporary" }
 https://unifi-live06.secureswiftcontent.com/UnifiHD/live06.mpd
-#EXTINF:-1 tvg-chno="118" tvg-id="8TV" tvg-name="8TV" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/MPB_8.png",Media Prima 8TV
 group-title="Family/Kids 2"
+#EXTINF:-1 tvg-chno="118" tvg-id="8TV" tvg-name="8TV" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/MPB_8.png",Media Prima 8TV
+
 #EXTVLCOPT:network-caching=1000
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"BW4eSVc9LK7ly0/nj4xPPQ", "kid":"qcYZB07TjCDiWtNsPFfBDA" } ], "type":"temporary" }
 https://unifi-live08.secureswiftcontent.com/UnifiHD/live08.mpd
-#EXTINF:-1 tvg-chno="119" tvg-id="TV9" tvg-name="TV9" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/MPB_9.png",Media Prima TV9
 group-title="Family/Kids 2"
+#EXTINF:-1 tvg-chno="119" tvg-id="TV9" tvg-name="TV9" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/MPB_9.png",Media Prima TV9
+
 #EXTVLCOPT:network-caching=1000
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"Zfavh1DSSyMNkbmEI3rB5A", "kid":"HfqKZFr0HoPFIL3fkTk0yg" } ], "type":"temporary" }
 https://unifi-live08.secureswiftcontent.com/UnifiHD/live09.mpd
-#EXTINF:-1 tvg-chno="120" tvg-id="AwesomeTV.my" tvg-name="AwesomeTV.my" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/AwesomeTV.png",Awesome TV
 group-title="Family/Kids 2"
+#EXTINF:-1 tvg-chno="120" tvg-id="AwesomeTV.my" tvg-name="AwesomeTV.my" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/AwesomeTV.png",Awesome TV
+
 #EXTVLCOPT:network-caching=1000
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -195,8 +208,9 @@ group-title="Family/Kids 2"
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"ahNrZdLUVpnLHphQbfob7g", "kid":"+E++gm0VdV75HryrZ8V9EA" } ], "type":"temporary" } 
 https://linearjitp02-playback.astro.com.my/dash-wv/linear/211/default_primary.mpd
+group-title="Family/Kids 2"
 #EXTINF:-1 tvg-chno="121" tvg-id="BERNAMA.my" tvg-name="BERNAMA.my" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/BernamaTV.png",BERNAMA
-group-title="News/World 2"
+
 #EXTVLCOPT:network-caching=1000
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -207,370 +221,445 @@ http://linearjitp02-playback.astro.com.my/dash-wv/linear/1114/default_primary.mp
 group-title="Family/Kids 2"
 #EXTVLCOPT:network-caching=1000
 https://172048-castr.akamaized.net/61e0e9a88ecf869e0a595bfa/live_feb292e0f94c11edbc052354c95d3ff1/index.m3u8
+group-title="News/World 2"
 #EXTINF:-1 tvg-chno="123" tvg-id="TV IKIM" tvg-name="TV IKIM" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/TVIkim.png",TV Ikim
-group-title="Family/Kids 2"
+
 #EXTVLCOPT:network-caching=1000
 https://edge-sg1.vediostream.com/abr/tvikim/playlist.m3u8
-#EXTINF:-1 tvg-chno="124" tvg-id="TVS.my" tvg-name="TVS.my" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/TVS.png",TVS
 group-title="Family/Kids 2"
+#EXTINF:-1 tvg-chno="124" tvg-id="TVS.my" tvg-name="TVS.my" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/TVS.png",TVS
+
 #EXTVLCOPT:network-caching=1000
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"Vcyu6IazQN2QH0v43Z06ag", "kid":"w+lWs4rpk74UlMfPoXsREA" } ], "type":"temporary" }
 https://linearjitp02-playback.astro.com.my/dash-wv/linear/5021/default_primary.mpd
+group-title="Family/Kids 2"
 #EXTINF:-1 tvg-chno="125" tvg-id="SelangorTV.my" tvg-name="SelangorTV.my" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/SelangorTV.png",Selangor TV
-group-title="Variety 2"
+
 #EXTVLCOPT:network-caching=1000
 https://live.mana2.my/SelangorTv/index.m3u8
-#EXTINF:-1 tvg-chno="126" tvg-id="SUKETV.my" tvg-name="SUKETV.my" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/SUKETV.png",SUKE TV
 group-title="Variety 2"
+#EXTINF:-1 tvg-chno="126" tvg-id="SUKETV.my" tvg-name="SUKETV.my" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/SUKETV.png",SUKE TV
+
 #EXTVLCOPT:network-caching=1000
 https://live.mana2.my/SukeTv/index.m3u8
+group-title="Variety 2"
 #################### INTERNATIONAL ####################
 #EXTINF:-1 tvg-chno="201" tvg-id="Crackle" tvg-name="Crackle" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/Crackle.png",Crackle
-group-title="Movies 2"
+
 #EXTVLCOPT:network-caching=1000
 http://crackle-xumo.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-chno="204" tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/FlicksOfFury.png",Flicks of Fury
 group-title="Movies 2"
 #EXTVLCOPT:network-caching=1000
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/58e55b14ad8e9c364d55f717/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=112&deviceId=58e55b14ad8e9c364d55f717&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&checkedby:hlscat.com
-#EXTINF:-1 tvg-chno="206" tvg-id="ParamountPlus.Picks" tvg-name="ParamountPlus.Picks" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/ParamountPlusPicks.png",Paramount+ Picks
 group-title="Movies 2"
+#EXTINF:-1 tvg-chno="206" tvg-id="ParamountPlus.Picks" tvg-name="ParamountPlus.Picks" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/ParamountPlusPicks.png",Paramount+ Picks
+
 #EXTVLCOPT:network-caching=1000
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ff8c708653d080007361b14/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d14fc31252d35decbc4080b&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=873&terminate=false&userId=
-#EXTINF:-1 tvg-chno="207" tvg-id="GBAJ4900006TU" tvg-name="Action Movies - Rakuten TV" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/RakutenTV.png",Rakuten TV
 group-title="Movies 2"
+#EXTINF:-1 tvg-chno="207" tvg-id="GBAJ4900006TU" tvg-name="Action Movies - Rakuten TV" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/RakutenTV.png",Rakuten TV
+
 #EXTVLCOPT:network-caching=1000
 https://rakuten-actionmovies-1-gb.samsung.wurl.tv/3000.m3u8
-#EXTINF:-1 tvg-chno="208" tvg-id="RedBox.Rush" tvg-name="RedBox.Rush" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/Redbox.png",RedBox Rush
 group-title="Movies 2"
+#EXTINF:-1 tvg-chno="208" tvg-id="RedBox.Rush" tvg-name="RedBox.Rush" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/Redbox.png",RedBox Rush
+
 #EXTVLCOPT:network-caching=1000
 https://rush-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-rush/CDN/playlist.m3u8
-#EXTINF:-1 tvg-chno="209" tvg-id="RedBox.Spotlight" tvg-name="RedBox.Spotlight" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/Redbox.png",RedBox Spotlight
 group-title="Movies 2"
+#EXTINF:-1 tvg-chno="209" tvg-id="RedBox.Spotlight" tvg-name="RedBox.Spotlight" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/Redbox.png",RedBox Spotlight
+
 #EXTVLCOPT:network-caching=1000
 https://spotlight-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-spotlight/CDN/playlist.m3u8
-#EXTINF:-1 tvg-chno="209" tvg-id="ShowtimeSelects" tvg-name="ShowtimeSelects" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/ShowtimeSelects.png",Showtime Selects
 group-title="Movies 2"
+#EXTINF:-1 tvg-chno="209" tvg-id="ShowtimeSelects" tvg-name="ShowtimeSelects" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/ShowtimeSelects.png",Showtime Selects
+
 #EXTVLCOPT:network-caching=1000
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f988934a507de00075d9ae7/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
-#EXTINF:-1 tvg-chno="210" tvg-id="SonyPix.in" tvg-name="SonyPix.in" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/SonyPix.png",Sony PIX
 group-title="Movies 2"
+#EXTINF:-1 tvg-chno="210" tvg-id="SonyPix.in" tvg-name="SonyPix.in" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/SonyPix.png",Sony PIX
+
 #EXTVLCOPT:network-caching=1000
 https://dai.google.com/linear/hls/event/x7rXWd2ERZ2tvyQWPmO1HA/master.m3u8
-#EXTINF:-1 tvg-chno="211" tvg-id="TheAsylum" tvg-name="TheAsylum" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/TheAsylum.png",The Asylum
 group-title="Movies 2"
+#EXTINF:-1 tvg-chno="211" tvg-id="TheAsylum" tvg-name="TheAsylum" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/TheAsylum.png",The Asylum
+
 #EXTVLCOPT:network-caching=1000
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/591105034c1806b47438342c/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=115&deviceId=591105034c1806b47438342c&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false
+group-title="Movies 2"
 #EXTINF:-1 tvg-chno="300" tvg-id="PBSKids" tvg-name="PBSKids" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/PBSKids.png",PBS Kids
 #EXTGRP:[*] PLUS: International FTA Channels
 #EXTVLCOPT:network-caching=1000
 https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8?DVR
 #EXTINF:-1 tvg-chno="501" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/FashionTV.png",FashionTV
-group-title="Variety 2"
+
 #EXTVLCOPT:network-caching=1000
 https://fash1043.cloudycdn.services/slive/_definst_/ftv_ftv_paris_pg_4dg_27027_paris_pg18_188_hls.smil/playlist.m3u8
-#EXTINF:-1 tvg-chno="502" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/FashionTV.png",FashionTV Singapore
 group-title="Variety 2"
+#EXTINF:-1 tvg-chno="502" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/FashionTV.png",FashionTV Singapore
+
 #EXTVLCOPT:network-caching=1000
 https://fash1043.cloudycdn.services/slive/_definst_/ftv_pg13_hd_gmt__vm6_43433_default_1597_hls.smil/playlist.m3u8
-#EXTINF:-1 tvg-chno="503" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/FashionTV.png",FashionTV+ Paris L'Original
 group-title="Variety 2"
+#EXTINF:-1 tvg-chno="503" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/FashionTV.png",FashionTV+ Paris L'Original
+
 #EXTVLCOPT:network-caching=1000
 https://fashs043.cloudycdn.services/scte/sftv2/sftv2_chunklist.m3u8
-#EXTINF:-1 tvg-chno="505" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/cookingpanda.png",Cooking Panda
 group-title="Variety 2"
+#EXTINF:-1 tvg-chno="505" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/cookingpanda.png",Cooking Panda
+
 #EXTVLCOPT:network-caching=1000
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=47
-#EXTINF:-1 tvg-chno="506" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/gusto.png",Gusto TV
 group-title="Variety 2"
+#EXTINF:-1 tvg-chno="506" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/gusto.png",Gusto TV
+
 #EXTVLCOPT:network-caching=1000
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01077-gustoworldwidem-gustotv-dash-sooka/index.mpd
-#EXTINF:-1 tvg-chno="507" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/naturestreamtv.png",NatureStream.tv
 group-title="Variety 2"
+#EXTINF:-1 tvg-chno="507" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/naturestreamtv.png",NatureStream.tv
+
 #EXTVLCOPT:network-caching=1000
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/naturestreamtv/master.m3u8
+group-title="Variety 2"
 #EXTINF:-1 tvg-chno="601" tvg-id="CNA" tvg-name="CNA" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/CNA.png",CNA Singapore
-group-title="News/World 2"
+
 #EXTVLCOPT:network-caching=1000
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
-#EXTINF:-1 tvg-chno="602" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/TVRIWorld.png",TVRI World
 group-title="News/World 2"
+#EXTINF:-1 tvg-chno="602" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/TVRIWorld.png",TVRI World
+
 #EXTVLCOPT:network-caching=1000
 https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/index.m3u8|Referer=https://klik.tvri.co.id/
-#EXTINF:-1 tvg-chno="603" tvg-id="NHKWorldJapan" tvg-name="NHKWorldJapan" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/NHKWorldJapan.png",NHK World Japan
 group-title="News/World 2"
+#EXTINF:-1 tvg-chno="603" tvg-id="NHKWorldJapan" tvg-name="NHKWorldJapan" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/NHKWorldJapan.png",NHK World Japan
+
 #EXTVLCOPT:network-caching=1000
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
-#EXTINF:-1 tvg-chno="604" tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/CGTN.png",CGTN
 group-title="News/World 2"
+#EXTINF:-1 tvg-chno="604" tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/CGTN.png",CGTN
+
 #EXTVLCOPT:network-caching=1000
 https://live.cgtn.com/1000/prog_index.m3u8
-#EXTINF:-1 tvg-chno="605" tvg-id="CGTNDocumentary" tvg-name="CGTNDocumentary" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/cgtn_doc.png",CGTN Documentary
 group-title="News/World 2"
+#EXTINF:-1 tvg-chno="605" tvg-id="CGTNDocumentary" tvg-name="CGTNDocumentary" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/cgtn_doc.png",CGTN Documentary
+
 #EXTVLCOPT:network-caching=1000
 https://livedoc.cgtn.com/1000d/prog_index.m3u8
-#EXTINF:-1 tvg-chno="606" tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/ArirangTV.png",Arirang TV
 group-title="News/World 2"
+#EXTINF:-1 tvg-chno="606" tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/ArirangTV.png",Arirang TV
+
 #EXTVLCOPT:network-caching=1000
 https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/index.m3u8
-#EXTINF:-1 tvg-chno="607" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/TRTWorld.png",TRT World
 group-title="News/World 2"
+#EXTINF:-1 tvg-chno="607" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/TRTWorld.png",TRT World
+
 #EXTVLCOPT:network-caching=1000
 https://tv-trtworld.live.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-chno="608" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/AlJazeeraEN.png",Al Jazeera English
 group-title="News/World 2"
+#EXTINF:-1 tvg-chno="608" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/AlJazeeraEN.png",Al Jazeera English
+
 #EXTVLCOPT:network-caching=1000
 https://live-hls-web-aje.getaj.net/AJE/index.m3u8
-#EXTINF:-1 tvg-chno="609" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/DWNews.png",DW News
 group-title="News/World 2"
+#EXTINF:-1 tvg-chno="609" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/DWNews.png",DW News
+
 #EXTVLCOPT:network-caching=1000
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
-#EXTINF:-1 tvg-chno="610" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/euronews.png",Euronews
 group-title="News/World 2"
+#EXTINF:-1 tvg-chno="610" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/euronews.png",Euronews
+
 #EXTVLCOPT:network-caching=1000
 https://62d77612985e4978b5cec13c47c897b5.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-gb_EuroNewsLive-1/index.m3u8
-#EXTINF:-1 tvg-chno="611" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/TheGuardian.png",The Guardian Channel
 group-title="News/World 2"
+#EXTINF:-1 tvg-chno="611" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/TheGuardian.png",The Guardian Channel
+
 #EXTVLCOPT:network-caching=1000
 https://0d0239e437124ddcb8090d815caf4013.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Samsung-gb_TheGuardianChannel/playlist.m3u8
-#EXTINF:-1 tvg-chno="612" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/ted.png",TED
 group-title="News/World 2"
+#EXTINF:-1 tvg-chno="612" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/ted.png",TED
+
 #EXTVLCOPT:network-caching=1000
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/ted/master.m3u8
+group-title="News/World 2"
 #EXTINF:-1 tvg-chno="701" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/HorizonSports.png",Horizon Sports
-group-title="Sports 2"
+
 #EXTVLCOPT:network-caching=1000
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/horizon-sports/master.m3u8
-#EXTINF:-1 tvg-chno="702" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/RedBullTV.png",Red Bull TV
 group-title="Sports 2"
+#EXTINF:-1 tvg-chno="702" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/RedBullTV.png",Red Bull TV
+
 #EXTVLCOPT:network-caching=1000
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
-#EXTINF:-1 tvg-chno="703" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/MotorRacingTV.png",MotorRacing TV
 group-title="Sports 2"
+#EXTINF:-1 tvg-chno="703" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/MotorRacingTV.png",MotorRacing TV
+
 #EXTVLCOPT:network-caching=1000
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/motorracing/master.m3u8
+group-title="Sports 2"
 #################### RADIO ####################
 #EXTINF:-1 tvg-chno="901" tvg-id="Nasional FM" tvg-name="Nasional FM" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/RTM/RTM-NasionalFM.png",RTM Radio Nasional
-group-title="Radio 2"
+
 #EXTVLCOPT:network-caching=1000
 https://playerservices.streamtheworld.com/api/livestream-redirect/NASIONAL_FMAAC
-#EXTINF:-1 tvg-chno="902" tvg-id="Traxx FM" tvg-name="Traxx FM" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/RTM/RTM-TraxxFM.png",RTM Radio Traxx
 group-title="Radio 2"
+#EXTINF:-1 tvg-chno="902" tvg-id="Traxx FM" tvg-name="Traxx FM" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/RTM/RTM-TraxxFM.png",RTM Radio Traxx
+
 #EXTVLCOPT:network-caching=1000
 https://playerservices.streamtheworld.com/api/livestream-redirect/TRAXX_FMAAC
-#EXTINF:-1 tvg-chno="903" tvg-id="AI FM" tvg-name="AI FM" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/RTM/RTM-AiFM.png",RTM Radio Ai
 group-title="Radio 2"
+#EXTINF:-1 tvg-chno="903" tvg-id="AI FM" tvg-name="AI FM" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/RTM/RTM-AiFM.png",RTM Radio Ai
+
 #EXTVLCOPT:network-caching=1000
 https://playerservices.streamtheworld.com/api/livestream-redirect/AI_FMAAC
-#EXTINF:-1 tvg-chno="904" tvg-id="Minnal FM" tvg-name="Minnal FM" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/RTM/RTM-MinnalFM.png",RTM Radio Minnal
 group-title="Radio 2"
+#EXTINF:-1 tvg-chno="904" tvg-id="Minnal FM" tvg-name="Minnal FM" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/RTM/RTM-MinnalFM.png",RTM Radio Minnal
+
 #EXTVLCOPT:network-caching=1000
 https://playerservices.streamtheworld.com/api/livestream-redirect/MINNAL_FMAAC
-#EXTINF:-1 tvg-chno="905" tvg-id="Radio Klasik" tvg-name="Radio Klasik" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/RTM/RTM-RadioKlasik.png",RTM Radio Klasik
 group-title="Radio 2"
+#EXTINF:-1 tvg-chno="905" tvg-id="Radio Klasik" tvg-name="Radio Klasik" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/RTM/RTM-RadioKlasik.png",RTM Radio Klasik
+
 #EXTVLCOPT:network-caching=1000
 https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_KLASIKAAC
-#EXTINF:-1 tvg-chno="906" tvg-id="Asyik FM" tvg-name="Asyik FM" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/RTM/RTM-AsyikFM.png",RTM Radio Asyik / RTM Radio Salam
 group-title="Radio 2"
+#EXTINF:-1 tvg-chno="906" tvg-id="Asyik FM" tvg-name="Asyik FM" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/RTM/RTM-AsyikFM.png",RTM Radio Asyik / RTM Radio Salam
+
 #EXTVLCOPT:network-caching=1000
 https://playerservices.streamtheworld.com/api/livestream-redirect/ASYIK_FMAAC
-#EXTINF:-1 tvg-chno="907" tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/MPA/mpa-hotfm.png",Hot FM (Media Prima Audio)
 group-title="Radio 2"
+#EXTINF:-1 tvg-chno="907" tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/MPA/mpa-hotfm.png",Hot FM (Media Prima Audio)
+
 #EXTVLCOPT:network-caching=1000
 https://mediaprima.rastream.com/mediaprima-hotfm
-#EXTINF:-1 tvg-chno="908" tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/MPA/mpa-flyfm.png",Fly FM (Media Prima Audio)
 group-title="Radio 2"
+#EXTINF:-1 tvg-chno="908" tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/MPA/mpa-flyfm.png",Fly FM (Media Prima Audio)
+
 #EXTVLCOPT:network-caching=1000
 https://mediaprima.rastream.com/mediaprima-flyfm
-#EXTINF:-1 tvg-chno="909" tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/MPA/mpa-eightfm.png",Eight FM (Media Prima Audio)
 group-title="Radio 2"
+#EXTINF:-1 tvg-chno="909" tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/MPA/mpa-eightfm.png",Eight FM (Media Prima Audio)
+
 #EXTVLCOPT:network-caching=1000
 https://mediaprima.rastream.com/mediaprima-onefm
-#EXTINF:-1 tvg-chno="910" tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/MPA/mpa-molekfm.png",Molek FM (Media Prima Audio)
 group-title="Radio 2"
+#EXTINF:-1 tvg-chno="910" tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/MPA/mpa-molekfm.png",Molek FM (Media Prima Audio)
+
 #EXTVLCOPT:network-caching=1000
 https://mediaprima.rastream.com/mediaprima-molekfm
-#EXTINF:-1 tvg-chno="911" tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/MPA/mpa-kool101-dark.png",Kool 101 (Media Prima Audio)
 group-title="Radio 2"
+#EXTINF:-1 tvg-chno="911" tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/MPA/mpa-kool101-dark.png",Kool 101 (Media Prima Audio)
+
 #EXTVLCOPT:network-caching=1000
 https://mediaprima.rastream.com/mediaprima-koolfm
-#EXTINF:-1 tvg-chno="912" tvg-id="HITZ" tvg-name="HITZ" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/AstroRadio/hitz.png",Hitz (Astro Radio)
 group-title="Radio 2"
+#EXTINF:-1 tvg-chno="912" tvg-id="HITZ" tvg-name="HITZ" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/AstroRadio/hitz.png",Hitz (Astro Radio)
+
 #EXTVLCOPT:network-caching=1000
 https://stream.rcs.revma.com/488kt4sbv4uvv
-#EXTINF:-1 tvg-chno="913" tvg-id="LITE" tvg-name="LITE" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/AstroRadio/lite.png",Lite (Astro Radio)
 group-title="Radio 2"
+#EXTINF:-1 tvg-chno="913" tvg-id="LITE" tvg-name="LITE" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/AstroRadio/lite.png",Lite (Astro Radio)
+
 #EXTVLCOPT:network-caching=1000
 https://stream.rcs.revma.com/bn4ex8sbv4uvv
-#EXTINF:-1 tvg-chno="914" tvg-id="MIX" tvg-name="MIX" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/AstroRadio/mix.png",Mix (Astro Radio)
 group-title="Radio 2"
+#EXTINF:-1 tvg-chno="914" tvg-id="MIX" tvg-name="MIX" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/AstroRadio/mix.png",Mix (Astro Radio)
+
 #EXTVLCOPT:network-caching=1000
 https://stream.rcs.revma.com/v5pq3htbv4uvv
-#EXTINF:-1 tvg-chno="915" tvg-id="ERA" tvg-name="ERA" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/AstroRadio/era.png",Era (Astro Radio)
 group-title="Radio 2"
+#EXTINF:-1 tvg-chno="915" tvg-id="ERA" tvg-name="ERA" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/AstroRadio/era.png",Era (Astro Radio)
+
 #EXTVLCOPT:network-caching=1000
 https://stream.rcs.revma.com/crec9cmbv4uvv
-#EXTINF:-1 tvg-chno="916" tvg-id="SINAR" tvg-name="SINAR" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/AstroRadio/sinar.png",Sinar (Astro Radio)
 group-title="Radio 2"
+#EXTINF:-1 tvg-chno="916" tvg-id="SINAR" tvg-name="SINAR" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/AstroRadio/sinar.png",Sinar (Astro Radio)
+
 #EXTVLCOPT:network-caching=1000
 https://stream.rcs.revma.com/azatk0tbv4uvv
-#EXTINF:-1 tvg-chno="917" tvg-id="ZAYAN" tvg-name="ZAYAN" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/AstroRadio/zayan.png",Zayan (Astro Radio)
 group-title="Radio 2"
+#EXTINF:-1 tvg-chno="917" tvg-id="ZAYAN" tvg-name="ZAYAN" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/AstroRadio/zayan.png",Zayan (Astro Radio)
+
 #EXTVLCOPT:network-caching=1000
 https://stream.rcs.revma.com/7ww2a4tbv4uvv
-#EXTINF:-1 tvg-chno="918" tvg-id="GEGAR" tvg-name="GEGAR" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/AstroRadio/gegar.png",Gegar (Astro Radio)
 group-title="Radio 2"
+#EXTINF:-1 tvg-chno="918" tvg-id="GEGAR" tvg-name="GEGAR" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/AstroRadio/gegar.png",Gegar (Astro Radio)
+
 #EXTVLCOPT:network-caching=1000
 https://stream.rcs.revma.com/cn0zcqsbv4uvv
-#EXTINF:-1 tvg-chno="919" tvg-id="RAAGA" tvg-name="RAAGA" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/AstroRadio/raaga.png",Raaga (Astro Radio)
 group-title="Radio 2"
+#EXTINF:-1 tvg-chno="919" tvg-id="RAAGA" tvg-name="RAAGA" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/AstroRadio/raaga.png",Raaga (Astro Radio)
+
 #EXTVLCOPT:network-caching=1000
 https://stream.rcs.revma.com/1ut6qwtbv4uvv
-#EXTINF:-1 tvg-chno="920" tvg-id="MY" tvg-name="MY" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/AstroRadio/my.png",MY (Astro Radio)
 group-title="Radio 2"
+#EXTINF:-1 tvg-chno="920" tvg-id="MY" tvg-name="MY" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/AstroRadio/my.png",MY (Astro Radio)
+
 #EXTVLCOPT:network-caching=1000
 https://stream.rcs.revma.com/hc3unrtbv4uvv
-#EXTINF:-1 tvg-chno="921" tvg-id="MELODY" tvg-name="MELODY" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/AstroRadio/melody.png",Melody (Astro Radio)
 group-title="Radio 2"
+#EXTINF:-1 tvg-chno="921" tvg-id="MELODY" tvg-name="MELODY" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/AstroRadio/melody.png",Melody (Astro Radio)
+
 #EXTVLCOPT:network-caching=1000
 https://stream.rcs.revma.com/2u1n6dtbv4uvv
-#EXTINF:-1 tvg-chno="922" tvg-id="GOXUAN" tvg-name="GOXUAN" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/AstroRadio/goxuan.png",goXuan (Astro Radio)
 group-title="Radio 2"
+#EXTINF:-1 tvg-chno="922" tvg-id="GOXUAN" tvg-name="GOXUAN" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/AstroRadio/goxuan.png",goXuan (Astro Radio)
+
 #EXTVLCOPT:network-caching=1000
 https://stream.rcs.revma.com/xt9nhzsbv4uvv
-#EXTINF:-1 tvg-chno="923" tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/988fm.png",988 FM
 group-title="Radio 2"
+#EXTINF:-1 tvg-chno="923" tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/988fm.png",988 FM
+
 #EXTVLCOPT:network-caching=1000
 https://playerservices.streamtheworld.com/api/livestream-redirect/988_FMAAC
-#EXTINF:-1 tvg-chno="924" tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/BestFM.png",Best FM
 group-title="Radio 2"
+#EXTINF:-1 tvg-chno="924" tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/BestFM.png",Best FM
+
 #EXTVLCOPT:network-caching=1000
 https://stream.rcs.revma.com/h34x4kgg9hhvv
-#EXTINF:-1 tvg-chno="925" tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/BFM89.9.png",BFM 89.9
 group-title="Radio 2"
+#EXTINF:-1 tvg-chno="925" tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/BFM89.9.png",BFM 89.9
+
 #EXTVLCOPT:network-caching=1000
 https://playerservices.streamtheworld.com/api/livestream-redirect/BFMAAC
-#EXTINF:-1 tvg-chno="926" tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/ManisFM.png",Manis FM
 group-title="Radio 2"
+#EXTINF:-1 tvg-chno="926" tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/ManisFM.png",Manis FM
+
 #EXTVLCOPT:network-caching=1000
 https://stream.rcs.revma.com/nzgauqq1v7zuv
-#EXTINF:-1 tvg-chno="927" tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/suriafm.png",Suria FM
 group-title="Radio 2"
+#EXTINF:-1 tvg-chno="927" tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/suriafm.png",Suria FM
+
 #EXTVLCOPT:network-caching=1000
 https://playerservices.streamtheworld.com/api/livestream-redirect/SURIA_FMAAC
-#EXTINF:-1 tvg-chno="928" tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/",RTM Radio Muzik (TEST)
 group-title="Radio 2"
+#EXTINF:-1 tvg-chno="928" tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/radio/local/",RTM Radio Muzik (TEST)
+
 #EXTVLCOPT:network-caching=1000
 https://stream.muzikfmrtm.com/live/myStream/index.m3u8
+group-title="Radio 2"
 #################### SEA's FTA Channels ####################
 #EXTINF:-1 tvg-chno="1001" tvg-id="RTBAneka.bn" tvg-name="RTBAneka" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/RTB_Aneka.png",RTB Aneka 🇧🇳
-group-title="FTA Channels 2"
+
 #EXTVLCOPT:network-caching=1000
 https://d1211whpimeups.cloudfront.net/smil:rtb2/playlist.m3u8
-#EXTINF:-1 tvg-chno="1002" tvg-id="RTBSukmaindera.bn" tvg-name="RTBSukmaindera" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/RTB_Sukmaindera.png",RTB Sukmaindera 🇧🇳
 group-title="FTA Channels 2"
+#EXTINF:-1 tvg-chno="1002" tvg-id="RTBSukmaindera.bn" tvg-name="RTBSukmaindera" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/RTB_Sukmaindera.png",RTB Sukmaindera 🇧🇳
+
 #EXTVLCOPT:network-caching=1000
 https://d1211whpimeups.cloudfront.net/smil:rtb1/playlist.m3u8
-#EXTINF:-1 tvg-chno="1101" tvg-id="TV1.my" tvg-name="TV1" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/RTM1.png",RTM TV1 🇲🇾
 group-title="FTA Channels 2"
+#EXTINF:-1 tvg-chno="1101" tvg-id="TV1.my" tvg-name="TV1" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/RTM1.png",RTM TV1 🇲🇾
+
 #EXTVLCOPT:network-caching=1000
 https://d25tgymtnqzu8s.cloudfront.net/smil:tv1/manifest.mpd
-#EXTINF:-1 tvg-chno="1102" tvg-id="TV2.my" tvg-name="TV2" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main//channel-logos/RTM2.png",RTM TV2 🇲🇾
 group-title="FTA Channels 2"
+#EXTINF:-1 tvg-chno="1102" tvg-id="TV2.my" tvg-name="TV2" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main//channel-logos/RTM2.png",RTM TV2 🇲🇾
+
 #EXTVLCOPT:network-caching=1000
 https://d25tgymtnqzu8s.cloudfront.net/smil:tv2/manifest.mpd
-#EXTINF:-1 tvg-chno="1103" tvg-id="Okey.my" tvg-name="Okey" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/RTM_Okey.png",RTM Okey 🇲🇾
 group-title="FTA Channels 2"
+#EXTINF:-1 tvg-chno="1103" tvg-id="Okey.my" tvg-name="Okey" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/RTM_Okey.png",RTM Okey 🇲🇾
+
 #EXTVLCOPT:network-caching=1000
 https://d25tgymtnqzu8s.cloudfront.net/smil:okey/manifest.mpd
-#EXTINF:-1 tvg-chno="1104" tvg-id="Sukan RTM.my" tvg-name="Sukan RTM" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/Sukan_RTM.png",Sukan RTM 🇲🇾
 group-title="FTA Channels 2"
+#EXTINF:-1 tvg-chno="1104" tvg-id="Sukan RTM.my" tvg-name="Sukan RTM" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/Sukan_RTM.png",Sukan RTM 🇲🇾
+
 #EXTVLCOPT:network-caching=1000
 https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/manifest.mpd
-#EXTINF:-1 tvg-chno="1105" tvg-id="Berita RTM.my" tvg-name="Berita RTM" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/Berita_RTM.png",Berita RTM 🇲🇾
 group-title="FTA Channels 2"
+#EXTINF:-1 tvg-chno="1105" tvg-id="Berita RTM.my" tvg-name="Berita RTM" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/Berita_RTM.png",Berita RTM 🇲🇾
+
 #EXTVLCOPT:network-caching=1000
 https://d25tgymtnqzu8s.cloudfront.net/smil:berita/manifest.mpd
-#EXTINF:-1 tvg-chno="1106" tvg-id="TV6.my" tvg-name="TV6" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/RTM6.png",RTM TV6 🇲🇾
 group-title="FTA Channels 2"
+#EXTINF:-1 tvg-chno="1106" tvg-id="TV6.my" tvg-name="TV6" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/RTM6.png",RTM TV6 🇲🇾
+
 #EXTVLCOPT:network-caching=1000
 https://d25tgymtnqzu8s.cloudfront.net/smil:tv6/manifest.mpd
-#EXTINF:-1 tvg-chno="1201" tvg-id="Ch 5.sg" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/Mediacorp_Channel_5.png",Mediacorp Channel 5 🇸🇬
 group-title="FTA Channels 2"
+#EXTINF:-1 tvg-chno="1201" tvg-id="Ch 5.sg" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/Mediacorp_Channel_5.png",Mediacorp Channel 5 🇸🇬
+
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"KMxTZ99mbES+Q4LmSvZNVw", "kid":"YHt9IlZcS8O5X/bDPOZUJQ" } ], "type":"temporary" }
 https://tglmp02.akamaized.net/out/v1/5081e069e08140c9b95f89a1659cf4dd/manifest.mpd
-#EXTINF:-1 tvg-chno="1202" tvg-id="Ch 8.sg" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/Mediacorp_Channel_8.png",Mediacorp Channel 8 🇸🇬
 group-title="FTA Channels 2"
+#EXTINF:-1 tvg-chno="1202" tvg-id="Ch 8.sg" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/Mediacorp_Channel_8.png",Mediacorp Channel 8 🇸🇬
+
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"9I62dT89F3TaaClwyTzyYA", "kid":"JEj8VhsMQiCoHxAIlx0wiA" } ], "type":"temporary" }
 https://tglmp02.akamaized.net/out/v1/4f6561ad194b49ae93f4e1b075afdf41/manifest.mpd
-#EXTINF:-1 tvg-chno="1203" tvg-id="Ch U.sg" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/Mediacorp_Channel_U.png",Mediacorp Channel U 🇸🇬
 group-title="FTA Channels 2"
+#EXTINF:-1 tvg-chno="1203" tvg-id="Ch U.sg" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/Mediacorp_Channel_U.png",Mediacorp Channel U 🇸🇬
+
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"LMaeqqhY/tJMViNlTa+NPQ", "kid":"AyihU8KZSyeasDqyUQL8WQ" } ], "type":"temporary" }
 https://tglmp03.akamaized.net/out/v1/1057d89ee3d94148b430b5866e3a540a/manifest.mpd
-#EXTINF:-1 tvg-chno="1204" tvg-id="Suria.sg" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/Mediacorp_Suria.png",Mediacorp Suria 🇸🇬
 group-title="FTA Channels 2"
+#EXTINF:-1 tvg-chno="1204" tvg-id="Suria.sg" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/Mediacorp_Suria.png",Mediacorp Suria 🇸🇬
+
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"uTgBiLSJayXo1BnfzpOMbg", "kid":"ep6m31IESEGwxWJ2bmAmEA" } ], "type":"temporary" }
 https://tglmp04.akamaized.net/out/v1/b200e885125f4787bd2329952ff28fa1/manifest.mpd
-#EXTINF:-1 tvg-chno="1205" tvg-id="Vasantham.sg" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/Mediacorp_Vasantham.png",Mediacorp Vasantham 🇸🇬
 group-title="FTA Channels 2"
+#EXTINF:-1 tvg-chno="1205" tvg-id="Vasantham.sg" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/Mediacorp_Vasantham.png",Mediacorp Vasantham 🇸🇬
+
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"PhnVS3vNi7M2d2/hNtSPVw", "kid":"mXADjvbFSOOXaPOh/29QgQ" } ], "type":"temporary" }
 https://tglmp03.akamaized.net/out/v1/14eb6e921cae41298efaa4d9db0f2875/manifest.mpd
+group-title="FTA Channels 2"
 #################### TEST ####################
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://udrmv3.kaltura.com/cenc/widevine/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwczovL3Jlc3QtYXMub3R0LmthbHR1cmEuY29tL2FwaV92My9zZXJ2aWNlL2Fzc2V0RmlsZS9hY3Rpb24vZ2V0Q29udGV4dD9rcz1kako4TVRRM2ZPU05JSGp0ZkJTZmh6eHk2RWJxeW5DVU5hMWdUWTJILTRPZFdrd09QeVN3anlFYW4tcEY3M1J5Z1V0RmxtZjkwZVdBZlVQQmZnTHh1bUt6U1lQQXNybHNvbWhPZUwzZlVpOG9HZkJFSVN4eVNyNC12NDlwWmdKWGR1WkF4ZGZpSW9BYW9Jam9kWnd4YlBJXzkwYS00WDlMNnlTSVBVUXZOQ0ZnUDk3RmpEbUI1b2lxbkdBX3VWQUswRTRGSmh1X0FHLVcyOE9KU1BldjMtTVJkdTNqYjE3VHBZSjdMa1k5UUJQWUhrenRpNUxGRW05Q0RwN2QwX0h6cmMyMHQxeXNaU2UwM3E0TEpOUnplaHkxRnBwYkpMS3pFMWNmY0dmVzlUaWRhMzdTemhPbVgtbXJoVjgtUW9yNnBfTzFaa2xILWJ6d241RmJWeXVaNVp5REJZcU4tQkk9JmNvbnRleHRUeXBlPW5vbmUmaWQ9NTc1NDExNiIsImFjY291bnRfaWQiOjIwODIzMTEsImNvbnRlbnRfaWQiOiJmdGFfY2g1X2Rhc2hfdHZfZHJtIiwiZmlsZXMiOiIiLCJ1c2VyX3Rva2VuIjoiZGpKOE1UUTNmT1NOSUhqdGZCU2Zoenh5NkVicXluQ1VOYTFnVFkySC00T2RXa3dPUHlTd2p5RWFuLXBGNzNSeWdVdEZsbWY5MGVXQWZVUEJmZ0x4dW1LelNZUEFzcmxzb21oT2VMM2ZVaThvR2ZCRUlTeHlTcjQtdjQ5cFpnSlhkdVpBeGRmaUlvQWFvSWpvZFp3eGJQSV85MGEtNFg5TDZ5U0lQVVF2TkNGZ1A5N0ZqRG1CNW9pcW5HQV91VkFLMEU0RkpodV9BRy1XMjhPSlNQZXYzLU1SZHUzamIxN1RwWUo3TGtZOVFCUFlIa3p0aTVMRkVtOUNEcDdkMF9IenJjMjB0MXlzWlNlMDNxNExKTlJ6ZWh5MUZwcGJKTEt6RTFjZmNHZlc5VGlkYTM3U3poT21YLW1yaFY4LVFvcjZwX08xWmtsSC1ienduNUZiVnl1WjVaeURCWXFOLUJJPSIsInVkaWQiOiIiLCJhZGRpdGlvbmFsX2Nhc19zeXN0ZW0iOjE0N30%3d&signature=81o2N43UFUeXytl%2fZxe%2fzeIp2MI%3d
-#EXTINF:-1  tvg-id="Channel 5" tvg-chno="Channel 5" tvg-logo="https://production.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format=%27png%27&Quality=85&ImageId=%271776036%27&EntityType=%27Item%27&EntityId=%2797098%27&Width=114&Height=114&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",Channel 5
+#EXTINF:-1 group-title="Mediacorp SG" tvg-id="Channel 5" tvg-chno="Channel 5" tvg-logo="https://production.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format=%27png%27&Quality=85&ImageId=%271776036%27&EntityType=%27Item%27&EntityId=%2797098%27&Width=114&Height=114&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",Channel 5
 https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/316288/assetType/media/assetFileId/5754116/contextType/PLAYBACK/isAltUrl/False/a.mpd
-group-title="Mediacorp SG"
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://udrmv3.kaltura.com/cenc/widevine/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwczovL3Jlc3QtYXMub3R0LmthbHR1cmEuY29tL2FwaV92My9zZXJ2aWNlL2Fzc2V0RmlsZS9hY3Rpb24vZ2V0Q29udGV4dD9rcz1kako4TVRRM2ZNeF9zUDhVVXByQ2xPNEtpbmZjM1dvSDByekVzQXdJczUzdzE1TEJqLU9Jbm5iUHdUWjRMRWt5SDBtSmZEWlZZQU5DaTQ0SWtKNFQ1TEJCeU1nUnA5bEdTT29RdFJ1dUtDTDBJMXF5X0FFLVRSUFVZZ1E0RGEyVDZNcnlsRmZfaWJLd0dMNkpraHdLSUVwM2hHbThETV8yTjRlNHUzUENyUElsbnR5dndWZlFnTEpSQkhlTmhKdnAzWXMycGdBV0dVVVo0Rm5tTGdJREJRTTRvdHFPY0FYU2xEUkZUNU5hUHAzdGloSUlsODF1ZnlpemtBYW5ybUtXNXhXLUJDa0RhNDg5ckdKRXc1cHlIWWN3N3E2UVVKSVBHeWt4Y3l3UHFka3RMSkZ2TzFFbE5fS0ZSRXhzbllHOFVxbHFzVkd5Qm1wbDFqZWdfM1hmUlFnX1dJOFg5aUJGdUhGOWlyX0ZYMnVObll6c1F0aDUmY29udGV4dFR5cGU9bm9uZSZpZD01NzU0MTI0IiwiYWNjb3VudF9pZCI6MjA4MjMxMSwiY29udGVudF9pZCI6ImZ0YV9jaDhfZGFzaF90dl9kcm0iLCJmaWxlcyI6IiIsInVzZXJfdG9rZW4iOiJkako4TVRRM2ZNeF9zUDhVVXByQ2xPNEtpbmZjM1dvSDByekVzQXdJczUzdzE1TEJqLU9Jbm5iUHdUWjRMRWt5SDBtSmZEWlZZQU5DaTQ0SWtKNFQ1TEJCeU1nUnA5bEdTT29RdFJ1dUtDTDBJMXF5X0FFLVRSUFVZZ1E0RGEyVDZNcnlsRmZfaWJLd0dMNkpraHdLSUVwM2hHbThETV8yTjRlNHUzUENyUElsbnR5dndWZlFnTEpSQkhlTmhKdnAzWXMycGdBV0dVVVo0Rm5tTGdJREJRTTRvdHFPY0FYU2xEUkZUNU5hUHAzdGloSUlsODF1ZnlpemtBYW5ybUtXNXhXLUJDa0RhNDg5ckdKRXc1cHlIWWN3N3E2UVVKSVBHeWt4Y3l3UHFka3RMSkZ2TzFFbE5fS0ZSRXhzbllHOFVxbHFzVkd5Qm1wbDFqZWdfM1hmUlFnX1dJOFg5aUJGdUhGOWlyX0ZYMnVObll6c1F0aDUiLCJ1ZGlkIjoiIiwiYWRkaXRpb25hbF9jYXNfc3lzdGVtIjoxNDd9&signature=io1F7AMffoZZ0fMXxAQFrm5vpnI%3d
-#EXTINF:-1 group-title="Mediacorp SG" tvg-id="Channel 8" tvg-chno="Channel 8" tvg-logo="https://production.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format=%27png%27&Quality=85&ImageId=%271776034%27&EntityType=%27Item%27&EntityId=%2797104%27&Width=75&Height=101&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",Channel 8 / 8 频道
+#EXTINF:-1  tvg-id="Channel 8" tvg-chno="Channel 8" tvg-logo="https://production.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format=%27png%27&Quality=85&ImageId=%271776034%27&EntityType=%27Item%27&EntityId=%2797104%27&Width=75&Height=101&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",Channel 8 / 8 频道
 https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/260581/assetType/media/assetFileId/5754124/contextType/PLAYBACK/isAltUrl/False/a.mpd
+group-title="Mediacorp SG"
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://udrmv3.kaltura.com/cenc/widevine/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwczovL3Jlc3QtYXMub3R0LmthbHR1cmEuY29tL2FwaV92My9zZXJ2aWNlL2Fzc2V0RmlsZS9hY3Rpb24vZ2V0Q29udGV4dD9rcz1kako4TVRRM2ZKbTM0UkQ5TkQ0QTRWREdqRkVybnh5MGJtU002UTl1ZkV6M0ppRGE0U3FfRHpsNHhJTmtZby1wdGdCU1FTTk10NTJsZEdUQ2dfYVplMUxzRmFrNGdGS2pjZGxrY3B4bGVNbU9IbTBlQXNnS3dKMmhOLWVTUDVjalZHOV84TXRLSzQxcERyRWJRUmZRNUJkbXpIbXNoZFExRFVBZ3g4VWVfOEsyZkhOMDNLMU84U3NUNlBvcEx0UUttQjNjb3lZak42WVRxWktSVW5DeEV4aGhNcWJTUTVGRVpIcHRSdFp1ZDV2eGh2UkxrY1pYMmRJMFZPVHRIWklzZVlvMjdxekVxWGxNOUJsQ2E1ZmlnaERNQlZ4Z2JSY1RJbVF2VU0zcl9SN0F1OE1lc2hxTVR2UkV5U3ZfSHlFV3g3R2FyVF9VYVE9PSZjb250ZXh0VHlwZT1ub25lJmlkPTU3NTQxNTciLCJhY2NvdW50X2lkIjoyMDgyMzExLCJjb250ZW50X2lkIjoiZnRhX2NoVV9kYXNoX3R2X2RybSIsImZpbGVzIjoiIiwidXNlcl90b2tlbiI6ImRqSjhNVFEzZkptMzRSRDlORDRBNFZER2pGRXJueHkwYm1TTTZROXVmRXozSmlEYTRTcV9Eemw0eElOa1lvLXB0Z0JTUVNOTXQ1MmxkR1RDZ19hWmUxTHNGYWs0Z0ZLamNkbGtjcHhsZU1tT0htMGVBc2dLd0oyaE4tZVNQNWNqVkc5XzhNdEtLNDFwRHJFYlFSZlE1QmRtekhtc2hkUTFEVUFneDhVZV84SzJmSE4wM0sxTzhTc1Q2UG9wTHRRS21CM2NveVlqTjZZVHFaS1JVbkN4RXhoaE1xYlNRNUZFWkhwdFJ0WnVkNXZ4aHZSTGtjWlgyZEkwVk9UdEhaSXNlWW8yN3F6RXFYbE05QmxDYTVmaWdoRE1CVnhnYlJjVEltUXZVTTNyX1I3QXU4TWVzaHFNVHZSRXlTdl9IeUVXeDdHYXJUX1VhUT09IiwidWRpZCI6IiIsImFkZGl0aW9uYWxfY2FzX3N5c3RlbSI6MTQ3fQ%3d%3d&signature=eNi2%2beGIYi55mL8uqIbFVh61uGY%3d
-#EXTINF:-1  tvg-id="Channel U" tvg-chno="Channel U" tvg-logo="https://production.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format=%27png%27&Quality=85&ImageId=%271776040%27&EntityType=%27Item%27&EntityId=%2797129%27&Width=114&Height=114&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",Channel U / U 频道
+#EXTINF:-1 group-title="Mediacorp SG" tvg-id="Channel U" tvg-chno="Channel U" tvg-logo="https://production.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format=%27png%27&Quality=85&ImageId=%271776040%27&EntityType=%27Item%27&EntityId=%2797129%27&Width=114&Height=114&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",Channel U / U 频道
 https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/330332/assetType/media/assetFileId/5754157/contextType/PLAYBACK/isAltUrl/False/a.mpd
-group-title="Mediacorp SG"
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://udrmv3.kaltura.com/cenc/widevine/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwczovL3Jlc3QtYXMub3R0LmthbHR1cmEuY29tL2FwaV92My9zZXJ2aWNlL2Fzc2V0RmlsZS9hY3Rpb24vZ2V0Q29udGV4dD9rcz1kako4TVRRM2ZJemRxQlVhWjA3LUpUSDM3MDVkQm1udVY5Nld5SUVrWXFYRHg4cDNBQlhfaWhvZE1fSGdhbkZ3Q0NkaGlhUkI2WW5lNEZRajQwQmRucld0SzgtX1F6dnMwUC1VTEQ2dlpkZF9QX1dxdWpJejQwekF4aU5DOTFXdTFleXNjX1lDVjVYQUU0RTd4V1RLQy16Y2g0VUFsTjVic25VLU42dE5adGg3enFBZVczM3hKM2RLVTZncWpnMDNOMnJDMmo1NXFBeVZMT0QwZ1JoMjJUazJDcUowbHlQR1hLcG00Wk5UZW81RE5aSlZ4NUpkVVI0QjZjdjVMaVMyZkp6bGhiczlXZ0JlOHNGQ1JiRm9KU2ZPZVN6bW1xQzVPNFdBOGw3REQwekk4azB5eEctR2M5SmVCRlhsX0FwUWtKelppRG1IZGc9PSZjb250ZXh0VHlwZT1ub25lJmlkPTU3NTQxNDkiLCJhY2NvdW50X2lkIjoyMDgyMzExLCJjb250ZW50X2lkIjoiZnRhX2NuYVNfZGFzaF90dl9kcm0iLCJmaWxlcyI6IiIsInVzZXJfdG9rZW4iOiJkako4TVRRM2ZJemRxQlVhWjA3LUpUSDM3MDVkQm1udVY5Nld5SUVrWXFYRHg4cDNBQlhfaWhvZE1fSGdhbkZ3Q0NkaGlhUkI2WW5lNEZRajQwQmRucld0SzgtX1F6dnMwUC1VTEQ2dlpkZF9QX1dxdWpJejQwekF4aU5DOTFXdTFleXNjX1lDVjVYQUU0RTd4V1RLQy16Y2g0VUFsTjVic25VLU42dE5adGg3enFBZVczM3hKM2RLVTZncWpnMDNOMnJDMmo1NXFBeVZMT0QwZ1JoMjJUazJDcUowbHlQR1hLcG00Wk5UZW81RE5aSlZ4NUpkVVI0QjZjdjVMaVMyZkp6bGhiczlXZ0JlOHNGQ1JiRm9KU2ZPZVN6bW1xQzVPNFdBOGw3REQwekk4azB5eEctR2M5SmVCRlhsX0FwUWtKelppRG1IZGc9PSIsInVkaWQiOiIiLCJhZGRpdGlvbmFsX2Nhc19zeXN0ZW0iOjE0N30%3d&signature=BSPMomllic2v%2bJZ8NeNVlbu3S38%3d
-#EXTINF:-1 group-title="Mediacorp SG" tvg-id="CNA" tvg-chno="CNA" tvg-logo="https://production.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format=%27png%27&Quality=85&ImageId=%271776042%27&EntityType=%27Item%27&EntityId=%2797072%27&Width=78&Height=96&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",CNA
+#EXTINF:-1  tvg-id="CNA" tvg-chno="CNA" tvg-logo="https://production.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format=%27png%27&Quality=85&ImageId=%271776042%27&EntityType=%27Item%27&EntityId=%2797072%27&Width=78&Height=96&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",CNA
 https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/197985/assetType/media/assetFileId/5754149/contextType/PLAYBACK/isAltUrl/False/a.mpd
+group-title="Mediacorp SG"
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://udrmv3.kaltura.com/cenc/widevine/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwczovL3Jlc3QtYXMub3R0LmthbHR1cmEuY29tL2FwaV92My9zZXJ2aWNlL2Fzc2V0RmlsZS9hY3Rpb24vZ2V0Q29udGV4dD9rcz1kako4TVRRM2ZPelg4Q2tyWWZvVDAzZVoxMmdHdGZmYlkteDlBNzhxMWt0X0J0X1hTWHF2WEV2cmx1UG83SVQwWG1Zb016eUc2REc2SG5CSGpMX2dNV291a0UwcDJyNl9WMXh6ckJSZmtxZEZjZ2dxS01BRFJNZUdxMkc2dndtNEpWNnE5bHZkSkVkakhjd1RIcXZ2dW1QcFVnMXc1dFhJakdJaThKY0s2b3ZxMi1lNFpLVWVWZS1OLW1HSXlGMnp0QUR5bXhiR0diUWlyemxfYlp5dUx5N2JZMkpNZHF0QWpjZnkwUkJRQjZFTGFpUTFUQlhiem5yd0VkS05ZSUNBakJwYmZwUHZTOXB5aVNJdGJFOTlQRWw2UUhXMnA2RDlkRUZEUUQ0S2lLT3RZdnNvblcwQm9oMk4zZ0tSTnMwU2NuTnRWM2JLd3c9PSZjb250ZXh0VHlwZT1ub25lJmlkPTU3NTQwNjYiLCJhY2NvdW50X2lkIjoyMDgyMzExLCJjb250ZW50X2lkIjoiZnRhX3N1cmlhX2Rhc2hfdHZfZHJtIiwiZmlsZXMiOiIiLCJ1c2VyX3Rva2VuIjoiZGpKOE1UUTNmT3pYOENrcllmb1QwM2VaMTJnR3RmZmJZLXg5QTc4cTFrdF9CdF9YU1hxdlhFdnJsdVBvN0lUMFhtWW9NenlHNkRHNkhuQkhqTF9nTVdvdWtFMHAycjZfVjF4enJCUmZrcWRGY2dncUtNQURSTWVHcTJHNnZ3bTRKVjZxOWx2ZEpFZGpIY3dUSHF2dnVtUHBVZzF3NXRYSWpHSWk4SmNLNm92cTItZTRaS1VlVmUtTi1tR0l5RjJ6dEFEeW14YkdHYlFpcnpsX2JaeXVMeTdiWTJKTWRxdEFqY2Z5MFJCUUI2RUxhaVExVEJYYnpucndFZEtOWUlDQWpCcGJmcFB2UzlweWlTSXRiRTk5UEVsNlFIVzJwNkQ5ZEVGRFFENEtpS090WXZzb25XMEJvaDJOM2dLUk5zMFNjbk50VjNiS3d3PT0iLCJ1ZGlkIjoiIiwiYWRkaXRpb25hbF9jYXNfc3lzdGVtIjoxNDd9&signature=hErkxSScOFH56rXYHjRpExouSgo%3d
-#EXTINF:-1  tvg-id="Suria" tvg-chno="Suria" tvg-logo="https://production.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format=%27png%27&Quality=85&ImageId=%271375229%27&EntityType=%27Item%27&EntityId=%2797084%27&Width=300&Height=300&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",Suria
+#EXTINF:-1 group-title="Mediacorp SG" tvg-id="Suria" tvg-chno="Suria" tvg-logo="https://production.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format=%27png%27&Quality=85&ImageId=%271375229%27&EntityType=%27Item%27&EntityId=%2797084%27&Width=300&Height=300&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",Suria
 https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/237652/assetType/media/assetFileId/5754066/contextType/PLAYBACK/isAltUrl/False/a.mpd
-group-title="Mediacorp SG"
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://udrmv3.kaltura.com/cenc/widevine/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwczovL3Jlc3QtYXMub3R0LmthbHR1cmEuY29tL2FwaV92My9zZXJ2aWNlL2Fzc2V0RmlsZS9hY3Rpb24vZ2V0Q29udGV4dD9rcz1kako4TVRRM2ZNODVzYjMtdVZlc0xsWHQ4U3pZMEN3QmR6RFJoWHFzeWphakZsTkpzb0hzazM0ZHpaWGItWDN6am9XVGF6UC1GMnpvZWlaS3RrX2c0OHprSkRWSHUwY2FYeG5RWkZHSUJ4SVgyZ1ZyUWFEcEVMeE43ZUVkSC13dTNoUDBlN3lFTzNtZFlFUUhvRnJ1UmJSQnZtb0JQT0tOV2V0bU1IVUliSDFCVHZ0ZGE2YVlWVFR0bEVablNEbWpWZVhWODRKdF9DYzE2S19udmdTZ1FDSmV0d2FsczdkcGt4YlZTd1hqZUV6ZlpiMnpCRUNaZlBvaUtJMUNnVHJad01uQWVNRWg5ZHRqNmE2bDdPU3dpaElFYW9iY0J2NC05OUhDY3p6X2FxMnJtZDVscEZaNDZrUnp3dW1qd1RGYnVKLUh4TktBQlpvN0NnUnFlRW85NzVnVm01S0pHRGs9JmNvbnRleHRUeXBlPW5vbmUmaWQ9NTc1NDEwOCIsImFjY291bnRfaWQiOjIwODIzMTEsImNvbnRlbnRfaWQiOiJmdGFfdmFzYW50aGFtX2Rhc2hfdHZfZHJtIiwiZmlsZXMiOiIiLCJ1c2VyX3Rva2VuIjoiZGpKOE1UUTNmTTg1c2IzLXVWZXNMbFh0OFN6WTBDd0JkekRSaFhxc3lqYWpGbE5Kc29Ic2szNGR6WlhiLVgzempvV1RhelAtRjJ6b2VpWkt0a19nNDh6a0pEVkh1MGNhWHhuUVpGR0lCeElYMmdWclFhRHBFTHhON2VFZEgtd3UzaFAwZTd5RU8zbWRZRVFIb0ZydVJiUkJ2bW9CUE9LTldldG1NSFVJYkgxQlR2dGRhNmFZVlRUdGxFWm5TRG1qVmVYVjg0SnRfQ2MxNktfbnZnU2dRQ0pldHdhbHM3ZHBreGJWU3dYamVFemZaYjJ6QkVDWmZQb2lLSTFDZ1RyWndNbkFlTUVoOWR0ajZhNmw3T1N3aWhJRWFvYmNCdjQtOTlIQ2N6el9hcTJybWQ1bHBGWjQ2a1J6d3VtandURmJ1Si1IeE5LQUJabzdDZ1JxZUVvOTc1Z1ZtNUtKR0RrPSIsInVkaWQiOiIiLCJhZGRpdGlvbmFsX2Nhc19zeXN0ZW0iOjE0N30%3d&signature=kVCYWAtjycmCPym%2fcPI%2f0E%2bpPhc%3d
-#EXTINF:-1 group-title="Mediacorp SG" tvg-id="Vasantham" tvg-chno="Vasantham" tvg-logo="https://production.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format=%27png%27&Quality=85&ImageId=%271776032%27&EntityType=%27Item%27&EntityId=%2797096%27&Width=129&Height=63&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",Vasantham
+#EXTINF:-1  tvg-id="Vasantham" tvg-chno="Vasantham" tvg-logo="https://production.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format=%27png%27&Quality=85&ImageId=%271776032%27&EntityType=%27Item%27&EntityId=%2797096%27&Width=129&Height=63&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",Vasantham
 https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/237653/assetType/media/assetFileId/5754108/contextType/PLAYBACK/isAltUrl/False/a.mpd
+group-title="Mediacorp SG"
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://udrmv3.kaltura.com/cenc/widevine/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwczovL3Jlc3QtYXMub3R0LmthbHR1cmEuY29tL2FwaV92My9zZXJ2aWNlL2Fzc2V0RmlsZS9hY3Rpb24vZ2V0Q29udGV4dD9rcz1kako4TVRRM2ZQd1B2dkV3b0NEMkk5NGduOGNfQjEwRW01dDB1Q3U2WnBjWVFJVlFtUGlqaWg4R0VWRVpLZzlJVnN3Mmw5aUVTbWxuOFN4WFN5N3RQLS10bkN4VGhmcHd2c0NtT0taanljU1dpLWJ0U1U5ZXBQWHRnSUl5el9tNHJDeVMta1lNdVI2NlVaRGpJaGN0eHlvVE9va1FwZjFVZU1PMXdvY3hCLTg2TEFSTFdMSlRwRTQ2OENZWnZ1dEhYYUlCZnBKZTdxLTFLcW1QQUM3V2tuT2IxN2V1Yl80bzhHcE5WOTNhSVpNOUZjVmVqZ2lSLTBjbk9RY3VJZGZmZG5DdFhiOXNiOUYtWVNBTzFSYjlqS3AzVVVFcDVHODNHMGxhUXdNX21paEpwajFqank5M0d0OHlGYWt1dlZQWnhTSm90LVM4VEs5QUxtaGkwcHE0ZldabVJJdVZUQm89JmNvbnRleHRUeXBlPW5vbmUmaWQ9MTIzNjYzMjAiLCJhY2NvdW50X2lkIjoyMDgyMzExLCJjb250ZW50X2lkIjoiYWRob2Nfb2t0b2xpZGF5c19kYXNoX3R2X2RybSIsImZpbGVzIjoiIiwidXNlcl90b2tlbiI6ImRqSjhNVFEzZlB3UHZ2RXdvQ0QySTk0Z244Y19CMTBFbTV0MHVDdTZacGNZUUlWUW1QaWppaDhHRVZFWktnOUlWc3cybDlpRVNtbG44U3hYU3k3dFAtLXRuQ3hUaGZwd3ZzQ21PS1pqeWNTV2ktYnRTVTllcFBYdGdJSXl6X200ckN5Uy1rWU11UjY2VVpEakloY3R4eW9UT29rUXBmMVVlTU8xd29jeEItODZMQVJMV0xKVHBFNDY4Q1ladnV0SFhhSUJmcEplN3EtMUtxbVBBQzdXa25PYjE3ZXViXzRvOEdwTlY5M2FJWk05RmNWZWpnaVItMGNuT1FjdUlkZmZkbkN0WGI5c2I5Ri1ZU0FPMVJiOWpLcDNVVUVwNUc4M0cwbGFRd01fbWloSnBqMWpqeTkzR3Q4eUZha3V2VlBaeFNKb3QtUzhUSzlBTG1oaTBwcTRmV1ptUkl1VlRCbz0iLCJ1ZGlkIjoiIiwiYWRkaXRpb25hbF9jYXNfc3lzdGVtIjoxNDd9&signature=9JXXd3sJ99MxVXy3ou5wXHW%2f1%2bE%3d
-#EXTINF:-1  tvg-id="oktolidays.sg" tvg-chno="oktolidays.sg" tvg-logo="https://production.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='4132072'&EntityType='Item'&EntityId='258705'&Width=237&Height=237&ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'",Oktolidays
+#EXTINF:-1 group-title="Mediacorp SG" tvg-id="oktolidays.sg" tvg-chno="oktolidays.sg" tvg-logo="https://production.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='4132072'&EntityType='Item'&EntityId='258705'&Width=237&Height=237&ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'",Oktolidays
 https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/879237/assetType/media/assetFileId/12366320/contextType/PLAYBACK/isAltUrl/False/a.mpd#EXTM3U
-group-title="Mediacorp SG"
-#EXTINF:-1 group-title="TW" tvg-id="BeautifulLifeTV.tw",Beautiful Life TV
+#EXTINF:-1  tvg-id="BeautifulLifeTV.tw",Beautiful Life TV
 https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8
-#EXTINF:-1  tvg-id="CTiVariety.tw",CTi Variety (中天綜合台) (720p)
+group-title="TW"
+#EXTINF:-1 group-title="TW" tvg-id="CTiVariety.tw",CTi Variety (中天綜合台) (720p)
 http://23.237.10.66:16372
-#EXTINF:-1 group-title="TW" tvg-id="CTSNews.tw",CTS News (華視新聞資訊) [Geo-blocked]
+#EXTINF:-1  tvg-id="CTSNews.tw",CTS News (華視新聞資訊) [Geo-blocked]
 http://seb.sason.top/sc/hsxw_fhd.m3u8
 #EXTINF:-1 group-title="TW" tvg-id="DaAi1.tw",DaAi1 (大愛1) (720p)
 https://pulltv1.wanfudaluye.com/live/tv1.m3u8
