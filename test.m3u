@@ -3,8 +3,11 @@
 #EXTINF:-1 group-title="Variety 2" tvg-chno="506" tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/gusto.png",Gusto TV
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01077-gustoworldwidem-gustotv-dash-sooka/index.mpd
 
+#EXTINF:-1 tvg-id="" ch-number="" tvg-name="" group-title="Variety 2" group-logo="https://iili.io/H7B4QYF.png" tvg-logo="https://images.sgp2.ott.kaltura.com/Service.svc/GetImage/p/3209/entry_id/9ccc772601b741d4a20c94c132a03282/version/0/width/315/height/177/quality/80", Tayo+
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00640-lydnetwork-tayoplus-dash-sooka/index.mpd
+
 #EXTINF:-1 tvg-id="" ch-number="" tvg-name="" group-title="SOOKA TV" group-logo="https://iili.io/H7B4QYF.png" tvg-logo="https://images.sgp2.ott.kaltura.com/Service.svc/GetImage/p/3209/entry_id/9ccc772601b741d4a20c94c132a03282/version/0/width/315/height/177/quality/80", Tayo+
-https://cdn-apse1-prod.tsv2.amagi.tv/beacon?rp=https%3A%2F%2Fcdn-apse1-prod.tsv2.amagi.tv%2Flinear%2Famg00640-lydnetwork-tayoplus-dash-sooka%2Findex.mpd
+https://cdn-apse1-prod.tsv2.amagi.tv/beacon?rp=https%3A%2F%2Fcdn-apse1-prod.tsv2.amagi.tv%2Flinear%2Famg00640-lydnetwork-tayoplus-dash-sooka%2F9425fb22-35b9-40a5-a039-5e942cf04d61%2Findex.mpd&streamId=amg00640-lydnetwork-tayoplus-dash-sooka&sessionId=9425fb22-35b9-40a5-a039-5e942cf04d61
 
 #EXTINF:-1 tvg-id="" ch-number="" tvg-name="" group-title="SOOKA TV" tvg-logo="https://images.sgp2.ott.kaltura.com/Service.svc/GetImage/p/3209/entry_id/ccdd07c58dcf4ae6be79b41e8a35c111/version/0", TesteMade
 https://cdn-apse1-prod.tsv2.amagi.tv/beacon?rp=https://cdn-apse1-prod.tsv2.amagi.tv/beacon?rp=https%3A%2F%2Fcdn-apse1-prod.tsv2.amagi.tv%2Flinear%2Famg00047-tastemade-tastemadeintlaus-dash-sooka%2Findex.mpd
