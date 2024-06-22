@@ -29,7 +29,9 @@ jobs:
           -H "Connection: keep-alive" \
           -H "Referer: http://www.52sw.top:678/play/oj1381/index.php?get=159169" \
           -H "Priority: u=1" \
-          --data-raw "uuid=8fde8f43-818b-4874-984e-6c163cf52b7b"
+          --data-raw "uuid=8fde8f43-818b-4874-984e-6c163cf52b7b&fileName=%E6%98%9F%E8%A7%86%E7%95%8C2%E7%BA%BF"
+          --data-raw "uuid=8fde8f43-818b-4874-984e-6c163cf52b7b&fileName=159"
+          --data-raw "uuid=8fde8f43-818b-4874-984e-6c163cf52b7b&fileName=169"
 
     - name: 下载源
       run: |       
