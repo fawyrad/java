@@ -16,39 +16,14 @@ jobs:
       id: date
       run: echo "::set-output name=timestamp::$(date +%s)"
 
-    - name: Save to Database
-      run: |
-        curl "http://www.52sw.top:678/play/oj1381/save_to_database.php" --compressed -X POST \
-          -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" \
-          -H "Accept: */*" \
-          -H "Accept-Language: en-US,en;q=0.5" \
-          -H "Accept-Encoding: gzip, deflate" \
-          -H "Content-type: application/x-www-form-urlencoded" \
-          -H "Origin: http://www.52sw.top:678" \
-          -H "DNT: 1" \
-          -H "Connection: keep-alive" \
-          -H "Referer: http://www.52sw.top:678/play/oj1381/index.php?get=159169" \
-          -H "Priority: u=1" \
-          --data-raw "uuid=8fde8f43-818b-4874-984e-6c163cf52b7b&fileName=星视界2线" \
-          --data-raw "uuid=8fde8f43-818b-4874-984e-6c163cf52b7b&fileName=159" \
-          --data-raw "uuid=8fde8f43-818b-4874-984e-6c163cf52b7b&fileName=169"
-
+  
     - name: 下载源
       run: |       
 
-        # Get the timestamp from the previous step
-        TIMESTAMP=$(echo ${{ steps.date.outputs.timestamp }})
+
         # kiki4177
         rm -f ./Kiki.m3u && wget https://raw.githubusercontent.com/kiki4177/iptv/main/Kiki -O ./Kiki.m3u
-        # 159
-        URL="http://www.52sw.top:678/play/oj1381/list.php?get=159&t=${TIMESTAMP}&uuid=8fde8f43-818b-4874-984e-6c163cf52b7b"
-        rm -f ./159.m3u && wget "$URL" -O ./159.m3u
-        #Star 2
-        URL="http://www.52sw.top:678/play/oj1381/list.php?get=%E6%98%9F%E8%A7%86%E7%95%8C2%E7%BA%BF&t=${TIMESTAMP}&uuid=8fde8f43-818b-4874-984e-6c163cf52b7b" -O ./star2.m3u
-        rm -f ./159.m3u && wget "$URL" -O ./star2.m3u
-        # 169
-        URL="http://www.52sw.top:678/play/oj1381/list.php?get=169%E7%84%A6%E7%82%B9&t=${TIMESTAMP}&uuid=8fde8f43-818b-4874-984e-6c163cf52b7b" -O ./169.m3u
-        rm -f ./159.m3u && wget "$URL" -O ./169.m3u
+
 
     - name: 1直播源
       run: |       
