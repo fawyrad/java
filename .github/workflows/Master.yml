@@ -16,6 +16,21 @@ jobs:
       id: date
       run: echo "::set-output name=timestamp::$(date +%s)"
 
+    - name: Save to Database
+      run: |
+        curl "http://www.52sw.top:678/play/oj1381/save_to_database.php" --compressed -X POST \
+          -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" \
+          -H "Accept: */*" \
+          -H "Accept-Language: en-US,en;q=0.5" \
+          -H "Accept-Encoding: gzip, deflate" \
+          -H "Content-type: application/x-www-form-urlencoded" \
+          -H "Origin: http://www.52sw.top:678" \
+          -H "DNT: 1" \
+          -H "Connection: keep-alive" \
+          -H "Referer: http://www.52sw.top:678/play/oj1381/index.php?get=159169" \
+          -H "Priority: u=1" \
+          --data-raw "uuid=8fde8f43-818b-4874-984e-6c163cf52b7b"
+
     - name: 下载源
       run: |       
 
