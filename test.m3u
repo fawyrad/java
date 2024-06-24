@@ -3766,6 +3766,10 @@ https://d1yws6emo43ny.cloudfront.net/CH1/masterCH1.mpd
 #EXTINF:-1 group-logo="https://telegra.ph/file/5231dea66798aba2c94b7.png" group-title="CHINESE" tvg-logo="https://telegra.ph/file/e36872d8b3f54568fdcbb.png" tvg-id="AstroAEC",Astro AEC 2
 https://d1yws6emo43ny.cloudfront.net/CH1/masterCH1.mpd
 
+#EXTINF:-1 group-title="CHINESE" group-logo="https://pictr.com/images/2024/01/04/EX3Oeg.png" tvg-id="AstroAEC" ch-number="306" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/54/Astro_AEC.png",Astro AEC 3
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"jacsqFAaTetL/Dgf4XN+9A", "kid":"BighV9pOj5diOnDtAX+tEA" } ], "type":"temporary" }
+https://linears-playback.astro.com.my/vsg/41J0U2Z_AuaDSPdCY-74gTkB0WCPLkIRngQ3KkSP97jrk=FN3e/dash-wv/jitp-dashisowm/2400/default_primary.mpd
 
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
