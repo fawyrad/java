@@ -3751,12 +3751,13 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/5016/default_ott.mpd
 
 
 #KODIPROP:inputstreamaddon=inputstream.adaptive
-#EXTHTTP:{"Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3bXZlciI6Miwid21pZGZtdCI6ImFzY2lpIiwid21pZHR5cCI6MSwid21rZXl2ZXIiOjEsIndtaWRsZW4iOjUxMiwid21pZCI6Ik9EazNNR1prWVRjdE16SXhNUzAwWW1SaUxUZ3lObVV0T1dWaVlXTXpNMlk0Tm1FeSIsIndtb3BpZCI6MzIsImV4cCI6MTcxNTk4ODU0MSwiaWF0IjoxNzE1Mzg0NTQxfQ.zKt330yg4E1Mwc_uegyZj6EJmf5lRBlQ5LMMF6af2k4"}
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"51Fl04uQlWfAM1OuSye2+A", "kid":"AesRaCCJQPiycLTgmUVw5w" } ], "type":"temporary" }
-//#EXTINF:-1 group-logo="https://telegra.ph/file/5231dea66798aba2c94b7.png" group-title="CHINESE" tvg-logo="https://telegra.ph/file/e36872d8b3f54568fdcbb.png" tvg-id="AstroAEC",Astro AEC
-https://d1yws6emo43ny.cloudfront.net/CH1/masterCH1.mpd
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"jacsqFAaTetL/Dgf4XN+9A", "kid":"BighV9pOj5diOnDtAX+tEA" } ], "type":"temporary" } 
+#EXTINF:-1 group-logo="https://telegra.ph/file/5231dea66798aba2c94b7.png" group-title="CHINESE" tvg-logo="https://linear-poster.astro.com.my/prod/logo/Astro_AEC_v1.png" tvg-id="AstroAEC",Astro AEC
+http://linearjitp-playback.astro.com.my/dash-wv/linear/2400/default_primary.mpd
+
+
 
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
