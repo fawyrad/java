@@ -24,6 +24,7 @@ jobs:
         # kiki4177
         rm -f ./Kiki.m3u && wget https://raw.githubusercontent.com/kiki4177/iptv/main/Kiki -O ./Kiki.m3u
         rm -f ./aseanic.m3u && wget https://raw.githubusercontent.com/aseanic/aseanic.github.io/main/iptv -O ./aseanic.m3u
+        rm -f ./mystery75.m3u && wget https://raw.githubusercontent.com/mystery75/streaming/app/tivimate -O ./mystery75.m3u
 
 
     - name: 1直播源
