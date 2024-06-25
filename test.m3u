@@ -3755,7 +3755,7 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/5016/default_ott.mpd
 #EXTHTTP:{"Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3bXZlciI6Miwid21pZGZtdCI6ImFzY2lpIiwid21pZHR5cCI6MSwid21rZXl2ZXIiOjEsIndtaWRsZW4iOjUxMiwid21pZCI6IlpERTRNR1V5T1RJdE9XRXpaaTAwTldFekxXSmxPRE10WlROa1lURm1ZemhrT0RBMSIsIndtb3BpZCI6MzIsImV4cCI6MTcxOTg0Njk3MiwiaWF0IjoxNzE5MjQyOTcyfQ.Gt7qr4VD4q9p442ehcW9d7OSBRgnvdiFWsePTssgzr4
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={01eb1168208940f8b270b4e0994570e7:e75165d38b909567c03353ae4b27b6f8}
+#KODIPROP:inputstream.adaptive.license_key=01eb1168208940f8b270b4e0994570e7:e75165d38b909567c03353ae4b27b6f8
 https://d1yws6emo43ny.cloudfront.net/CH1/masterCH1.mpd
 
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -3769,7 +3769,7 @@ https://d1fk7kbmz4il3.cloudfront.net/CH4/masterCH4.mpd
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={01eb1168208940f8b270b4e0994570e7:e75165d38b909567c03353ae4b27b6f8}
+#KODIPROP:inputstream.adaptive.license_key=01eb1168208940f8b270b4e0994570e7:e75165d38b909567c03353ae4b27b6f8
 #EXTINF:-1 group-title="CHINESE" group-logo="https://pictr.com/images/2024/01/04/EX3Oeg.png" tvg-id="AstroAEC" ch-number="306" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/54/Astro_AEC.png",Astro AEC 3
 https://d1yws6emo43ny.cloudfront.net/CH1/masterCH1.mpd
 
