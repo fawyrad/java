@@ -65,8 +65,9 @@ jobs:
 
       - name: Integrate with Master Playlist
         run: |
-          cat ./Kiki.m3u > Master.m3u 
-          cat ./LIVE-TV.m3u > Master.m3u 
+          rm -f Master.m3u && touch Master.m3u
+          cat ./Kiki.m3u >> Master.m3u
+          cat ./LIVE-TV.m3u >> Master.m3u 
 
       - name: Setup Python Environment
         uses: actions/setup-python@v4
