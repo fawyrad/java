@@ -15,7 +15,7 @@ jobs:
 
       - name: Get Current Timestamp
         id: date
-        run: echo "::set-output name=timestamp::$(date +%s)"
+        run: echo "::set-output name=date::$(date -u -d '+8 hour' '+%Y.%m.%d %H:%M:%S')"
 
       - name: Download IPTV Sources
         run: |
