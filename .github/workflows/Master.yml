@@ -1,122 +1,86 @@
-name: Master
+name: Update IPTV and EPG
 
 on:
-    schedule:
-      - cron: 0 0/12 * * * 
-    workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'  # Run daily at midnight UTC
+  workflow_dispatch:    # Allow manual triggering
 
 jobs:
-  Update:
+  update_sources:
     runs-on: ubuntu-latest
+
     steps:
-    - name: Checkout
-      uses: actions/checkout@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v3
 
-    - name: GetTime
-      id: date
-      run: echo "::set-output name=timestamp::$(date +%s)"
+      - name: Get Current Timestamp
+        id: date
+        run: echo "::set-output name=timestamp::$(date +%s)"
 
-  
-    - name: 下载源
-      run: |       
+      - name: Download IPTV Sources
+        run: |
+          wget -O ./Kiki.m3u https://raw.githubusercontent.com/kiki4177/iptv/main/Kiki
+          wget -O ./aseanic.m3u https://raw.githubusercontent.com/aseanic/aseanic.github.io/main/iptv
+          wget -O ./mystery75.m3u https://raw.githubusercontent.com/mystery75/streaming/app/tivimate
 
+      - name: Download Live Sources
+        run: |
+          # FreeviewMY
+          wget -O ./m3u/FreeviewMY.m3u8 https://raw.githubusercontent.com/itszairi/FreeviewMY/main/FreeviewMY.m3u8
+          sed -i '/#EXTM3U/d; /^\s*$/d' ./m3u/FreeviewMY.m3u8
 
-        # kiki4177
-        rm -f ./Kiki.m3u && wget https://raw.githubusercontent.com/kiki4177/iptv/main/Kiki -O ./Kiki.m3u
-        rm -f ./aseanic.m3u && wget https://raw.githubusercontent.com/aseanic/aseanic.github.io/main/iptv -O ./aseanic.m3u
-        rm -f ./mystery75.m3u && wget https://raw.githubusercontent.com/mystery75/streaming/app/tivimate -O ./mystery75.m3u
+          # mewatchsg
+          wget -O ./m3u/mewatchsg.m3u8 https://raw.githubusercontent.com/samleong123/mewatchsg/main/mewatchsg_drm_wv_url.m3u8
+          sed -i '/#EXTM3U/d; /^\s*$/d' ./m3u/mewatchsg.m3u8
 
+          # my
+          wget -O ./m3u/my.m3u https://raw.githubusercontent.com/weareblahs/freeview/main/mytv_broadcasting.m3u8
+          sed -i '/#EXTM3U/d' ./m3u/my.m3u
 
-    - name: 1直播源
-      run: |       
-        # FreeviewMY
-        rm -f ./m3u/FreeviewMY.m3u8 && wget https://raw.githubusercontent.com/itszairi/FreeviewMY/main/FreeviewMY.m3u8 -O ./m3u/FreeviewMY.m3u8
-        sed -i '/#EXTM3U/d' ./m3u/FreeviewMY.m3u8
-        sed -i '/^\s*$/d' ./m3u/FreeviewMY.m3u8
-        
-        # mewatchsg
-        rm -f ./m3u/mewatchsg.m3u8 && wget https://raw.githubusercontent.com/samleong123/mewatchsg/main/mewatchsg_drm_wv_url.m3u8 -O ./m3u/mewatchsg.m3u8
-        sed -i '/#EXTM3U/d' ./m3u/mewatchsg.m3u8
-        sed -i '/^\s*$/d' ./m3u/mewatchsg.m3u8
-        
-        # my
-        rm -f ./m3u/my.m3u && wget https://raw.githubusercontent.com/weareblahs/freeview/main/mytv_broadcasting.m3u8 -O ./m3u/my.m3u
-        sed -i '/#EXTM3U/d' ./m3u/my.m3u
-        
-        # tw
-        rm -f ./m3u/tw.m3u && wget https://raw.githubusercontent.com/iptv-org/iptv/master/streams/tw.m3u -O ./m3u/tw.m3u
-        sed -i 's/#EXTINF:-1/#EXTINF:-1 group-title="TW"/g' ./m3u/tw.m3u
-        sed -i '/^\s*$/d' ./m3u/tw.m3u
-        
-        # cn
-        rm -f ./m3u/cqyx.m3u && wget https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/cqyx.m3u -O ./m3u/cqyx.m3u
-        rm -f ./m3u/sxg.m3u && wget https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/sxg.m3u -O ./m3u/sxg.m3u
-        rm -f ./m3u/bestv.m3u && wget https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/bestv.m3u -O ./m3u/bestv.m3u
-        rm -f ./m3u/IPTV.m3u && wget https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/IPTV.m3u -O ./m3u/IPTV.m3u
-        rm -f ./m3u/iptv-org.m3u
-        sed -i '/#EXTM3U/d' ./m3u/IPTV.m3u
-        sed -i '/#EXTM3U/d' ./m3u/cqyx.m3u
-        sed -i '/#EXTM3U/d' ./m3u/sxg.m3u
-        sed -i '/#EXTM3U/d' ./m3u/bestv.m3u
-        cat ./m3u/cqyx.m3u >> ./m3u/iptv-org.m3u
-        cat ./m3u/sxg.m3u >> ./m3u/iptv-org.m3u
-        cat ./m3u/bestv.m3u >> ./m3u/iptv-org.m3u
-        cat ./m3u/IPTV.m3u >> ./m3u/iptv-org.m3u
-        sed -i '/^\s*$/d' ./m3u/iptv-org.m3u       
-        
-    
-    - name: 1整合源
-      run: |         
-          # 整合源
-           rm -f LIVE-TV.m3u && touch LIVE-TV.m3u
-           cat ./m3u/my.m3u >> LIVE-TV.m3u
-           cat ./m3u/FreeviewMY.m3u8 >> LIVE-TV.m3u
-           cat ./m3u/mewatchsg.m3u8 >> LIVE-TV.m3u
-           cat ./m3u/tw.m3u >> LIVE-TV.m3u
-           cat ./m3u/iptv-org.m3u >> LIVE-TV.m3u
-           sed -i '1i #EXTM3U x-tvg-url="https://live-tv.gohkh7.eu.org/EPG/EPG.xml,https://live-tv.gohkh7.eu.org/EPG/EPG-1.xml,https://live-tv.gohkh7.eu.org/EPG/EPG-2.xml,https://live-tv.gohkh7.eu.org/EPG/EPG-3.xml"' LIVE-TV.m3u
-          
-    - name: 1节目源
-      run: |        
-          # 节目源
-          rm -f ./EPG/EPG.xml && wget https://cutt.ly/FreeviewMY-EPG-1 -O ./EPG/EPG.xml
-          rm -f ./EPG/EPG-1.xml && wget https://cutt.ly/FreeviewMY-EPG-2 -O ./EPG/EPG-1.xml
-          rm -f ./EPG/EPG-2.xml && wget https://raw.githubusercontent.com/AqFad2811/epg/main/singapore.xml -O ./EPG/EPG-2.xml
-          rm -f ./EPG/EPG-3.xml && wget https://raw.githubusercontent.com/AqFad2811/epg/main/singapore.xml -O ./EPG/EPG-3.xml
-          echo "Auto Update LIVE-TV in ${{ steps.date.outputs.date }}" > README.md
-          
-               
-    
-    - name: 2整合源
-      run: |         
-          # 整合源
-           rm -f Master.m3u && touch Master.m3u
-           cat ./LIVE-TV.m3u >> Master.m3u
-           cat ./Kiki.m3u >> Master.m3u
-           
-    - name: 2节目源
-      run: |        
-          # 节目源
-          rm -f ./EPG/EPG.xml && wget https://cutt.ly/FreeviewMY-EPG-1 -O ./EPG/EPG.xml
-          rm -f ./EPG/EPG-1.xml && wget https://cutt.ly/FreeviewMY-EPG-2 -O ./EPG/EPG-1.xml
-          rm -f ./EPG/EPG-2.xml && wget https://raw.githubusercontent.com/AqFad2811/epg/main/singapore.xml -O ./EPG/EPG-2.xml
-          rm -f ./EPG/EPG-3.xml && wget https://raw.githubusercontent.com/AqFad2811/epg/main/singapore.xml -O ./EPG/EPG-3.xml  
+          # tw
+          wget -O ./m3u/tw.m3u https://raw.githubusercontent.com/iptv-org/iptv/master/streams/tw.m3u
+          sed -i 's/#EXTINF:-1/#EXTINF:-1 group-title="TW"/g; /^\s*$/d' ./m3u/tw.m3u
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.x' # Specify the Python version you need
+          # cn
+          wget -O ./m3u/cqyx.m3u https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/cqyx.m3u
+          wget -O ./m3u/sxg.m3u https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/sxg.m3u
+          wget -O ./m3u/bestv.m3u https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/bestv.m3u
+          wget -O ./m3u/IPTV.m3u https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/IPTV.m3u
+          sed -i '/#EXTM3U/d' ./m3u/IPTV.m3u ./m3u/cqyx.m3u ./m3u/sxg.m3u ./m3u/bestv.m3u
+          # cat ./m3u/cqyx.m3u ./m3u/sxg.m3u ./m3u/bestv.m3u ./m3u/IPTV.m3u | tee ./m3u/iptv-org.m3u >/dev/null
+          # sed -i '/^\s*$/d' ./m3u/iptv-org.m3u
 
-    - name: Run the script to remove content
-      run: |
-        python ./.github/workflows/remove_content.py
-        python ./.github/workflows/group.py
-       
-    - name: Clean
-      run: |
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git add -A
-        git commit -a -m "${{ steps.date.outputs.timestamp }}"
-    - name: Push
-      run: git push origin main
+      - name: Integrate Live Sources
+        run: |
+          cat ./m3u/mewatchsg.m3u8 ./m3u/tw.m3u ./m3u/IPTV.m3u > LIVE-TV.m3u
+          sed -i '1i #EXTM3U x-tvg-url="https://live-tv.gohkh7.eu.org/EPG/EPG.xml,https://live-tv.gohkh7.eu.org/EPG/EPG-1.xml,https://live-tv.gohkh7.eu.org/EPG/EPG-2.xml,https://live-tv.gohkh7.eu.org/EPG/EPG-3.xml"' LIVE-TV.m3u
+
+      - name: Download Program Guide
+        run: |
+          wget -O ./EPG/EPG.xml https://cutt.ly/FreeviewMY-EPG-1
+          wget -O ./EPG/EPG-1.xml https://cutt.ly/FreeviewMY-EPG-2
+          wget -O ./EPG/EPG-2.xml https://raw.githubusercontent.com/AqFad2811/epg/main/singapore.xml
+          wget -O ./EPG/EPG-3.xml https://raw.githubusercontent.com/AqFad2811/epg/main/singapore.xml
+          echo "Auto Update LIVE-TV in ${{ steps.date.outputs.timestamp }}" > README.md
+
+      - name: Integrate with Master Playlist
+        run: |
+          cat ./Kiki.m3u ./LIVE-TV.m3u > Master.m3u
+
+      - name: Setup Python Environment
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      - name: Run Python Scripts
+        run: |
+          python ./.github/workflows/remove_content.py
+          python ./.github/workflows/group.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add -A
+          git commit -m "Auto update IPTV sources and EPG on ${{ steps.date.outputs.timestamp }}"
+          git push origin main
