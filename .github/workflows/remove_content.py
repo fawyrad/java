@@ -30,12 +30,19 @@ def replace_content(content):
         content_str = re.sub(old, new, content_str)
     return content_str.splitlines(keepends=True)
 
+# Function to remove specific lines matching a pattern
+def remove_lines_by_pattern(content, pattern):
+    return [line for line in content if not re.search(pattern, line)]
+
 # Read the input file
 with open(input_file, "r") as file:
     lines = file.readlines()
 
 # Remove content after the marker
 lines = remove_content_after_marker(lines, marker)
+
+# Remove lines containing "#KODIPROP:inputstream.adaptive.manifest_type=dash"
+lines = remove_lines_by_pattern(lines, r'#KODIPROP:inputstream\.adaptive\.manifest_type=dash')
 
 # Perform replacements
 lines = replace_content(lines)
