@@ -1,7 +1,7 @@
 import re
 
 # Define marker and file paths
-marker = "##########VOD#########"
+marker = "##########RADIO#########"
 input_file = "./Master.m3u"
 output_file = "./Master.m3u"
 
