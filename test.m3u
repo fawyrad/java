@@ -2,12 +2,14 @@
 #EXTINF:-1 tvg-id="812" group-title="#🌍 EPL with VPN 🌍#" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/138_144.png",🇲🇾 Astro SuperSport 2 HD 
 #EXTHTTP:{"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3bXZlciI6Miwid21pZGZtdCI6ImFzY2lpIiwid21pZHR5cCI6MSwid21rZXl2ZXIiOjEsIndtaWRsZW4iOjUxMiwid21pZCI6Ik4yUmhNREU0WVdFdE5EQmxPQzAwWkdSaUxUazRNbVF0TURJNE5HVmhPVEppTnpNMCIsIndtb3BpZCI6MzIsImV4cCI6MTcxMjYyMDQwMCwiaWF0IjoxNzEyMDE2NDAwfQ.affFs4S8J9LhaTqs4zAqtlnl3SrJEa2JFDcnek-bXew"}
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"QfI0+4hZCvOw0iQRGmG/cQ", "kid":"jx2jmTJSR+ymrN17r7lfog" } ], "type":"temporary" }
 http://d3j4fjrwclc3o8.cloudfront.net/CH4/masterCH4.mpd
 
 #EXTINF:-1 group-logo="https://telegra.ph/file/5231dea66798aba2c94b7.png" group-title="CHINESE" tvg-logo="https://linear-poster.astro.com.my/prod/logo/Astro_AEC_v1.png" tvg-id="AstroAEC",Astro AEC
 #EXTHTTP:{"authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3bXZlciI6Miwid21pZGZtdCI6ImFzY2lpIiwid21pZHR5cCI6MSwid21rZXl2ZXIiOjEsIndtaWRsZW4iOjUxMiwid21pZCI6IlpERTRNR1V5T1RJdE9XRXpaaTAwTldFekxXSmxPRE10WlROa1lURm1ZemhrT0RBMSIsIndtb3BpZCI6MzIsImV4cCI6MTcxOTg0Njk3MiwiaWF0IjoxNzE5MjQyOTcyfQ.Gt7qr4VD4q9p442ehcW9d7OSBRgnvdiFWsePTssgzr4"}
 #KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_key=01eb1168208940f8b270b4e0994570e7:e75165d38b909567c03353ae4b27b6f8
 https://d1yws6emo43ny.cloudfront.net/CH1/masterCH1.mpd
 
