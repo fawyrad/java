@@ -42,7 +42,7 @@ with open(input_file, "r") as file:
 lines = remove_content_after_marker(lines, marker)
 
 # Remove lines containing "#KODIPROP:inputstream.adaptive.manifest_type=dash"
-lines = remove_lines_by_pattern(lines, r'#KODIPROP:inputstream\.adaptive\.manifest_type=dash')
+# lines = remove_lines_by_pattern(lines, r'#KODIPROP:inputstream\.adaptive\.manifest_type=dash')
 
 # Perform replacements
 lines = replace_content(lines)
