@@ -1,34 +1,97 @@
-YouTube,#genre#
-寰宇新聞,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=B7Zp3d6xXWw
-鏡新聞,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=5n0y6b0Q25o
-東森Live,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=R2iMq5LKXco
-中天新聞,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=oIgbl7t0S_w
-中天新聞,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/live/oIgbl7t0S_w?feature=share
-中天新聞2,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=WPfPjbOLNfE
-三立live,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=FoBfXvlOR6I
-三立inews,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=CKjSm5ZeehE
-三立NEWS+,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=oZdzzvxTfUY
-TVBS新聞,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=2mCSYvcfhtc
-TVBS NEWS LIVE,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=m_dhMSvUCIc
-民視新聞,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=ylYJSBUgaMA
-華視新聞,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=wM0g8EoUZ_E
-中視新聞,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=TCnaIE_SAtM
-台視新聞,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=xL0ch83RAK8
-EBC東森財經,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=WHEPzbFA3hw
-三立財經,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=CKjSm5ZeehE
-NHK WORLD,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=f0lYkdA-Gtw
-Sky News,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=9Auq9mYxFEE
-FRANCE 24,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=h3MuIUNCCzI
-ABC News,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=w_Ma8oQLmSM
-Euronews English,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=pykpO5kQJ98
-DW,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=pqabxBKzZ6M
-ANN News,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=coYw-eVU0Ks
-KBS KOREA,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=HnfpTMtfFk8
-NBC NEW,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=0IUbD_4ytuo
-鳳凰資訊,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=0K6C6Rv4RR4
-CCTV中文国际,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=9sE12tg3CmA
-东森财经股市,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=LbS-xQ67fos
-公視直播,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=4Uc00FPs27M
-KOMPASTV,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=4rmf-lk3ito
-东京新宿,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=DjdUEyjx8GM
-台灣地震監視,http://127.0.0.1:9978/proxy?do=yt&url=https://www.youtube.com/watch?v=Owke6Quk7T0
+🍅YouTube新闻,#genre#
+parse=1
+鳳凰衛視資訊台,https://www.youtube.com/watch?v=HFib76ySpbU
+鳳凰衛視資訊台2,https://m.youtube.com/@phoenixtvhk/live
+凤凰卫视资讯台,https://www.youtube.com/watch?v=a3WZVssKlAI
+中天新闻,https://www.youtube.com/watch?v=oIgbl7t0S_w
+中天新闻2台,https://www.youtube.com/watch?v=WPfPjbOLNfE
+中天亞洲台,https://www.youtube.com/watch?v=s2waUruqze4
+#中天亞洲台2,https://www.youtube.com/watch?v=PYtGQvNmadg
+TVBS新聞台,https://www.youtube.com/watch?v=2mCSYvcfhtc
+#TVBSHD 56,https://www.youtube.com/watch?v=YvdcZ_jpLXE
+TVBS NEWS,https://www.youtube.com/watch?v=m_dhMSvUCIc
+TVBS NEWS2,https://www.youtube.com/c/TVBSNEWS01/live
+#東森新闻,https://www.youtube.com/watch?v=S5WOGu2HSes
+東森Live51,https://www.youtube.com/watch?v=E0zhe2gkXBs
+東森Live,https://www.youtube.com/watch?v=LuQ4S-i5zoE
+三立Live,https://www.youtube.com/watch?v=FoBfXvlOR6I
+三立iNEWS,https://www.youtube.com/watch?v=CKjSm5ZeehE
+三立NEWS+,https://www.youtube.com/watch?v=oZdzzvxTfUY
+三立NEWS+2,https://www.youtube.com/c/三立LIVE新聞/live
+三立iNews,https://www.youtube.com/c/setmoney159/live
+民视新闻台,https://www.youtube.com/watch?v=ylYJSBUgaMA
+鏡新闻,https://www.youtube.com/watch?v=5n0y6b0Q25o
+公視新聞網,https://www.youtube.com/watch?v=quwqlazU-c8
+#公視,https://www.youtube.com/watch?v=C6gYqSHLRw4
+#公视台语,https://www.youtube.com/watch?v=6KlRR_DGhmI
+中视新闻,https://www.youtube.com/watch?v=TCnaIE_SAtM
+台视新闻,https://www.youtube.com/watch?v=xL0ch83RAK8
+華視新聞,https://www.youtube.com/watch?v=wM0g8EoUZ_E
+寰宇新闻台,https://www.youtube.com/watch?v=6IquAgfvYmc
+寰宇台灣台,https://www.youtube.com/watch?v=w87VGpgd90U
+#寰宇新聞2,https://www.youtube.com/watch?v=V8ue1aoEOEQ
+#寰宇新聞台灣台,https://www.youtube.com/watch?v=UcTIv4ZaE5Y
+東森財經新聞,https://www.youtube.com/watch?v=WHEPzbFA3hw
+东森财经股市,https://www.youtube.com/watch?v=LbS-xQ67fos
+#寰宇財經台,https://www.youtube.com/watch?v=25SE1bbTv9k
+新唐人亞太,https://www.youtube.com/watch?v=WIhgU_mc05A
+新唐人亞太2,https://www.youtube.com/@NTDAPTV/live
+大陸尋奇,https://www.youtube.com/watch?v=fl1iFkAWcVU
+中視經典綜藝,https://www.youtube.com/watch?v=ADDSmXoPDY8
+华视综艺,https://www.youtube.com/c/TBSCTSSHOW/live
+#豬哥會社,https://www.youtube.com/watch?v=htGDPsz2BYI
+掌声响起,https://www.youtube.com/watch?v=EVATvtQHjyg
+TaiwanPlus,https://www.youtube.com/watch?v=Smy2zVGK9x0
+8视界,https://www.youtube.com/watch?v=RvSOIM620bA
+
+🍅K-POP,#genre#
+THE K-POP,https://www.youtube.com/watch?v=JVocS7Yftw8
+K-POP Girl Group,https://www.youtube.com/watch?v=k2F1XZxPLOA
+KBS WORLD TV,https://www.youtube.com/watch?v=yC0OLhiEMLg
+
+🍅YouTube国际新闻,#genre#
+ABC News,https://www.youtube.com/live/-mvUkiILTqI
+ABC7 New York,https://www.youtube.com/watch?v=oFOTr81KHLg
+Sky News,https://www.youtube.com/watch?v=9Auq9mYxFEE
+abc News,https://www.youtube.com/watch?v=w_Ma8oQLmSM
+NBC News NOW,https://www.youtube.com/watch?v=PoX4NUhhIJc
+NBC NEWS,https://www.youtube.com/watch?v=o1ZydFM-upg
+NBC2 News,https://www.youtube.com/watch?v=MJB6CUxvZcU
+NEWSMAX,https://www.youtube.com/watch?v=QldgdsYPZDc
+News12 NewYork,https://www.youtube.com/watch?v=q8KjGbX0-6U
+GB News,https://www.youtube.com/watch?v=8WX6YL9JnLw
+ABCNews,https://www.youtube.com/watch?v=vOTiJkg1voo
+Al Jazeera,https://www.youtube.com/watch?v=gCNeDWCI0vo
+Euronews,https://www.youtube.com/watch?v=pykpO5kQJ98
+TRT World,https://www.youtube.com/watch?v=5VF4aor94gw
+DW,https://www.youtube.com/watch?v=pqabxBKzZ6M
+彭博财经台,https://www.youtube.com/watch?v=dp8PhLsUcFE
+France24,https://www.youtube.com/watch?v=h3MuIUNCCzI
+CNALives,https://www.youtube.com/watch?v=XWq5kBlakcQ
+TD Ameritrade,https://www.youtube.com/watch?v=SG1Lc0QCD_Y
+CBN News,https://www.youtube.com/watch?v=CG2XDTgvZPo
+tvOne 24Jam,https://www.youtube.com/watch?v=yNKvkPJl-tg
+ANNnewsCH,https://www.youtube.com/watch?v=JAFHJmIj6bY
+DW,https://www.youtube.com/watch?v=pqabxBKzZ6M
+ANN News,https://www.youtube.com/watch?v=coYw-eVU0Ks
+NBC NEW,https://www.youtube.com/watch?v=0IUbD_4ytuo
+KOMPASTV,https://www.youtube.com/watch?v=4rmf-lk3ito
+
+🍅YouTube日韩,#genre#
+Arirang TV,https://www.youtube.com/watch?v=CJVBX7KI5nU
+MBC NEWS,https://www.youtube.com/watch?v=q-Wv4Pvt-5A
+KBS NEWS,https://www.youtube.com/watch?v=D2R15WicmAs
+KBS KOREA,https://www.youtube.com/watch?v=OxQQsIvJTTU
+NHK WORLD-JAPAN,https://www.youtube.com/watch?v=f0lYkdA-Gtw
+JapaNews24,https://www.youtube.com/watch?v=coYw-eVU0Ks
+ANNnewsCH,https://www.youtube.com/watch?v=mB-prl5HTV8
+TBS NEWS DIG,https://www.youtube.com/watch?v=nwVfs8pDPI4
+名古屋电视台,https://www.youtube.com/watch?v=-C6FE2m7kX8
+広島新闻,https://www.youtube.com/watch?v=e2pgLUmaxGs
+北海道新闻,https://www.youtube.com/watch?v=xWPD8KDHUH8
+北海道weekend,https://www.youtube.com/watch?v=L0_P_KJVpKc
+KansaiNews24,https://www.youtube.com/watch?v=EqdxY34Y6LA
+매일경제TV,https://www.youtube.com/watch?v=s9xL1DpBsfQ
+YonhapnewsTV,https://www.youtube.com/watch?v=6QZ_qc75ihU
+YTN,https://www.youtube.com/watch?v=vEO6wO0QsX8
+歌舞伎町,https://www.youtube.com/watch?v=gFRtAAmiFbE
