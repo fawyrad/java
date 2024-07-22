@@ -30,7 +30,6 @@ jobs:
           wget -O ./m3u/ubtv.txt https://raw.githubusercontent.com/letallthewind/live/main/ubtv.txt || true
           wget -O ./m3u/52top/52top.json https://raw.githubusercontent.com/letallthewind/live/main/52top.json || true
           wget -O ./m3u/52top/ysp.m3u http://xg.52sw.top:5000/ysp.m3u || true
-          wget -O ./m3u/52top/mytvsuper.m3u http://xg.52sw.top:5000/mytvsuper.m3u || true
           wget -O ./m3u/52top/beesport.m3u http://xg.52sw.top:5000/beesport.m3u || true
           wget -O ./m3u/52top/itv_proxy.m3u http://xg.52sw.top:5000/itv_proxy.m3u || true
           wget -O ./m3u/52top/sxg.m3u http://xg.52sw.top:5000/sxg.m3u || true
@@ -46,11 +45,15 @@ jobs:
           
           wget -O ./m3u/52top/4gtv.m3u http://xg.52sw.top:5000/4gtv.m3u || true
           sed -i '/#EXTM3U/d; /^\s*$/d' ./m3u/52top/4gtv.m3u
-          sed -i '1i #EXTINF:-1 tvg-id="4GTV"  group-title="4GTV' ./m3u/52top/4gtv.m3u
+          sed -i '1i #EXTINF:-1 tvg-id="4GTV"  group-title="4GTV, 4GTV' ./m3u/52top/4gtv.m3u
           
           wget -O ./m3u/52top/tptv_proxy.m3u http://xg.52sw.top:5000/tptv_proxy.m3u || true
           sed -i '/#EXTM3U/d; /^\s*$/d' ./m3u/52top/tptv_proxy.m3u
-          sed -i '1i #EXTINF:-1 tvg-id="CHN"  group-title="CHN' ./m3u/52top/tptv_proxy.m3u
+          sed -i '1i #EXTINF:-1 tvg-id="CHN"  group-title="CHN, CHN' ./m3u/52top/tptv_proxy.m3u
+
+          wget -O ./m3u/52top/mytvsuper.m3u http://xg.52sw.top:5000/mytvsuper.m3u || true
+          sed -i '/#EXTM3U/d; /^\s*$/d' ./m3u/52top/mytvsuper.m3u
+          sed -i '1i #EXTINF:-1 tvg-id="CHN"  group-title="TVB, TVB' ./m3u/52top/mytvsuper.m3u
           
           # tw
           wget -O ./m3u/tw.m3u https://raw.githubusercontent.com/iptv-org/iptv/master/streams/tw.m3u || true
@@ -93,7 +96,7 @@ jobs:
           
       - name: Integrate Master Playlist
         run: |
-          cat ./m3u/Kiki.m3u ./m3u/52top/4gtv.m3u ./m3u/52top/tptv_proxy.m3u >> Master.m3u
+          cat ./m3u/Kiki.m3u ./m3u/52top/tptv_proxy.m3u ./m3u/52top/4gtv.m3u ./m3u/52top/mytvsuper.m3u >> Master.m3u
           sed -i '1i #EXTM3U x-tvg-url="https://raw.githubusercontent.com/Tina-062006/java/main/EPG/EPG.xml"' Master.m3u
 
       - name: Commit and Push Changes
