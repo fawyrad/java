@@ -29,7 +29,14 @@ jobs:
           wget -O ./m3u/qttv.txt https://raw.githubusercontent.com/letallthewind/live/main/qttv.txt
           wget -O ./m3u/smart.txt https://raw.githubusercontent.com/letallthewind/live/main/smart.txt
           wget -O ./m3u/ubtv.txt https://raw.githubusercontent.com/letallthewind/live/main/ubtv.txt
-          wget -O ./m3u/52top.json https://raw.githubusercontent.com/letallthewind/live/main/52top.json
+          wget -O ./m3u/52top/52top.json https://raw.githubusercontent.com/letallthewind/live/main/52top.json
+          wget -O ./m3u/52top/4gtv.m3u http://xg.52sw.top:5000/4gtv.m3u
+          wget -O ./m3u/52top/tptv_proxy.m3u http://xg.52sw.top:5000/tptv_proxy.m3u
+          wget -O ./m3u/52top/ysp.m3u http://xg.52sw.top:5000/ysp.m3u
+          wget -O ./m3u/52top/mytvsuper.m3u http://xg.52sw.top:5000/mytvsuper.m3u
+          wget -O ./m3u/52top/beesport.m3u http://xg.52sw.top:5000/beesport.m3u
+          wget -O ./m3u/52top/itv_proxy.m3u http://xg.52sw.top:5000/itv_proxy.m3u
+          wget -O ./m3u/52top/sxg.m3u http://xg.52sw.top:5000/sxg.m3u
 
       - name: Download Live Sources
         run: |
