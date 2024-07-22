@@ -45,16 +45,13 @@ jobs:
           
           wget -O ./m3u/52top/4gtv.m3u http://xg.52sw.top:5000/4gtv.m3u || true
           sed -i '/#EXTM3U/d; /^\s*$/d' ./m3u/52top/4gtv.m3u
-          sed -i '1i #EXTINF:-1 tvg-id="4GTV"  group-title="4GTV, 4GTV' ./m3u/52top/4gtv.m3u
-          
+                    
           wget -O ./m3u/52top/tptv_proxy.m3u http://xg.52sw.top:5000/tptv_proxy.m3u || true
           sed -i '/#EXTM3U/d; /^\s*$/d' ./m3u/52top/tptv_proxy.m3u
-          sed -i '1i #EXTINF:-1 tvg-id="CHN"  group-title="CHN, CHN' ./m3u/52top/tptv_proxy.m3u
-
+          
           wget -O ./m3u/52top/mytvsuper.m3u http://xg.52sw.top:5000/mytvsuper.m3u || true
           sed -i '/#EXTM3U/d; /^\s*$/d' ./m3u/52top/mytvsuper.m3u
-          sed -i '1i #EXTINF:-1 tvg-id="TVB"  group-title="TVB, TVB' ./m3u/52top/mytvsuper.m3u
-          
+                    
           # tw
           wget -O ./m3u/tw.m3u https://raw.githubusercontent.com/iptv-org/iptv/master/streams/tw.m3u || true
           sed -i 's/#EXTINF:-1/#EXTINF:-1 group-title="TW"/g; /^\s*$/d' ./m3u/tw.m3u
