@@ -94,7 +94,7 @@ jobs:
       - name: Integrate Master Playlist
         run: |
           cat ./m3u/Kiki.m3u ./m3u/52top/tptv_proxy.m3u ./m3u/52top/4gtv.m3u ./m3u/52top/mytvsuper.m3u >> Master.m3u
-          sed -i '1i #EXTM3U x-tvg-url="https://raw.githubusercontent.com/Tina-062006/java/main/EPG/EPG.xml"' Master.m3u
+          # sed -i '1i #EXTM3U x-tvg-url="https://raw.githubusercontent.com/Tina-062006/java/main/EPG/EPG.xml"' Master.m3u
 
       - name: Commit and Push Changes
         run: |
