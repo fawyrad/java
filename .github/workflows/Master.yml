@@ -63,23 +63,13 @@ jobs:
           # cat ./m3u/cqyx.m3u ./m3u/sxg.m3u | tee ./m3u/iptv-org.m3u >/dev/null
           # sed -i '/^\s*$/d' ./m3u/iptv-org.m3u
 
-      - name: Integrate Live Sources
-        run: |
-          cat ./m3u/Kiki.m3u8 ./m3u/52top/4gtv.m3u ./m3u/52top/tptv_proxy.m3u > Master.m3u
-          sed -i '1i #EXTM3U x-tvg-url="https://raw.githubusercontent.com/Tina-062006/java/main/EPG/EPG.xml"' Master.m3u
-
       - name: Download Program Guide
         run: |
           wget -O ./EPG/My.xml https://cutt.ly/FreeviewMY-EPG-1
           wget -O ./EPG/Astro.xml https://cutt.ly/FreeviewMY-EPG-2
           wget -O ./EPG/SG.xml https://raw.githubusercontent.com/AqFad2811/epg/main/singapore.xml
           wget -O ./EPG/CHN.xml https://assets.livednow.com/epg.xml
-          echo "Auto Update LIVE-TV in ${{ steps.date.outputs.date }}" > README.md
-
-      - name: Integrate with Master Playlist
-        run: |
-          rm -f Master.m3u && touch Master.m3u
-          cat ./m3u/mewatchsg.m3u8 ./Kiki.m3u >> Master.m3u
+          echo "EPG Auto Update in ${{ steps.date.outputs.date }}" > README.md
 
       - name: Setup Python Environment
         uses: actions/setup-python@v4
@@ -89,8 +79,14 @@ jobs:
       - name: Run Python Scripts
         run: |
           python ./.github/workflows/remove_content.py
-          python ./.github/workflows/group.py
           python ./.github/workflows/epg.py
+          # python ./.github/workflows/group.py
+          
+      - name: Integrate Master Playlist
+        run: |
+          cat ./m3u/Kiki.m3u8 ./m3u/52top/4gtv.m3u ./m3u/52top/tptv_proxy.m3u >> Master.m3u
+          sed -i '1i #EXTM3U x-tvg-url="https://raw.githubusercontent.com/Tina-062006/java/main/EPG/EPG.xml"' Master.m3u
+          rm -f Master.m3u && touch Master.m3u
 
       - name: Commit and Push Changes
         run: |
