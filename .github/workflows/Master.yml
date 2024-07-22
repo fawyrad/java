@@ -42,7 +42,7 @@ jobs:
         run: |
 
           wget -O ./m3u/Kiki.m3u https://raw.githubusercontent.com/kiki4177/iptv/main/Kiki || true
-          sed -i '/#EXTM3U/d; /^\s*$/d' ./m3u/Kiki.m3u8
+          sed -i '/#EXTM3U/d; /^\s*$/d' ./m3u/Kiki.m3u
           
           wget -O ./m3u/52top/4gtv.m3u http://xg.52sw.top:5000/4gtv.m3u || true
           sed -i '/#EXTM3U/d; /^\s*$/d' ./m3u/52top/4gtv.m3u
