@@ -46,8 +46,8 @@ jobs:
           wget -O ./m3u/52top/4gtv.m3u http://xg.52sw.top:5000/4gtv.m3u || true
           sed -i '/#EXTM3U/d; /^\s*$/d' ./m3u/52top/4gtv.m3u
                     
-          wget -O ./m3u/52top/itv_proxy.m3u.m3u http://xg.52sw.top:5000/itv_proxy.m3u.m3u || true
-          sed -i '/#EXTM3U/d; /^\s*$/d' ./m3u/52top/itv_proxy.m3u.m3u
+          wget -O ./m3u/52top/itv_proxy.m3u http://xg.52sw.top:5000/itv_proxy.m3u || true
+          sed -i '/#EXTM3U/d; /^\s*$/d' ./m3u/52top/itv_proxy.m3u
           
           wget -O ./m3u/52top/mytvsuper.m3u http://xg.52sw.top:5000/mytvsuper.m3u || true
           sed -i '/#EXTM3U/d; /^\s*$/d' ./m3u/52top/mytvsuper.m3u
