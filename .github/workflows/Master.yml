@@ -68,7 +68,13 @@ jobs:
           wget -O ./EPG/My.xml https://cutt.ly/FreeviewMY-EPG-1 || true
           wget -O ./EPG/Astro.xml https://cutt.ly/FreeviewMY-EPG-2 || true
           wget -O ./EPG/SG.xml https://raw.githubusercontent.com/AqFad2811/epg/main/singapore.xml || true
-          wget -O ./EPG/CHN.xml https://assets.livednow.com/epg.xml || true
+          curl 'https://assets.livednow.com/epg.xml' \
+          -H 'Upgrade-Insecure-Requests: 1' \
+          -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \
+          -H 'sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"' \
+          -H 'sec-ch-ua-mobile: ?0' \
+          -H 'sec-ch-ua-platform: "Windows"' \
+          -o ./EPG/CHN.xml || true
           echo "EPG Auto Update in ${{ steps.date.outputs.date }}" > README.md
 
       - name: Setup Python Environment
