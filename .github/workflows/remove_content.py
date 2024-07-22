@@ -2,8 +2,8 @@ import re
 
 # Define marker and file paths
 marker = "##########RADIO#########"
-input_file = "./Kiki.m3u"
-output_file = "./Kiki.m3u"
+input_file = "./m3u/Kiki.m3u"
+output_file = "./m3u/Kiki.m3u"
 
 # Function to remove content after the marker
 def remove_content_after_marker(content, marker):
