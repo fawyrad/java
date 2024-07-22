@@ -19,7 +19,7 @@ def merge_roots(root_from, root_to):
         root_to.append(elem)
 
 # Merge Astro.xml into My.xml
-merge_roots(root2, root1)
+# merge_roots(root2, root1)
 
 # Merge SG.xml into My.xml
 merge_roots(root3, root1)
