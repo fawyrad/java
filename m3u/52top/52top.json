@@ -1,6 +1,10 @@
 {
   "lives": [
     {
+      "name": "Stream-link",
+      "url": "https://www.stream-link.org/stream-link.m3u"
+    },
+    {
       "name": "四季線上4gTV",
       "url": "http://xg.52sw.top:5000/4gtv.m3u"
     },
@@ -27,6 +31,10 @@
     {
       "name": "四川广电蜀小果",
       "url": "http://xg.52sw.top:5000/sxg.m3u"
+    },
+    {
+      "name": "YanG-1989 Gather",
+      "url": "https://tv.iill.top/m3u/Gather"
     },
     {
       "name": "斯玛特",
