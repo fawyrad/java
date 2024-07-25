@@ -1474,34 +1474,7 @@ https://tglmp04.akamaized.net/out/v1/421a3cd3bdcd492f8f4b5efb2363ed2c/manifest.m
 #EXTINF:-1 group-title="SINGAPORE" tvg-id="" tvg-chno="" group-logo="https://i.ibb.co/BzXszsr/flag-singapore-round-frame-1308-71152.jpg" tvg-logo="https://i.ibb.co/zsDGJDK/trtrtrt.jpg",ROCK ENTERTAINMENT (SGP)
 https://tglmp02.akamaized.net/out/v1/621a7089e63144e4be7891cd9bfb10e2/manifest.mpd
 ########################################################################RADIO#########################################################################################
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://udrmv3.kaltura.com/cenc/widevine/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwczovL3Jlc3QtYXMub3R0LmthbHR1cmEuY29tL2FwaV92My9zZXJ2aWNlL2Fzc2V0RmlsZS9hY3Rpb24vZ2V0Q29udGV4dD9rcz1kako4TVRRM2ZBaTNwMzVyMVV0b1diRFVMeGV0V29GQU9kejhqWk9fVVFMbHpaS0cxa09VQ0hEQnN2UjVGNW5iRFlrdFhaNUlWcDE3akJmTEdhUjVEa1ZOdG9tN0ttOXVvTklhU0FQMzRBZno0RjFBSDhZemVScDBQTUdaZ01YQWp5REhnN0RCdXByZTJQVE5waS1tRzBjQ25rUmpLTU1YYWtqUjFqY09zMERvSlkybklUY0oza2NRYl9BZ3VYSldiRGNQOWZfeHZLcGFjLTUweUxqcE56TzNWX2x0ZGV2cVFCb1JzTWtRQmc4MnpEUEF6T1ZrcHFVNmV3UDUxcjdsQm9ONXItU1BaRGlSYmJmd0dJUnpkd1dwVXluTENUaEM2el9ydmZsTmZocHRmdTFMVmQzajVoYlB2MjQybWlad1RyNW4xdThaOGY3MDl1RHI0bGV1LTlwRm5wSi1RWDFSc0txX2xNbEVKQkE1ekU2dkxUMk4mY29udGV4dFR5cGU9bm9uZSZpZD01NzU0MTE2IiwiYWNjb3VudF9pZCI6MjA4MjMxMSwiY29udGVudF9pZCI6ImZ0YV9jaDVfZGFzaF90dl9kcm0iLCJmaWxlcyI6IiIsInVzZXJfdG9rZW4iOiJkako4TVRRM2ZBaTNwMzVyMVV0b1diRFVMeGV0V29GQU9kejhqWk9fVVFMbHpaS0cxa09VQ0hEQnN2UjVGNW5iRFlrdFhaNUlWcDE3akJmTEdhUjVEa1ZOdG9tN0ttOXVvTklhU0FQMzRBZno0RjFBSDhZemVScDBQTUdaZ01YQWp5REhnN0RCdXByZTJQVE5waS1tRzBjQ25rUmpLTU1YYWtqUjFqY09zMERvSlkybklUY0oza2NRYl9BZ3VYSldiRGNQOWZfeHZLcGFjLTUweUxqcE56TzNWX2x0ZGV2cVFCb1JzTWtRQmc4MnpEUEF6T1ZrcHFVNmV3UDUxcjdsQm9ONXItU1BaRGlSYmJmd0dJUnpkd1dwVXluTENUaEM2el9ydmZsTmZocHRmdTFMVmQzajVoYlB2MjQybWlad1RyNW4xdThaOGY3MDl1RHI0bGV1LTlwRm5wSi1RWDFSc0txX2xNbEVKQkE1ekU2dkxUMk4iLCJ1ZGlkIjoiIiwiYWRkaXRpb25hbF9jYXNfc3lzdGVtIjoxNDd9&signature=ydzcddHsgQmXr5QZtst9qDQaqDQ%3d
-#EXTINF:-1 group-title="Mediacorp SG" tvg-id="Ch 5" tvg-chno="Ch 5" tvg-logo="https://production.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format=%27png%27&Quality=85&ImageId=%271776036%27&EntityType=%27Item%27&EntityId=%2797098%27&Width=114&Height=114&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",Channel 5
-https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/316288/assetType/media/assetFileId/5754116/contextType/PLAYBACK/isAltUrl/False/a.mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://udrmv3.kaltura.com/cenc/widevine/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwczovL3Jlc3QtYXMub3R0LmthbHR1cmEuY29tL2FwaV92My9zZXJ2aWNlL2Fzc2V0RmlsZS9hY3Rpb24vZ2V0Q29udGV4dD9rcz1kako4TVRRM2ZNSmZ5N2w2Z2hmazk2UWNtdXZKM1VhVmJqVWFmVlBsVndMNm9XdFI3M0lDWThpMlY1dHRiaGJuY1Z3YVE1SjVaVFg5LUhnMk5WYXllWkcwNXhtbGlxZXBBV3FyMWFXVEZueFdOYlZ0RW1TZ1pUT0V2WGxQR0s1Nk1ZZUMwOFZIMkM1d0VqczRZWXJpRU5oMG12bTEwT0NmQVNBY2ZQeTgxZ1Zub0NSN19TalR0TVJXTC1Vbk1OcDd5VGNfdVRRWjdYRk5OOWJUMTZpaFU0MDhSblV3Z2swaGJyclU1X2pUalUtVHRSdEtVNGt0eW1vcGtYNjNIUjc0bUlSbWxRWll0QlNBQ1FhXy1rXzE1emRDTTZzTnNNWkJHaWhIci1aRkQzSllDWE9oV0dyOHF1c1lQN1JoMGR3b0JhaHVXTDJ0S2c9PSZjb250ZXh0VHlwZT1ub25lJmlkPTU3NTQxMjQiLCJhY2NvdW50X2lkIjoyMDgyMzExLCJjb250ZW50X2lkIjoiZnRhX2NoOF9kYXNoX3R2X2RybSIsImZpbGVzIjoiIiwidXNlcl90b2tlbiI6ImRqSjhNVFEzZk1KZnk3bDZnaGZrOTZRY211dkozVWFWYmpVYWZWUGxWd0w2b1d0UjczSUNZOGkyVjV0dGJoYm5jVndhUTVKNVpUWDktSGcyTlZheWVaRzA1eG1saXFlcEFXcXIxYVdURm54V05iVnRFbVNnWlRPRXZYbFBHSzU2TVllQzA4VkgyQzV3RWpzNFlZcmlFTmgwbXZtMTBPQ2ZBU0FjZlB5ODFnVm5vQ1I3X1NqVHRNUldMLVVuTU5wN3lUY191VFFaN1hGTk45YlQxNmloVTQwOFJuVXdnazBoYnJyVTVfalRqVS1UdFJ0S1U0a3R5bW9wa1g2M0hSNzRtSVJtbFFaWXRCU0FDUWFfLWtfMTV6ZENNNnNOc01aQkdpaEhyLVpGRDNKWUNYT2hXR3I4cXVzWVA3UmgwZHdvQmFodVdMMnRLZz09IiwidWRpZCI6IiIsImFkZGl0aW9uYWxfY2FzX3N5c3RlbSI6MTQ3fQ%3d%3d&signature=1nPNrB80kR6j1Y2P7nqlfSmp6tw%3d
-#EXTINF:-1 group-title="Mediacorp SG" tvg-id="Ch 8" tvg-chno="Ch 8" tvg-logo="https://production.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format=%27png%27&Quality=85&ImageId=%271776034%27&EntityType=%27Item%27&EntityId=%2797104%27&Width=75&Height=101&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",Channel 8 / 8 频道
-https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/260581/assetType/media/assetFileId/5754124/contextType/PLAYBACK/isAltUrl/False/a.mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://udrmv3.kaltura.com/cenc/widevine/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwczovL3Jlc3QtYXMub3R0LmthbHR1cmEuY29tL2FwaV92My9zZXJ2aWNlL2Fzc2V0RmlsZS9hY3Rpb24vZ2V0Q29udGV4dD9rcz1kako4TVRRM2ZCS1BIMXdaT3BEdmFBdEs5M24wY0Qzd20yYXVrTWNFQzVMQUl5UVZibEI3THlFeEhKYWRuVVRqTFVidVF3Mk13NWx1OUdsLS1RRmhWRW9DVnFOal9ZMXBIbU9wenBNNTJCWXFlQ1JlVC1TMlk5YklvTjVSS3Y0VV9EU3duNlp1emZiQ0t3UE5CbnJ0bl8xQkpkRTZCc05kWHNaNkduNnRMb2tzWkY0d0s5Xy1adGZaRU5hRGpibXUzWjZlZE1OVHZMNEJBZHRtZDhUN3BMbzkydWJCSnRKSnoxa2JRcG5hQ1JjM2tqSUdpTVFKUk5KcFdYLTJENjByS0FVUkd2elFROUJwQWJ5UHd4Nlhtc1ZNTGtvbEh1bDBCXzBGSWttT2VpQmpXOUk2RUtraGZnbEhwTzluLWRjNnpiWHZaeVhCdFNyOFMxdEtXNzFjdVpYNzlkTnEyUnc9JmNvbnRleHRUeXBlPW5vbmUmaWQ9NTc1NDE1NyIsImFjY291bnRfaWQiOjIwODIzMTEsImNvbnRlbnRfaWQiOiJmdGFfY2hVX2Rhc2hfdHZfZHJtIiwiZmlsZXMiOiIiLCJ1c2VyX3Rva2VuIjoiZGpKOE1UUTNmQktQSDF3Wk9wRHZhQXRLOTNuMGNEM3dtMmF1a01jRUM1TEFJeVFWYmxCN0x5RXhISmFkblVUakxVYnVRdzJNdzVsdTlHbC0tUUZoVkVvQ1ZxTmpfWTFwSG1PcHpwTTUyQllxZUNSZVQtUzJZOWJJb041Ukt2NFVfRFN3bjZadXpmYkNLd1BOQm5ydG5fMUJKZEU2QnNOZFhzWjZHbjZ0TG9rc1pGNHdLOV8tWnRmWkVOYURqYm11M1o2ZWRNTlR2TDRCQWR0bWQ4VDdwTG85MnViQkp0Skp6MWtiUXBuYUNSYzNraklHaU1RSlJOSnBXWC0yRDYwcktBVVJHdnpRUTlCcEFieVB3eDZYbXNWTUxrb2xIdWwwQl8wRklrbU9laUJqVzlJNkVLa2hmZ2xIcE85bi1kYzZ6Ylh2WnlYQnRTcjhTMXRLVzcxY3VaWDc5ZE5xMlJ3PSIsInVkaWQiOiIiLCJhZGRpdGlvbmFsX2Nhc19zeXN0ZW0iOjE0N30%3d&signature=AKA6e5lb7LpOszjUm8qXf1PmDAQ%3d
-#EXTINF:-1 group-title="Mediacorp SG" tvg-id="Ch U" tvg-chno="Ch U" tvg-logo="https://production.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format=%27png%27&Quality=85&ImageId=%271776040%27&EntityType=%27Item%27&EntityId=%2797129%27&Width=114&Height=114&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",Channel U / U 频道
-https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/330332/assetType/media/assetFileId/5754157/contextType/PLAYBACK/isAltUrl/False/a.mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://udrmv3.kaltura.com/cenc/widevine/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwczovL3Jlc3QtYXMub3R0LmthbHR1cmEuY29tL2FwaV92My9zZXJ2aWNlL2Fzc2V0RmlsZS9hY3Rpb24vZ2V0Q29udGV4dD9rcz1kako4TVRRM2ZFMm9UWW9IVlRqM2hmZEhqcHdyX2FxYmxDQktMaG5zVkszbFN1ekQyLWpDQktmRENqX0tVNEgzbXZkZ3FidDFZYks3VDFyZ2pCUE5TdkZ6WHdsQ0YyYWRVNXQ1Q1RPdzBBQWJjcUF0VGtIeFBiZXdUb1RIbG1XUm1ZTUh3OFhoRGlCaVNkamJzOU9lSGZLb3NoeVRseHVxWjloRTNsZlZEUGJJdWZGYVVWRV9fQy00c0RyX3RKOV9lUXhDVXRrbEpDdGtJRkxUR2ZQODZKQUpwdmpkTl9XZVdTSGJrTktfWUU5TnZoMm9ZMm5aQzItUHVJOTZBNnU4TUJUQV9vclVEVk0xU2NESG9KMWZGbTVacWMwWi13c3JSOGc2MlVYUUxUdmRveGpwdnl0eTQwcDhkTk1WQVNzOHZIc05qQWJuV1E9PSZjb250ZXh0VHlwZT1ub25lJmlkPTU3NTQxNDkiLCJhY2NvdW50X2lkIjoyMDgyMzExLCJjb250ZW50X2lkIjoiZnRhX2NuYVNfZGFzaF90dl9kcm0iLCJmaWxlcyI6IiIsInVzZXJfdG9rZW4iOiJkako4TVRRM2ZFMm9UWW9IVlRqM2hmZEhqcHdyX2FxYmxDQktMaG5zVkszbFN1ekQyLWpDQktmRENqX0tVNEgzbXZkZ3FidDFZYks3VDFyZ2pCUE5TdkZ6WHdsQ0YyYWRVNXQ1Q1RPdzBBQWJjcUF0VGtIeFBiZXdUb1RIbG1XUm1ZTUh3OFhoRGlCaVNkamJzOU9lSGZLb3NoeVRseHVxWjloRTNsZlZEUGJJdWZGYVVWRV9fQy00c0RyX3RKOV9lUXhDVXRrbEpDdGtJRkxUR2ZQODZKQUpwdmpkTl9XZVdTSGJrTktfWUU5TnZoMm9ZMm5aQzItUHVJOTZBNnU4TUJUQV9vclVEVk0xU2NESG9KMWZGbTVacWMwWi13c3JSOGc2MlVYUUxUdmRveGpwdnl0eTQwcDhkTk1WQVNzOHZIc05qQWJuV1E9PSIsInVkaWQiOiIiLCJhZGRpdGlvbmFsX2Nhc19zeXN0ZW0iOjE0N30%3d&signature=vQRqlypa24VnwWCuJf%2fi6RuF%2fhI%3d
-#EXTINF:-1 group-title="Mediacorp SG" tvg-id="CNA" tvg-chno="CNA" tvg-logo="https://production.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format=%27png%27&Quality=85&ImageId=%271776042%27&EntityType=%27Item%27&EntityId=%2797072%27&Width=78&Height=96&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",CNA
-https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/197985/assetType/media/assetFileId/5754149/contextType/PLAYBACK/isAltUrl/False/a.mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://udrmv3.kaltura.com/cenc/widevine/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwczovL3Jlc3QtYXMub3R0LmthbHR1cmEuY29tL2FwaV92My9zZXJ2aWNlL2Fzc2V0RmlsZS9hY3Rpb24vZ2V0Q29udGV4dD9rcz1kako4TVRRM2ZFZjF5azhURlhoRElnU2NHU0dSLXlNdmdNbUhWbWJ1UzYzNzU4YUtYVjFpQ2U1ZHZQeEpPWWVNbmlGQnMtMDl5a081SEV1SmdNN0x2UTBSMFgxS2NkNnVFZXh6MUt2eTU4YkxkQmRiQU5iT05qeUlXb2xjRkZja2xlYlQ3VFRFQURmeFNQTGZENHE0Z2NSbXY5RXE0YXFpNzNXY3E5WmpWTE53dnNROXE2akZNLWFNVzUxY1V6Zl9QQmdFWUZTSEVCd2w5eDJvNzhYM3c5Z29yWmt4T0Y4d0Vyb0NfbDM3M2RHS3BXZHNOajFWbUVPeldPc3l6eVZ2WHdGQXRpVEhoR1B3R3doV0k5X1JzLWJ3R3hURG01YkxENUlJVjltbDVxa2R0QTIzaFFmN0MyTkdTemlfMEQ4WXhNeV9QSEtmbzMwM1ZBSDJ0VDNyMW91NEFxOW9aMlE9JmNvbnRleHRUeXBlPW5vbmUmaWQ9NTc1NDA2NiIsImFjY291bnRfaWQiOjIwODIzMTEsImNvbnRlbnRfaWQiOiJmdGFfc3VyaWFfZGFzaF90dl9kcm0iLCJmaWxlcyI6IiIsInVzZXJfdG9rZW4iOiJkako4TVRRM2ZFZjF5azhURlhoRElnU2NHU0dSLXlNdmdNbUhWbWJ1UzYzNzU4YUtYVjFpQ2U1ZHZQeEpPWWVNbmlGQnMtMDl5a081SEV1SmdNN0x2UTBSMFgxS2NkNnVFZXh6MUt2eTU4YkxkQmRiQU5iT05qeUlXb2xjRkZja2xlYlQ3VFRFQURmeFNQTGZENHE0Z2NSbXY5RXE0YXFpNzNXY3E5WmpWTE53dnNROXE2akZNLWFNVzUxY1V6Zl9QQmdFWUZTSEVCd2w5eDJvNzhYM3c5Z29yWmt4T0Y4d0Vyb0NfbDM3M2RHS3BXZHNOajFWbUVPeldPc3l6eVZ2WHdGQXRpVEhoR1B3R3doV0k5X1JzLWJ3R3hURG01YkxENUlJVjltbDVxa2R0QTIzaFFmN0MyTkdTemlfMEQ4WXhNeV9QSEtmbzMwM1ZBSDJ0VDNyMW91NEFxOW9aMlE9IiwidWRpZCI6IiIsImFkZGl0aW9uYWxfY2FzX3N5c3RlbSI6MTQ3fQ%3d%3d&signature=ptcTTZsa04o5QPkjI2%2bw5xDrCLU%3d
-#EXTINF:-1 group-title="Mediacorp SG" tvg-id="Suria" tvg-chno="Suria" tvg-logo="https://production.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format=%27png%27&Quality=85&ImageId=%271375229%27&EntityType=%27Item%27&EntityId=%2797084%27&Width=300&Height=300&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",Suria
-https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/237652/assetType/media/assetFileId/5754066/contextType/PLAYBACK/isAltUrl/False/a.mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://udrmv3.kaltura.com/cenc/widevine/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwczovL3Jlc3QtYXMub3R0LmthbHR1cmEuY29tL2FwaV92My9zZXJ2aWNlL2Fzc2V0RmlsZS9hY3Rpb24vZ2V0Q29udGV4dD9rcz1kako4TVRRM2ZOTjFjRGRiLW9xd3IzTGpoa3V4Zl9UVFlEM2JOck1FbEtSRmdBcXFlbWtwNU5kOXV2ckdZMENhZkRtaE94Mzd6MUtYLUpqekpyckNpdWxOaDlveWtBMjNmTzRGYV9VaWpPdXljd3ZKNFZHSXE3NlFKUjVIVWNSNzZvV19KemN0TFZDbjJTUUIzRzRXSnZYOFA2T1VkVWdHaTg2ZVVtVElXMjJIeGtyYjdXRkJFR1ByYUZ3LVg2MVBkeFZXVE5nZzJRbXZaaG1idlh2cVl3YnNaTmhfeW52RENWMVhKYV9sSFpCZVZIUEJ1SXY0R1A1dkFTNTcyOXdNdEhHa1ZDQVB5dEpKaHViR3VsWHBSWVdKdnFaZzRselh2WG83UTNsQm9meTBPOEJ3OTd0N2IwUk5QN3FuUi0zbWZJOERTOGxvbng5RjBNaDVyUjdKXzdBa19TVHBmbW9VRU1scng2QU5kbEMwX1J2ZEtZSGQmY29udGV4dFR5cGU9bm9uZSZpZD01NzU0MTA4IiwiYWNjb3VudF9pZCI6MjA4MjMxMSwiY29udGVudF9pZCI6ImZ0YV92YXNhbnRoYW1fZGFzaF90dl9kcm0iLCJmaWxlcyI6IiIsInVzZXJfdG9rZW4iOiJkako4TVRRM2ZOTjFjRGRiLW9xd3IzTGpoa3V4Zl9UVFlEM2JOck1FbEtSRmdBcXFlbWtwNU5kOXV2ckdZMENhZkRtaE94Mzd6MUtYLUpqekpyckNpdWxOaDlveWtBMjNmTzRGYV9VaWpPdXljd3ZKNFZHSXE3NlFKUjVIVWNSNzZvV19KemN0TFZDbjJTUUIzRzRXSnZYOFA2T1VkVWdHaTg2ZVVtVElXMjJIeGtyYjdXRkJFR1ByYUZ3LVg2MVBkeFZXVE5nZzJRbXZaaG1idlh2cVl3YnNaTmhfeW52RENWMVhKYV9sSFpCZVZIUEJ1SXY0R1A1dkFTNTcyOXdNdEhHa1ZDQVB5dEpKaHViR3VsWHBSWVdKdnFaZzRselh2WG83UTNsQm9meTBPOEJ3OTd0N2IwUk5QN3FuUi0zbWZJOERTOGxvbng5RjBNaDVyUjdKXzdBa19TVHBmbW9VRU1scng2QU5kbEMwX1J2ZEtZSGQiLCJ1ZGlkIjoiIiwiYWRkaXRpb25hbF9jYXNfc3lzdGVtIjoxNDd9&signature=zDebzOSEfBWHKyG%2fUmEA7jEWEns%3d
-#EXTINF:-1 group-title="Mediacorp SG" tvg-id="Vasantham" tvg-chno="Vasantham" tvg-logo="https://production.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format=%27png%27&Quality=85&ImageId=%271776032%27&EntityType=%27Item%27&EntityId=%2797096%27&Width=129&Height=63&ResizeAction=%27fill%27&HorizontalAlignment=%27center%27&VerticalAlignment=%27top%27",Vasantham
-https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/237653/assetType/media/assetFileId/5754108/contextType/PLAYBACK/isAltUrl/False/a.mpd
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://udrmv3.kaltura.com/cenc/widevine/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwczovL3Jlc3QtYXMub3R0LmthbHR1cmEuY29tL2FwaV92My9zZXJ2aWNlL2Fzc2V0RmlsZS9hY3Rpb24vZ2V0Q29udGV4dD9rcz1kako4TVRRM2ZHV1VvWTcydXlQVkVFYW9iZ182UGFmODFlNHd3bDBCeHVHeUwxbGJabFlqZ25GMldoZmxORG1EbTlxLTAwbldLeDVWZy0zSVNYZlJfLUVuRHlkUUVnTnhhWktvS3BVZDZIZkI0M3dOelhSX3JVZ0xNMk9DSGhnMUZSS0c2ZnFjN1lLM1d1MDd1VGt6QWRBa2o4QjNCdTRfT2FLdlpwVDVUMGYtNjN0SE1JX1NsS0RFWmg5NUNSRV90NTBHMm91MS1HUHBmU2hiZ1AzcmJKM2VodGR6LTR5dE1aYTBpNzFVWnBiVzdZRFlzRkxkc18zZTRIcTNfaVRudWJIMWpNQ1hyS3hVc3dmVmd3b2M5VDlIZTJvTDk3UkxPLUZ6N01XSElMeXIxdmF0Z2RVRGRFRURxbmZXSl9RbEFwT3Z3N2VEVE1ScFAxc1BwYUpSd1NvZmx4Sm9DcEk9JmNvbnRleHRUeXBlPW5vbmUmaWQ9MTIzNjYzMjAiLCJhY2NvdW50X2lkIjoyMDgyMzExLCJjb250ZW50X2lkIjoiYWRob2Nfb2t0b2xpZGF5c19kYXNoX3R2X2RybSIsImZpbGVzIjoiIiwidXNlcl90b2tlbiI6ImRqSjhNVFEzZkdXVW9ZNzJ1eVBWRUVhb2JnXzZQYWY4MWU0d3dsMEJ4dUd5TDFsYlpsWWpnbkYyV2hmbE5EbURtOXEtMDBuV0t4NVZnLTNJU1hmUl8tRW5EeWRRRWdOeGFaS29LcFVkNkhmQjQzd056WFJfclVnTE0yT0NIaGcxRlJLRzZmcWM3WUszV3UwN3VUa3pBZEFrajhCM0J1NF9PYUt2WnBUNVQwZi02M3RITUlfU2xLREVaaDk1Q1JFX3Q1MEcyb3UxLUdQcGZTaGJnUDNyYkozZWh0ZHotNHl0TVphMGk3MVVacGJXN1lEWXNGTGRzXzNlNEhxM19pVG51Ykgxak1DWHJLeFVzd2ZWZ3dvYzlUOUhlMm9MOTdSTE8tRno3TVdISUx5cjF2YXRnZFVEZEVFRHFuZldKX1FsQXBPdnc3ZURUTVJwUDFzUHBhSlJ3U29mbHhKb0NwST0iLCJ1ZGlkIjoiIiwiYWRkaXRpb25hbF9jYXNfc3lzdGVtIjoxNDd9&signature=QE5Af2wayv%2fyH669%2bwzot2oO0g0%3d
-#EXTINF:-1 group-title="Mediacorp SG" tvg-id="oktolidays.sg" tvg-chno="oktolidays.sg" tvg-logo="https://production.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='4132072'&EntityType='Item'&EntityId='258705'&Width=237&Height=237&ResizeAction='fill'&HorizontalAlignment='center'&VerticalAlignment='top'",Oktolidays
-https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/879237/assetType/media/assetFileId/12366320/contextType/PLAYBACK/isAltUrl/False/a.mpd#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV 1" tvg-logo="https://assets.livednow.com/logo/CCTV1.png" group-title="央视", CCTV 1
+#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV 1" tvg-logo="https://assets.livednow.com/logo/CCTV1.png" group-title="央视", CCTV 1
 http://xg.52sw.top:5000/itv/wasusyt/6000000001000029752
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV 1 50 FPS" tvg-logo="https://assets.livednow.com/logo/CCTV1.png" group-title="央视", CCTV 1 50 FPS
 http://xg.52sw.top:5000/itv/bestzb/5000000004000002226
@@ -2425,23 +2398,118 @@ http://xg.52sw.top:5000/mytvsuper/CNHK
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f3ae14e72f585eaf14b18d8d9515d43f:ce0e375c3966263877078aadd815742e
 http://xg.52sw.top:5000/mytvsuper/CARI
-#EXTINF:-1 tvg-id="MytvSuper" tvg-name="myTV SUPER 直播足球3台" tvg-logo="https://assets.livednow.com/logo/MytvSuper.png" group-title="體育", myTV SUPER 直播足球3台
+#EXTINF:-1 tvg-id="myTV-SUPER-Olympics-News" tvg-name="奧運新聞台" tvg-logo="https://assets.livednow.com/logo/myTV-SUPER-Olympics-News.png" group-title="體育", 奧運新聞台
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=68f99a5e1cc393fb79ed98a2a955cb2b:9fcc81e5f0a1021867d93038b9149c6b
+http://xg.52sw.top:5000/mytvsuper/ONC
+#EXTINF:-1 tvg-id="myTV-SUPER-Olympics-1" tvg-name="奧運801台" tvg-logo="https://assets.livednow.com/logo/myTV-SUPER-Olympics-1.png" group-title="體育", 奧運801台
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=024f2733fb9afad23490149c601ce47c:034db34d56263c79c7f41448f2a6cfc1
+http://xg.52sw.top:5000/mytvsuper/OL01
+#EXTINF:-1 tvg-id="myTV-SUPER-Olympics-2" tvg-name="奧運802台" tvg-logo="https://assets.livednow.com/logo/myTV-SUPER-Olympics-2.png" group-title="體育", 奧運802台
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=69a81a757b16a3d431d4365d81f07f07:292f2fdc2002e8346cd2c18af4a3a4bc
+http://xg.52sw.top:5000/mytvsuper/OL02
+#EXTINF:-1 tvg-id="myTV-SUPER-Olympics-3" tvg-name="奧運803台" tvg-logo="https://assets.livednow.com/logo/myTV-SUPER-Olympics-3.png" group-title="體育", 奧運803台
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0c79f7330982b6e508de3df47b88fbdc:db063550682430e8ca5857a85ccbc297
+http://xg.52sw.top:5000/mytvsuper/OL03
+#EXTINF:-1 tvg-id="myTV-SUPER-Olympics-4" tvg-name="奧運804台" tvg-logo="https://assets.livednow.com/logo/myTV-SUPER-Olympics-4.png" group-title="體育", 奧運804台
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=dddcd998a3107f7b350a7536c7fd30b1:15b343513bda8a5816b45295690c3792
+http://xg.52sw.top:5000/mytvsuper/OL04
+#EXTINF:-1 tvg-id="myTV-SUPER-Olympics-5" tvg-name="奧運805台" tvg-logo="https://assets.livednow.com/logo/myTV-SUPER-Olympics-5.png" group-title="體育", 奧運805台
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b8d3124914a5cf9c913eccff19d53510:529601f9fca6d76bb429ef2d2bca3622
+http://xg.52sw.top:5000/mytvsuper/OL05
+#EXTINF:-1 tvg-id="myTV-SUPER-Olympics-6" tvg-name="奧運806台" tvg-logo="https://assets.livednow.com/logo/myTV-SUPER-Olympics-6.png" group-title="體育", 奧運806台
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=980d5c8748c494a3c57902a3074e4ed4:76dcab6f98a0d8145b9d25c32fa341c4
+http://xg.52sw.top:5000/mytvsuper/OL06
+#EXTINF:-1 tvg-id="myTV-SUPER-Olympics-7" tvg-name="奧運807台" tvg-logo="https://assets.livednow.com/logo/myTV-SUPER-Olympics-7.png" group-title="體育", 奧運807台
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=316eb6af6ffa7ec2f40b710da9004a52:22733382c3ccff75647e45a3dbf181a8
+http://xg.52sw.top:5000/mytvsuper/OL07
+#EXTINF:-1 tvg-id="myTV-SUPER-Olympics-8" tvg-name="奧運808台" tvg-logo="https://assets.livednow.com/logo/myTV-SUPER-Olympics-8.png" group-title="體育", 奧運808台
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3ef1880f434fb483d8ef645f5ad0f7b8:dd2c2c71ff8adfea810ebb3c21ec810e
+http://xg.52sw.top:5000/mytvsuper/OL08
+#EXTINF:-1 tvg-id="myTV-SUPER-Olympics-9" tvg-name="奧運809台" tvg-logo="https://assets.livednow.com/logo/myTV-SUPER-Olympics-9.png" group-title="體育", 奧運809台
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=355998163e1753eaa3feb69829095eb3:7e6af588f7fa576621f68103cd41487e
+http://xg.52sw.top:5000/mytvsuper/OL09
+#EXTINF:-1 tvg-id="myTV-SUPER-Olympics-10" tvg-name="奧運810台" tvg-logo="https://assets.livednow.com/logo/myTV-SUPER-Olympics-10.png" group-title="體育", 奧運810台
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e1ce1a32fd8716af515eb209ccf6ce4b:fde3579a221cea754f3b1d7ff1958f6c
+http://xg.52sw.top:5000/mytvsuper/OL10
+#EXTINF:-1 tvg-id="myTV-SUPER-Olympics-11" tvg-name="奧運811台" tvg-logo="https://assets.livednow.com/logo/myTV-SUPER-Olympics-11.png" group-title="體育", 奧運811台
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=34a3035c05adfa6719d6f96def57ae94:f3deb53017fdcf91eb198c2e9b9153f4
+http://xg.52sw.top:5000/mytvsuper/OL11
+#EXTINF:-1 tvg-id="myTV-SUPER-Olympics-12" tvg-name="奧運812台" tvg-logo="https://assets.livednow.com/logo/myTV-SUPER-Olympics-12.png" group-title="體育", 奧運812台
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e5d411ba4e8221f5c4f75215925f1892:d3794918aaf381203d0c50cf1afdfa15
+http://xg.52sw.top:5000/mytvsuper/OL12
+#EXTINF:-1 tvg-id="myTV-SUPER-Olympics-13" tvg-name="奧運813台" tvg-logo="https://assets.livednow.com/logo/myTV-SUPER-Olympics-13.png" group-title="體育", 奧運813台
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c8d8bba7d15614168a2e16641ccec855:dc692afdb5048efb64b87d4edd74bf6b
+http://xg.52sw.top:5000/mytvsuper/OL13
+#EXTINF:-1 tvg-id="myTV-SUPER-Olympics-14" tvg-name="奧運814台" tvg-logo="https://assets.livednow.com/logo/myTV-SUPER-Olympics-14.png" group-title="體育", 奧運814台
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=78703895a6ef7a6e4c9d99fae257d858:be30ea5033e24ff1b9dab7de9f4f5275
+http://xg.52sw.top:5000/mytvsuper/OL14
+#EXTINF:-1 tvg-id="myTV-SUPER-Olympics-15" tvg-name="奧運815台" tvg-logo="https://assets.livednow.com/logo/myTV-SUPER-Olympics-15.png" group-title="體育", 奧運815台
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0c039e5195e04911444b8e4c00d2f5aa:e6e64ebf658621f013e917dce8b177f6
+http://xg.52sw.top:5000/mytvsuper/OL15
+#EXTINF:-1 tvg-id="myTV-SUPER-Olympics-16" tvg-name="奧運816台" tvg-logo="https://assets.livednow.com/logo/myTV-SUPER-Olympics-16.png" group-title="體育", 奧運816台
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d604fae19fcba50a4083a6844c2ca0e7:b46698aef5d28c07fdf5d69724cd6c23
+http://xg.52sw.top:5000/mytvsuper/OL16
+#EXTINF:-1 tvg-id="myTV-SUPER-Football-3" tvg-name="myTV SUPER 直播足球3台" tvg-logo="https://assets.livednow.com/logo/myTV-SUPER-Football-3.png" group-title="體育", myTV SUPER 直播足球3台
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=84f456002b780253dab5534e9713323c:65aeb769264f41037cec607813e91bae
 http://xg.52sw.top:5000/mytvsuper/EVT3
-#EXTINF:-1 tvg-id="MytvSuper" tvg-name="myTV SUPER 直播足球4台" tvg-logo="https://assets.livednow.com/logo/MytvSuper.png" group-title="體育", myTV SUPER 直播足球4台
+#EXTINF:-1 tvg-id="myTV-SUPER-Football-4" tvg-name="myTV SUPER 直播足球4台" tvg-logo="https://assets.livednow.com/logo/myTV-SUPER-Football-4.png" group-title="體育", myTV SUPER 直播足球4台
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=848d6d82c14ffd12adf4a7b49afdc978:3221125831a2f980139c34b35def3b0d
 http://xg.52sw.top:5000/mytvsuper/EVT4
-#EXTINF:-1 tvg-id="MytvSuper" tvg-name="myTV SUPER 直播足球5台" tvg-logo="https://assets.livednow.com/logo/MytvSuper.png" group-title="體育", myTV SUPER 直播足球5台
+#EXTINF:-1 tvg-id="myTV-SUPER-Football-5" tvg-name="myTV SUPER 直播足球5台" tvg-logo="https://assets.livednow.com/logo/myTV-SUPER-Football-5.png" group-title="體育", myTV SUPER 直播足球5台
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=54700d7a381b80ae395a312e03a9abeb:7c68d289628867bf691b42e90a50d349
 http://xg.52sw.top:5000/mytvsuper/EVT5
-#EXTINF:-1 tvg-id="MytvSuper" tvg-name="myTV SUPER 直播足球6台" tvg-logo="https://assets.livednow.com/logo/MytvSuper.png" group-title="體育", myTV SUPER 直播足球6台
+#EXTINF:-1 tvg-id="myTV-SUPER-Football-6" tvg-name="myTV SUPER 直播足球6台" tvg-logo="https://assets.livednow.com/logo/myTV-SUPER-Football-6.png" group-title="體育", myTV SUPER 直播足球6台
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e069fc056280e4caa7d0ffb99024c05a:d3693103f232f28b4781bbc7e499c43a
 http://xg.52sw.top:5000/mytvsuper/EVT6
+#EXTINF:-1 tvg-id="MytvSuper" tvg-name="互動窗 1" tvg-logo="https://assets.livednow.com/logo/MytvSuper.png" group-title="體育", 互動窗 1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f07372db27b162d69adf9aa612ae3364:da1631a2b2a836c5b7a3d044a18a4f16
+http://xg.52sw.top:5000/mytvsuper/C3
+#EXTINF:-1 tvg-id="MytvSuper" tvg-name="互動窗 2" tvg-logo="https://assets.livednow.com/logo/MytvSuper.png" group-title="體育", 互動窗 2
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1ba88eacde780c7567255b8b33026ae5:f7df792aab8992b79d72a8d01987ecb5
+http://xg.52sw.top:5000/mytvsuper/C2
