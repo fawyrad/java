@@ -4,6 +4,22 @@
       "name": "Stream-link",
       "url": "https://www.stream-link.org/stream-link.m3u"
     },
+        {
+      "name": "Samsung TV Plus",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/ 128.0.6565.0 Safari/537.36 Edg/126.0.2592.81",
+      "type": 0,
+      "url": "https://i.mjh.nz/SamsungTVPlus/all.m3u8",
+      "epg": "http://diyp1.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://diyp1.112114.xyz/logo/{name}.png"
+    },
+        {
+      "name": "安博",
+      "url": "https://www.dussl.icu/Anbo_dussl.m3u",
+      "epg": "http://diyp1.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://diyp1.112114.xyz/logo/{name}.png",
+      "ua": "AptvPlayer/1.3.5,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/ 128.0.6565.0 Safari/537.36 Edg/126.0.2592.81 ",
+      "playerType": 2
+    },
     {
       "name": "四季線上4gTV",
       "url": "http://xg.52sw.top:5000/4gtv.m3u"
