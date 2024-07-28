@@ -50,7 +50,13 @@ jobs:
           sed -i '/#EXTM3U/d; /^\s*$/d' ./m3u/52top/mytvsuper.m3u
           wget -O ./m3u/mewatchsg.m3u8 https://raw.githubusercontent.com/samleong123/mewatchsg/main/mewatchsg_drm_wv_url.m3u8 || true
           sed -i '/#EXTM3U/d; /^\s*$/d' ./m3u/mewatchsg.m3u8
-          wget -O ./m3u/stream-link.m3u https://www.stream-link.org/stream-link.m3u || true
+          wget 'https://www.stream-link.org/stream-link.m3u' \
+          --header='Upgrade-Insecure-Requests: 1' \
+          --header='User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \
+          --header='sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"' \
+          --header='sec-ch-ua-mobile: ?0' \
+          --header='sec-ch-ua-platform: "Windows"' \
+          -O ./m3u/stream-link.m3u || true
           sed -i '/#EXTM3U/d; /^\s*$/d' ./m3u/stream-link.m3u
 
           
