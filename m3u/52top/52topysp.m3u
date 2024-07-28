@@ -196,9 +196,9 @@ http://xg.52sw.top:5000/ysp/xinjiang
 #EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://assets.livednow.com/logo/兵团卫视.png" group-title="卫视", 兵团卫视
 http://xg.52sw.top:5000/ysp/bingtuan
 
+#EXTINF:-1 tvg-id="2024249303" tvg-name="2024巴黎奥运会冲浪男女第1轮" tvg-logo="https://jietufengmian.yangshipin.cn/20240720/2250228564230/386bf279c75db95010317880cb8455f9.webp?imageMogr2/format/png/thumbnail/500x" group-title="黄金赛事", 2024巴黎奥运会冲浪男女第1轮
+http://xg.52sw.top:5000/ysp/2024249303
+
 #EXTINF:-1 tvg-id="2024347303" tvg-name="巴黎奥运会开幕式" tvg-logo="https://jietufengmian.yangshipin.cn/20240727/0113032856597/4c7defea9e0a67ebbff70457f40598fe.webp?imageMogr2/format/png/thumbnail/500x" group-title="黄金赛事", 巴黎奥运会开幕式
 http://xg.52sw.top:5000/ysp/2024347303
-
-#EXTINF:-1 tvg-id="2024236803" tvg-name="巴黎晨报（7月27日）" tvg-logo="https://jietufengmian.yangshipin.cn/20240727/0429117400870/0d9f0ef310bdb73f214273623f9c7927.webp?imageMogr2/format/png/thumbnail/500x" group-title="黄金赛事", 巴黎晨报（7月27日）
-http://xg.52sw.top:5000/ysp/2024236803
 
