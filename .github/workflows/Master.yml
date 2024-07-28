@@ -50,13 +50,7 @@ jobs:
           sed -i '/#EXTM3U/d; /^\s*$/d' ./m3u/52top/mytvsuper.m3u
           wget -O ./m3u/mewatchsg.m3u8 https://raw.githubusercontent.com/samleong123/mewatchsg/main/mewatchsg_drm_wv_url.m3u8 || true
           sed -i '/#EXTM3U/d; /^\s*$/d' ./m3u/mewatchsg.m3u8
-          wget 'https://www.stream-link.org/stream-link.m3u' \
-          --header='Upgrade-Insecure-Requests: 1' \
-          --header='User-Agent: okhttp/3.2.0' \
-          -O ./m3u/stream-link.m3u || true
-          sed -i '/#EXTM3U/d; /^\s*$/d' ./m3u/stream-link.m3u
-
-          
+                   
           # tw
           wget -O ./m3u/tw.m3u https://raw.githubusercontent.com/iptv-org/iptv/master/streams/tw.m3u || true
           sed -i 's/#EXTINF:-1/#EXTINF:-1 group-title="TW"/g; /^\s*$/d' ./m3u/tw.m3u
@@ -99,7 +93,7 @@ jobs:
       - name: Integrate Master Playlist
         run: |
           rm -f Master.m3u && touch Master.m3u
-          cat ./m3u/Kiki.m3u ./m3u/mewatchsg.m3u8 ./m3u/52top/itv_proxy.m3u ./m3u/stream-link.m3u ./m3u/52top/4gtv.m3u ./m3u/52top/mytvsuper.m3u >> Master.m3u
+          cat ./m3u/Kiki.m3u ./m3u/mewatchsg.m3u8 ./m3u/52top/itv_proxy.m3u ./m3u/52top/4gtv.m3u ./m3u/52top/mytvsuper.m3u >> Master.m3u
           sed -i '1i #EXTM3U\n#EXTM3U x-tvg-url="https://raw.githubusercontent.com/Tina-062006/java/main/EPG/EPG.xml"' Master.m3u
 
       - name: Commit and Push Changes
