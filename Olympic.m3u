@@ -1,134 +1,195 @@
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=019f6e480f774cae8539901c9edd2a60:6bd5db15b704e4f3dfa9a25a9cda6b79
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-id="472216" tvg-chno="472216" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='7915740'&EntityType='Item'&EntityId='472924'&Width=1024&Height=576",Paris 2024 CH18
-https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/1586998/assetType/media/assetFileId/20110964/contextType/PLAYBACK/isAltUrl/False/a.mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0e75d23cdbbf4fefa09f106a71ec8c18:8cf2a0ab6990b5091dd95dac3288789c
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-id="472026" tvg-chno="472026" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='7915734'&EntityType='Item'&EntityId='472923'&Width=1024&Height=576",Paris 2024 CH16
-https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/1586996/assetType/media/assetFileId/20109883/contextType/PLAYBACK/isAltUrl/False/a.mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=e21ca3ae80cc40548c51dbeb8ce8b9d7:a36b19182f848e2dad1ea76a5a4e3bda
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-id="471962" tvg-chno="471962" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='7915730'&EntityType='Item'&EntityId='472922'&Width=1024&Height=576",Paris 2024 CH15
-https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/1586995/assetType/media/assetFileId/20109831/contextType/PLAYBACK/isAltUrl/False/a.mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=f78239c7163b4b17873d005f80b850bf:dfb3d1533e62397f696dd49ae136b8c7
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-id="471959" tvg-chno="471959" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='7915726'&EntityType='Item'&EntityId='472921'&Width=1024&Height=576",Paris 2024 CH14
-https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/1586994/assetType/media/assetFileId/20109819/contextType/PLAYBACK/isAltUrl/False/a.mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0ddb4ca731cb4586a7269b29defa452b:fdb9619df86a47faea1145f607be5c2d
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-id="471948" tvg-chno="471948" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='7915720'&EntityType='Item'&EntityId='472920'&Width=1024&Height=576",Paris 2024 CH13
-https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/1586993/assetType/media/assetFileId/20109466/contextType/PLAYBACK/isAltUrl/False/a.mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b5b8a1552dc447c0a58143ded9ea4965:7f629adaf2c7d010674a12ac1f5e6d99
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-id="471742" tvg-chno="471742" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='7915716'&EntityType='Item'&EntityId='472919'&Width=1024&Height=576",Paris 2024 CH12
-https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/1586992/assetType/media/assetFileId/20106521/contextType/PLAYBACK/isAltUrl/False/a.mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=bd4222aecfd44ddcb7e9fdd8d76f0c6b:48411f638e543360b5e8b721a1f51264
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-id="471739" tvg-chno="471739" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='7915712'&EntityType='Item'&EntityId='472918'&Width=1024&Height=576",Paris 2024 CH11
-https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/1586991/assetType/media/assetFileId/20106485/contextType/PLAYBACK/isAltUrl/False/a.mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b73ecf9b3afd4dbe9f3497129af930e4:d8210580581eb63ecc8aa41207196190
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-id="471725" tvg-chno="471725" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='7915708'&EntityType='Item'&EntityId='472917'&Width=1024&Height=576",Paris 2024 CH10
-https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/1586990/assetType/media/assetFileId/20106232/contextType/PLAYBACK/isAltUrl/False/a.mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=347e553679ac416c89724a73f11a7e0e:e03eac0f426ae6a94b02351b2c046f58
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-id="471724" tvg-chno="471724" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='7915704'&EntityType='Item'&EntityId='472916'&Width=1024&Height=576",Paris 2024 CH09
-https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/1586989/assetType/media/assetFileId/20106124/contextType/PLAYBACK/isAltUrl/False/a.mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=3ef636158fd6489da0a63ab426587308:6c1a22550758100c4a2b95e4b0dfad8d
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-id="472215" tvg-chno="472215" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='7914249'&EntityType='Item'&EntityId='472871'&Width=1024&Height=576",Paris 2024 CH17
-https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/1586997/assetType/media/assetFileId/20110952/contextType/PLAYBACK/isAltUrl/False/a.mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=e78fde7e99d246f8a511587de98ebdaa:98cc62c131a81705c74b405e51b059cb
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-id="471666" tvg-chno="471666" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='7914245'&EntityType='Item'&EntityId='472869'&Width=1024&Height=576",Paris 2024 CH08
-https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/1586988/assetType/media/assetFileId/20105496/contextType/PLAYBACK/isAltUrl/False/a.mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=e371a0b27db64256b4b43dafcb04b759:34b573374930646e97b4009de29b7058
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-id="471661" tvg-chno="471661" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='7914241'&EntityType='Item'&EntityId='472868'&Width=1024&Height=576",Paris 2024 CH07
-https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/1586987/assetType/media/assetFileId/20074556/contextType/PLAYBACK/isAltUrl/False/a.mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=94435d90aa5043aea3901de619747a3d:af3f0047f71346c127dfb9be139df37a
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-id="471729" tvg-chno="471729" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='7914237'&EntityType='Item'&EntityId='472866'&Width=1024&Height=576",Paris 2024 CH06
-https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/1586986/assetType/media/assetFileId/20074544/contextType/PLAYBACK/isAltUrl/False/a.mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=c9a5ac35c7084fe7b636805b7bde58dc:046fadba2c1cd2cf184b33ae6e1fc495
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-id="471662" tvg-chno="471662" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='7914231'&EntityType='Item'&EntityId='472863'&Width=1024&Height=576",Paris 2024 CH05
-https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/1586985/assetType/media/assetFileId/20074438/contextType/PLAYBACK/isAltUrl/False/a.mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=30b253cc3c164a2496aa1c937070efc2:5f923a53361bdfa477df89bd9d0f2ac2
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-id="471727" tvg-chno="471727" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='7914222'&EntityType='Item'&EntityId='472862'&Width=1024&Height=576",Paris 2024 CH04
-https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/1586984/assetType/media/assetFileId/20070548/contextType/PLAYBACK/isAltUrl/False/a.mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=142a3c07ea6742bf99f7ae5eaa8db32f:d1ec541224d76fb8d8938f9d1d58d209
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-id="469700" tvg-chno="469700" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='7914218'&EntityType='Item'&EntityId='472861'&Width=1024&Height=576",Paris 2024 CH03
-https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/1586983/assetType/media/assetFileId/20064752/contextType/PLAYBACK/isAltUrl/False/a.mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=f9c25c77ec994a979453d826b0eda5be:d54c0d2c9873abcf9197bb82fd3e8a4a
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-id="469475" tvg-chno="469475" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='7914214'&EntityType='Item'&EntityId='472859'&Width=1024&Height=576",Paris 2024 CH02
-https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/1586982/assetType/media/assetFileId/20061571/contextType/PLAYBACK/isAltUrl/False/a.mpd
+#EXTM3U x-tvg-url="https://epg.v1.mk/fy.xml"
+#EXTINF:-1,tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://epg.v1.mk/logo/cctv5.png" group-title="央视",CCTV5
+http://cdn.1678520.xyz/xsj.php?id=cctv5
+#EXTINF:-1,tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://epg.v1.mk/logo/cctv5+.png" group-title="央视",CCTV5+
+http://cdn.1678520.xyz/xsj.php?id=cctv5plus
+#EXTINF:-1,tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://epg.v1.mk/logo/cctv16.png" group-title="央视",CCTV16
+http://cdn.1678520.xyz/xsj.php?id=cctv16
+#EXTINF:-1,tvg-id="ELTA1" tvg-name="ELTA1" tvg-logo="https://epg.v1.mk/logo/ELTA1.png" group-title="ELTA",ELTA奥运1台
+http://cdn.1678520.xyz/xsj.php?id=elta-oly1
+#EXTINF:-1,tvg-id="ELTA1" tvg-name="ELTA1" tvg-logo="https://epg.v1.mk/logo/ELTA1.png" group-title="ELTA",ELTA奥运2台
+http://cdn.1678520.xyz/xsj.php?id=elta-oly2
+#EXTINF:-1,tvg-id="ELTA1" tvg-name="ELTA1" tvg-logo="https://epg.v1.mk/logo/ELTA1.png" group-title="ELTA",ELTA奥运3台
+http://cdn.1678520.xyz/xsj.php?id=elta-oly3
+#EXTINF:-1,tvg-id="ELTA1" tvg-name="ELTA1" tvg-logo="https://epg.v1.mk/logo/ELTA1.png" group-title="ELTA",ELTA奥运4台
+http://cdn.1678520.xyz/xsj.php?id=elta-oly4
+#EXTINF:-1,tvg-id="ELTA1" tvg-name="ELTA1" tvg-logo="https://epg.v1.mk/logo/ELTA1.png" group-title="ELTA",ELTA奥运5台
+http://cdn.1678520.xyz/xsj.php?id=elta-oly5
+#EXTINF:-1,tvg-id="ELTA1" tvg-name="ELTA1" tvg-logo="https://epg.v1.mk/logo/ELTA1.png" group-title="ELTA",ELTA奥运6台
+http://cdn.1678520.xyz/xsj.php?id=elta-oly6
+#EXTINF:-1,tvg-id="ELTA1" tvg-name="ELTA1" tvg-logo="https://epg.v1.mk/logo/ELTA1.png" group-title="ELTA",ELTA奥运7台
+http://cdn.1678520.xyz/xsj.php?id=elta-oly7
+#EXTINF:-1,tvg-id="ASTROOASIS" tvg-name="ASTROOASIS" tvg-logo="https://epg.v1.mk/logo/ASTROOASIS.png" group-title="Astro",Astro OLY 1
+http://cdn.1678520.xyz/xsj.php?id=astro-oly1
+#EXTINF:-1,tvg-id="ASTROOASIS" tvg-name="ASTROOASIS" tvg-logo="https://epg.v1.mk/logo/ASTROOASIS.png" group-title="Astro",Astro OLY 2
+http://cdn.1678520.xyz/xsj.php?id=astro-oly2
+#EXTINF:-1,tvg-id="ASTROOASIS" tvg-name="ASTROOASIS" tvg-logo="https://epg.v1.mk/logo/ASTROOASIS.png" group-title="Astro",Astro OLY 3
+http://cdn.1678520.xyz/xsj.php?id=astro-oly3
+#EXTINF:-1,tvg-id="ASTROOASIS" tvg-name="ASTROOASIS" tvg-logo="https://epg.v1.mk/logo/ASTROOASIS.png" group-title="Astro",Astro OLY 4
+http://cdn.1678520.xyz/xsj.php?id=astro-oly4
+#EXTINF:-1,tvg-id="ASTROOASIS" tvg-name="ASTROOASIS" tvg-logo="https://epg.v1.mk/logo/ASTROOASIS.png" group-title="Astro",Astro OLY 5
+http://cdn.1678520.xyz/xsj.php?id=astro-oly5
+#EXTINF:-1,tvg-id="ASTROOASIS" tvg-name="ASTROOASIS" tvg-logo="https://epg.v1.mk/logo/ASTROOASIS.png" group-title="Astro",Astro OLY 6
+http://cdn.1678520.xyz/xsj.php?id=astro-oly6
+#EXTINF:-1,tvg-id="ASTROOASIS" tvg-name="ASTROOASIS" tvg-logo="https://epg.v1.mk/logo/ASTROOASIS.png" group-title="Astro",Astro OLY 7
+http://cdn.1678520.xyz/xsj.php?id=astro-oly7
+#EXTINF:-1,tvg-id="ASTROOASIS" tvg-name="ASTROOASIS" tvg-logo="https://epg.v1.mk/logo/ASTROOASIS.png" group-title="Astro",Astro OLY 8
+http://cdn.1678520.xyz/xsj.php?id=astro-oly8
+#EXTINF:-1,tvg-id="ASTROOASIS" tvg-name="ASTROOASIS" tvg-logo="https://epg.v1.mk/logo/ASTROOASIS.png" group-title="Astro",Astro OLY 9
+http://cdn.1678520.xyz/xsj.php?id=astro-oly9
+#EXTINF:-1,tvg-id="ASTROOASIS" tvg-name="ASTROOASIS" tvg-logo="https://epg.v1.mk/logo/ASTROOASIS.png" group-title="Astro",Astro OLY 10
+http://cdn.1678520.xyz/xsj.php?id=astro-oly10
+#EXTINF:-1,tvg-id="ASTROOASIS" tvg-name="ASTROOASIS" tvg-logo="https://epg.v1.mk/logo/ASTROOASIS.png" group-title="Astro",Astro OLY 11
+http://cdn.1678520.xyz/xsj.php?id=astro-oly11
+#EXTINF:-1,tvg-id="ASTROOASIS" tvg-name="ASTROOASIS" tvg-logo="https://epg.v1.mk/logo/ASTROOASIS.png" group-title="Astro",Astro OLY 12
+http://cdn.1678520.xyz/xsj.php?id=astro-oly12
+#EXTINF:-1,tvg-id="ASTROOASIS" tvg-name="ASTROOASIS" tvg-logo="https://epg.v1.mk/logo/ASTROOASIS.png" group-title="Astro",Astro OLY 13
+http://cdn.1678520.xyz/xsj.php?id=astro-oly13
+#EXTINF:-1,tvg-id="ASTROOASIS" tvg-name="ASTROOASIS" tvg-logo="https://epg.v1.mk/logo/ASTROOASIS.png" group-title="Astro",Astro OLY 14
+http://cdn.1678520.xyz/xsj.php?id=astro-oly14
+#EXTINF:-1,tvg-id="ASTROOASIS" tvg-name="ASTROOASIS" tvg-logo="https://epg.v1.mk/logo/ASTROOASIS.png" group-title="Astro",Astro OLY 15
+http://cdn.1678520.xyz/xsj.php?id=astro-oly15
+#EXTINF:-1,tvg-id="ASTROOASIS" tvg-name="ASTROOASIS" tvg-logo="https://epg.v1.mk/logo/ASTROOASIS.png" group-title="Astro",Astro OLY 16
+http://cdn.1678520.xyz/xsj.php?id=astro-oly16
+#EXTINF:-1,tvg-id="MYTVSUPER18" tvg-name="MYTVSUPER18" tvg-logo="https://epg.v1.mk/logo/MYTVSUPER18.png" group-title="港澳台",MyTVSuper奥运801
+http://cdn.1678520.xyz/xsj.php?id=mytvsuper-oly801
+#EXTINF:-1,tvg-id="MYTVSUPER18" tvg-name="MYTVSUPER18" tvg-logo="https://epg.v1.mk/logo/MYTVSUPER18.png" group-title="港澳台",MyTVSuper奥运802
+http://cdn.1678520.xyz/xsj.php?id=mytvsuper-oly802
+#EXTINF:-1,tvg-id="MYTVSUPER18" tvg-name="MYTVSUPER18" tvg-logo="https://epg.v1.mk/logo/MYTVSUPER18.png" group-title="港澳台",MyTVSuper奥运803
+http://cdn.1678520.xyz/xsj.php?id=mytvsuper-oly803
+#EXTINF:-1,tvg-id="MYTVSUPER18" tvg-name="MYTVSUPER18" tvg-logo="https://epg.v1.mk/logo/MYTVSUPER18.png" group-title="港澳台",MyTVSuper奥运804
+http://cdn.1678520.xyz/xsj.php?id=mytvsuper-oly804
+#EXTINF:-1,tvg-id="MYTVSUPER18" tvg-name="MYTVSUPER18" tvg-logo="https://epg.v1.mk/logo/MYTVSUPER18.png" group-title="港澳台",MyTVSuper奥运805
+http://cdn.1678520.xyz/xsj.php?id=mytvsuper-oly805
+#EXTINF:-1,tvg-id="MYTVSUPER18" tvg-name="MYTVSUPER18" tvg-logo="https://epg.v1.mk/logo/MYTVSUPER18.png" group-title="港澳台",MyTVSuper奥运806
+http://cdn.1678520.xyz/xsj.php?id=mytvsuper-oly806
+#EXTINF:-1,tvg-id="MYTVSUPER18" tvg-name="MYTVSUPER18" tvg-logo="https://epg.v1.mk/logo/MYTVSUPER18.png" group-title="港澳台",MyTVSuper奥运807
+http://cdn.1678520.xyz/xsj.php?id=mytvsuper-oly807
+#EXTINF:-1,tvg-id="MYTVSUPER18" tvg-name="MYTVSUPER18" tvg-logo="https://epg.v1.mk/logo/MYTVSUPER18.png" group-title="港澳台",MyTVSuper奥运808
+http://cdn.1678520.xyz/xsj.php?id=mytvsuper-oly808
+#EXTINF:-1,tvg-id="MYTVSUPER18" tvg-name="MYTVSUPER18" tvg-logo="https://epg.v1.mk/logo/MYTVSUPER18.png" group-title="港澳台",MyTVSuper奥运809
+http://cdn.1678520.xyz/xsj.php?id=mytvsuper-oly809
+#EXTINF:-1,tvg-id="MYTVSUPER18" tvg-name="MYTVSUPER18" tvg-logo="https://epg.v1.mk/logo/MYTVSUPER18.png" group-title="港澳台",MyTVSuper奥运810
+http://cdn.1678520.xyz/xsj.php?id=mytvsuper-oly810
+#EXTINF:-1,tvg-id="MYTVSUPER18" tvg-name="MYTVSUPER18" tvg-logo="https://epg.v1.mk/logo/MYTVSUPER18.png" group-title="港澳台",MyTVSuper奥运811
+http://cdn.1678520.xyz/xsj.php?id=mytvsuper-oly811
+#EXTINF:-1,tvg-id="MYTVSUPER18" tvg-name="MYTVSUPER18" tvg-logo="https://epg.v1.mk/logo/MYTVSUPER18.png" group-title="港澳台",MyTVSuper奥运812
+http://cdn.1678520.xyz/xsj.php?id=mytvsuper-oly812
+#EXTINF:-1,tvg-id="MYTVSUPER18" tvg-name="MYTVSUPER18" tvg-logo="https://epg.v1.mk/logo/MYTVSUPER18.png" group-title="港澳台",MyTVSuper奥运813
+http://cdn.1678520.xyz/xsj.php?id=mytvsuper-oly813
+#EXTINF:-1,tvg-id="MYTVSUPER18" tvg-name="MYTVSUPER18" tvg-logo="https://epg.v1.mk/logo/MYTVSUPER18.png" group-title="港澳台",MyTVSuper奥运814
+http://cdn.1678520.xyz/xsj.php?id=mytvsuper-oly814
+#EXTINF:-1,tvg-id="MYTVSUPER18" tvg-name="MYTVSUPER18" tvg-logo="https://epg.v1.mk/logo/MYTVSUPER18.png" group-title="港澳台",MyTVSuper奥运815
+http://cdn.1678520.xyz/xsj.php?id=mytvsuper-oly815
+#EXTINF:-1,tvg-id="MYTVSUPER18" tvg-name="MYTVSUPER18" tvg-logo="https://epg.v1.mk/logo/MYTVSUPER18.png" group-title="港澳台",MyTVSuper奥运816
+http://cdn.1678520.xyz/xsj.php?id=mytvsuper-oly816
+#EXTINF:-1,tvg-id="MYTVSUPER18" tvg-name="MYTVSUPER18" tvg-logo="https://epg.v1.mk/logo/MYTVSUPER18.png" group-title="港澳台",MyTVSuper奥运817
+http://cdn.1678520.xyz/xsj.php?id=mytvsuper-oly817
+
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=67617db114014f4c85793b3a23224839:3029635a44a54dc78be8f740728a55f5
 #EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-id="469467" tvg-chno="469467" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='7914205'&EntityType='Item'&EntityId='472858'&Width=1024&Height=576",Paris 2024 CH01
 https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/1586981/assetType/media/assetFileId/20061401/contextType/PLAYBACK/isAltUrl/False/a.mpd
 
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" ch-number="991" tvg-id="991" tvg-chno="991" ,Channel 1 Paris 2024 Olympics
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f9c25c77ec994a979453d826b0eda5be:d54c0d2c9873abcf9197bb82fd3e8a4a
+#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-id="469475" tvg-chno="469475" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='7914214'&EntityType='Item'&EntityId='472859'&Width=1024&Height=576",Paris 2024 CH02
+https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/1586982/assetType/media/assetFileId/20061571/contextType/PLAYBACK/isAltUrl/False/a.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=142a3c07ea6742bf99f7ae5eaa8db32f:d1ec541224d76fb8d8938f9d1d58d209
+#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-id="469700" tvg-chno="469700" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='7914218'&EntityType='Item'&EntityId='472861'&Width=1024&Height=576",Paris 2024 CH03
+https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/1586983/assetType/media/assetFileId/20064752/contextType/PLAYBACK/isAltUrl/False/a.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=30b253cc3c164a2496aa1c937070efc2:5f923a53361bdfa477df89bd9d0f2ac2
+#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-id="471727" tvg-chno="471727" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='7914222'&EntityType='Item'&EntityId='472862'&Width=1024&Height=576",Paris 2024 CH04
+https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/1586984/assetType/media/assetFileId/20070548/contextType/PLAYBACK/isAltUrl/False/a.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c9a5ac35c7084fe7b636805b7bde58dc:046fadba2c1cd2cf184b33ae6e1fc495
+#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-id="471662" tvg-chno="471662" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='7914231'&EntityType='Item'&EntityId='472863'&Width=1024&Height=576",Paris 2024 CH05
+https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/1586985/assetType/media/assetFileId/20074438/contextType/PLAYBACK/isAltUrl/False/a.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=94435d90aa5043aea3901de619747a3d:af3f0047f71346c127dfb9be139df37a
+#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-id="471729" tvg-chno="471729" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='7914237'&EntityType='Item'&EntityId='472866'&Width=1024&Height=576",Paris 2024 CH06
+https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/1586986/assetType/media/assetFileId/20074544/contextType/PLAYBACK/isAltUrl/False/a.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e371a0b27db64256b4b43dafcb04b759:34b573374930646e97b4009de29b7058
+#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-id="471661" tvg-chno="471661" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='7914241'&EntityType='Item'&EntityId='472868'&Width=1024&Height=576",Paris 2024 CH07
+https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/1586987/assetType/media/assetFileId/20074556/contextType/PLAYBACK/isAltUrl/False/a.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e78fde7e99d246f8a511587de98ebdaa:98cc62c131a81705c74b405e51b059cb
+#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-id="471666" tvg-chno="471666" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='7914245'&EntityType='Item'&EntityId='472869'&Width=1024&Height=576",Paris 2024 CH08
+https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/1586988/assetType/media/assetFileId/20105496/contextType/PLAYBACK/isAltUrl/False/a.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=347e553679ac416c89724a73f11a7e0e:e03eac0f426ae6a94b02351b2c046f58
+#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-id="471724" tvg-chno="471724" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='7915704'&EntityType='Item'&EntityId='472916'&Width=1024&Height=576",Paris 2024 CH09
+https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/1586989/assetType/media/assetFileId/20106124/contextType/PLAYBACK/isAltUrl/False/a.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b73ecf9b3afd4dbe9f3497129af930e4:d8210580581eb63ecc8aa41207196190
+#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-id="471725" tvg-chno="471725" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='7915708'&EntityType='Item'&EntityId='472917'&Width=1024&Height=576",Paris 2024 CH10
+https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/1586990/assetType/media/assetFileId/20106232/contextType/PLAYBACK/isAltUrl/False/a.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=bd4222aecfd44ddcb7e9fdd8d76f0c6b:48411f638e543360b5e8b721a1f51264
+#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-id="471739" tvg-chno="471739" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='7915712'&EntityType='Item'&EntityId='472918'&Width=1024&Height=576",Paris 2024 CH11
+https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/1586991/assetType/media/assetFileId/20106485/contextType/PLAYBACK/isAltUrl/False/a.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b5b8a1552dc447c0a58143ded9ea4965:7f629adaf2c7d010674a12ac1f5e6d99
+#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-id="471742" tvg-chno="471742" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='7915716'&EntityType='Item'&EntityId='472919'&Width=1024&Height=576",Paris 2024 CH12
+https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/1586992/assetType/media/assetFileId/20106521/contextType/PLAYBACK/isAltUrl/False/a.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0ddb4ca731cb4586a7269b29defa452b:fdb9619df86a47faea1145f607be5c2d
+#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-id="471948" tvg-chno="471948" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='7915720'&EntityType='Item'&EntityId='472920'&Width=1024&Height=576",Paris 2024 CH13
+https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/1586993/assetType/media/assetFileId/20109466/contextType/PLAYBACK/isAltUrl/False/a.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f78239c7163b4b17873d005f80b850bf:dfb3d1533e62397f696dd49ae136b8c7
+#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-id="471959" tvg-chno="471959" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='7915726'&EntityType='Item'&EntityId='472921'&Width=1024&Height=576",Paris 2024 CH14
+https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/1586994/assetType/media/assetFileId/20109819/contextType/PLAYBACK/isAltUrl/False/a.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e21ca3ae80cc40548c51dbeb8ce8b9d7:a36b19182f848e2dad1ea76a5a4e3bda
+#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-id="471962" tvg-chno="471962" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='7915730'&EntityType='Item'&EntityId='472922'&Width=1024&Height=576",Paris 2024 CH15
+https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/1586995/assetType/media/assetFileId/20109831/contextType/PLAYBACK/isAltUrl/False/a.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0e75d23cdbbf4fefa09f106a71ec8c18:8cf2a0ab6990b5091dd95dac3288789c
+#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-id="472026" tvg-chno="472026" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='7915734'&EntityType='Item'&EntityId='472923'&Width=1024&Height=576",Paris 2024 CH16
+https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/1586996/assetType/media/assetFileId/20109883/contextType/PLAYBACK/isAltUrl/False/a.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3ef636158fd6489da0a63ab426587308:6c1a22550758100c4a2b95e4b0dfad8d
+#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-id="472215" tvg-chno="472215" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='7914249'&EntityType='Item'&EntityId='472871'&Width=1024&Height=576",Paris 2024 CH17
+https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/1586997/assetType/media/assetFileId/20110952/contextType/PLAYBACK/isAltUrl/False/a.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=019f6e480f774cae8539901c9edd2a60:6bd5db15b704e4f3dfa9a25a9cda6b79
+#EXTINF:-1 group-title="OLYMPIC PARIS 2024" tvg-id="472216" tvg-chno="472216" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/%24value?Format='png'&Quality=85&ImageId='7915740'&EntityType='Item'&EntityId='472924'&Width=1024&Height=576",Paris 2024 CH18
+https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/1586998/assetType/media/assetFileId/20110964/contextType/PLAYBACK/isAltUrl/False/a.mpd
+
+#EXTINF:-1 group-title="RTM" ch-number="991" tvg-id="991" tvg-chno="991" ,Channel 1 Paris 2024 Olympics
 https://d30aylox5wvifh.cloudfront.net/event/smil:ag1/playlist.m3u8?id=11
 
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" ch-number="992" tvg-id="992" tvg-chno="992" ,Channel 2 Paris 2024 Olympics
+#EXTINF:-1 group-title="RTM" ch-number="992" tvg-id="992" tvg-chno="992" ,Channel 2 Paris 2024 Olympics
 https://d30aylox5wvifh.cloudfront.net/event/smil:ag2/playlist.m3u8?id=12
 
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" ch-number="993" tvg-id="993" tvg-chno="993" ,Channel 3 Paris 2024 Olympics
+#EXTINF:-1 group-title="RTM" ch-number="993" tvg-id="993" tvg-chno="993" ,Channel 3 Paris 2024 Olympics
 https://d30aylox5wvifh.cloudfront.net/event/smil:ag3/playlist.m3u8?id=13
 
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" ch-number="994" tvg-id="994" tvg-chno="994" ,Channel 4 Paris 2024 Olympics
+#EXTINF:-1 group-title="RTM" ch-number="994" tvg-id="994" tvg-chno="994" ,Channel 4 Paris 2024 Olympics
 https://d30aylox5wvifh.cloudfront.net/event/smil:ag4/playlist.m3u8?id=14
 
-#EXTINF:-1 group-title="OLYMPIC PARIS 2024" ch-number="995" tvg-id="995" tvg-chno="995" ,Channel 5 Paris 2024 Olympics
+#EXTINF:-1 group-title="RTM" ch-number="995" tvg-id="995" tvg-chno="995" ,Channel 5 Paris 2024 Olympics
 https://d30aylox5wvifh.cloudfront.net/event/smil:ag5/playlist.m3u8?id=15
 
 #EXTINF:-1 group-title="OLYMPIC PARIS 2024" ch-number="996" tvg-id="996" tvg-chno="996" ,Channel 6 Paris 2024 Olympics
 https://d25tgymtnqzu8s.cloudfront.net/event/smil:event1/playlist.m3u8?id=16
-
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#EXTHTTP:{"User-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"4Ztpf97cWwzwrVBo3hPQqQ", "kid":"lPrhfk0V4c0L3HztCW+lEA" } ], "type":"temporary" }
-#EXTINF:-1 group-logo="https://iili.io/dx8UOYP.png" group-title="OLYMPIC PARIS 2024" tvg-logo="https://i.ibb.co/BVgQMvd/Sukan-Olimpik-Paris-2024.jpg" tvg-id="780.astro",Astro OLY 1
-https://linearjitp02-playback.astro.com.my/dash-wv/linear/5150/default.mpd
-
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#EXTHTTP:{"User-agent":"TiviMate/5.0.4 (Android 7.0)"}
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"4Ztpf97cWwzwrVBo3hPQqQ", "kid":"lPrhfk0V4c0L3HztCW+lEA" } ], "type":"temporary" }
-#EXTINF:-1 group-logo="https://iili.io/dx8UOYP.png" group-title="OLYMPIC PARIS 2024" tvg-logo="https://i.ibb.co/BVgQMvd/Sukan-Olimpik-Paris-2024.jpg" tvg-id="780.astro",Astro OLY 1
-https://linearjitp02-playback.astro.com.my/dash-wv/linear/5150/default.mpd
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#EXTHTTP:{"User-agent":"TiviMate/5.0.4 (Android 7.0)"}
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"xqCbHYAdNjHNd9pIZXjd9g", "kid":"FgTsETWMbIgQK++Ktb3KEA" } ], "type":"temporary" }
-#EXTINF:-1 group-logo="https://iili.io/dx8UOYP.png" group-title="OLYMPIC PARIS 2024" tvg-logo="https://i.ibb.co/BVgQMvd/Sukan-Olimpik-Paris-2024.jpg" tvg-id="781.astro",Astro OLY 2
-https://linearjitp02-playback.astro.com.my/dash-wv/linear/5151/default.mpd
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#EXTHTTP:{"User-agent":"TiviMate/5.0.4 (Android 7.0)"}
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"fHqYI2x9zOQ/EmkZAGC4oA", "kid":"1q/iRrPbBn34N/r8BneNEA" } ], "type":"temporary" }
-#EXTINF:-1 group-logo="https://iili.io/dx8UOYP.png" group-title="OLYMPIC PARIS 2024" tvg-logo="https://i.ibb.co/BVgQMvd/Sukan-Olimpik-Paris-2024.jpg" tvg-id="782.astro",Astro OLY 3
-https://linearjitp02-playback.astro.com.my/dash-wv/linear/5152/default.mpd
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#EXTHTTP:{"User-agent":"TiviMate/5.0.4 (Android 7.0)"}
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"ocORwepRV1bVJyly1rvXKQ", "kid":"ZKjwhJDZHe2J+XfYWHjREA" } ], "type":"temporary" }
-#EXTINF:-1 group-logo="https://iili.io/dx8UOYP.png" group-title="OLYMPIC PARIS 2024" tvg-logo="https://i.ibb.co/BVgQMvd/Sukan-Olimpik-Paris-2024.jpg" tvg-id="783.astro",Astro OLY 4
-https://linearjitp02-playback.astro.com.my/dash-wv/linear/5153/default.mpd
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#EXTHTTP:{"User-agent":"TiviMate/5.0.4 (Android 7.0)"}
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"KI5/icnIcm2IB1Pdr55w7Q", "kid":"jLZ7f6NN5hUylHJUMJ1NEA" } ], "type":"temporary" }
-#EXTINF:-1 group-logo="https://iili.io/dx8UOYP.png" group-title="OLYMPIC PARIS 2024" tvg-logo="https://i.ibb.co/BVgQMvd/Sukan-Olimpik-Paris-2024.jpg" tvg-id="784.astro",Astro OLY 5
-https://linearjitp02-playback.astro.com.my/dash-wv/linear/5154/default_primary.mpd
