@@ -322,9 +322,6 @@ http://xg.52sw.top:5000/tptv/HD-4000k-1080P-jsyihua?type=proxy
 #EXTINF:-1 tvg-id="猎冰" tvg-name="猎冰" tvg-logo="https://assets.livednow.com/logo/GITV.png" group-title="特色", 猎冰
 http://xg.52sw.top:5000/tptv/cos-liebing?type=proxy
 
-#EXTINF:-1 tvg-id="烟火人间" tvg-name="烟火人间" tvg-logo="https://assets.livednow.com/logo/GITV.png" group-title="特色", 烟火人间
-http://xg.52sw.top:5000/tptv/cos-yanhuorenjian?type=proxy
-
 #EXTINF:-1 tvg-id="永安梦" tvg-name="永安梦" tvg-logo="https://assets.livednow.com/logo/GITV.png" group-title="特色", 永安梦
 http://xg.52sw.top:5000/tptv/cos-yonganmeng?type=proxy
 
