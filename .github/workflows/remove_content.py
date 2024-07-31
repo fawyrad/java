@@ -24,7 +24,7 @@ def replace_content(content):
         r'#EXTGRP:Sports': 'group-title="Sports 2"',
         r'#EXTGRP:Radio': 'group-title="Radio 2"',
         r'#EXTGRP:\[\*\] PLUS: SEA\'s FTA Channels': 'group-title="FTA Channels 2"',
-        r'Mozilla/5\.0 \(Windows NT 10\.0; Win64; x64\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/\d+\.\d+\.\d+\.\d+ Safari/537\.36': 'TiviMate/5.0.4 (Android 7.0)'
+       # r'Mozilla/5\.0 \(Windows NT 10\.0; Win64; x64\) AppleWebKit/537\.36 \(KHTML, like Gecko\) Chrome/\d+\.\d+\.\d+\.\d+ Safari/537\.36': 'TiviMate/5.0.4 (Android 7.0)'
     }
     content_str = ''.join(content)
     for old, new in replacements.items():
