@@ -23,8 +23,9 @@ jobs:
             local url=$1
             local output=$2
             for i in {1..1}; do
-              wget -O "$output" "$url" && break || echo "Retry $i for $url"
               wget -T 10 -O "$output" "$url" && break || echo "$i Skipping $url due to download failure"
+              sleep 1
+            done
           }
 
           download_or_skip https://raw.githubusercontent.com/aseanic/aseanic.github.io/main/iptv ./m3u/aseanic.m3u || true
