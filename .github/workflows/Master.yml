@@ -22,7 +22,7 @@ jobs:
           download_or_skip() {
             local url=$1
             local output=$2
-            wget -O "$output" "$url" || echo "Skipping $url due to download failure"
+            wget -T 10 -O "$output" "$url" || echo "Skipping $url due to download failure"
           }
 
           download_or_skip https://raw.githubusercontent.com/aseanic/aseanic.github.io/main/iptv ./m3u/aseanic.m3u
@@ -74,6 +74,7 @@ jobs:
           download_or_skip https://cutt.ly/FreeviewMY-EPG-2 ./EPG/Astro.xml
           download_or_skip https://raw.githubusercontent.com/AqFad2811/epg/main/singapore.xml ./EPG/SG.xml
           wget 'https://assets.livednow.com/epg.xml' \
+          --timeout=10 \
           --header='Upgrade-Insecure-Requests: 1' \
           --header='User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \
           --header='sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"' \
