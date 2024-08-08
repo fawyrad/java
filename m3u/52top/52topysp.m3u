@@ -52,9 +52,6 @@ https://noisy-nikoletta-jamin-9f6d6e7b.koyeb.app/ysp/cctv15
 #EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV 16" tvg-logo="https://assets.livednow.com/logo/CCTV16.png" group-title="央视", CCTV 16
 https://noisy-nikoletta-jamin-9f6d6e7b.koyeb.app/ysp/cctv16
 
-#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV 16 4K" tvg-logo="https://assets.livednow.com/logo/CCTV16.png" group-title="央视", CCTV 16 4K
-https://noisy-nikoletta-jamin-9f6d6e7b.koyeb.app/ysp/cctv16-4k
-
 #EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV 17" tvg-logo="https://assets.livednow.com/logo/CCTV17.png" group-title="央视", CCTV 17
 https://noisy-nikoletta-jamin-9f6d6e7b.koyeb.app/ysp/cctv17
 
@@ -196,6 +193,6 @@ https://noisy-nikoletta-jamin-9f6d6e7b.koyeb.app/ysp/xinjiang
 #EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://assets.livednow.com/logo/兵团卫视.png" group-title="卫视", 兵团卫视
 https://noisy-nikoletta-jamin-9f6d6e7b.koyeb.app/ysp/bingtuan
 
-#EXTINF:-1 tvg-id="2024529803" tvg-name="ATP1000男子网球大师赛蒙特利尔站第一轮" tvg-logo="https://jietufengmian.yangshipin.cn/20240803/1103089794707/32bbc64a32156a85dbf740f300095d7d.webp?imageMogr2/format/png/thumbnail/500x" group-title="黄金赛事", ATP1000男子网球大师赛蒙特利尔站第一轮
-https://noisy-nikoletta-jamin-9f6d6e7b.koyeb.app/ysp/2024529803
+#EXTINF:-1 tvg-id="2024529903" tvg-name="ATP1000男子网球大师赛蒙特利尔站第一/二轮" tvg-logo="https://jietufengmian.yangshipin.cn/20240803/1103228715257/32bbc64a32156a85dbf740f300095d7d.webp?imageMogr2/format/png/thumbnail/500x" group-title="黄金赛事", ATP1000男子网球大师赛蒙特利尔站第一/二轮
+https://noisy-nikoletta-jamin-9f6d6e7b.koyeb.app/ysp/2024529903
 
