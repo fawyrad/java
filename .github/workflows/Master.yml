@@ -44,12 +44,14 @@ jobs:
 
           wget -O ./m3u/Kiki.m3u https://raw.githubusercontent.com/kiki4177/iptv/main/Kiki || true
           sed -i '/#EXTM3U/d; /^\s*$/d' ./m3u/Kiki.m3u         
-          wget -O ./m3u/52top/4gtv.m3u https://noisy-nikoletta-jamin-9f6d6e7b.koyeb.app/4gtv.m3u || true
+          wget -O ./m3u/52top/4gtv.m3u "http://95.179.139.113:5566/4gtv.m3u || true
           sed -i '/#EXTM3U/d; /^\s*$/d' ./m3u/52top/4gtv.m3u                    
-          wget -O ./m3u/52top/itv_proxy.m3u https://noisy-nikoletta-jamin-9f6d6e7b.koyeb.app/itv_proxy.m3u || true
+          wget -O ./m3u/52top/itv_proxy.m3u "http://95.179.139.113:5566/itv_proxy.m3u || true
           sed -i '/#EXTM3U/d; /^\s*$/d' ./m3u/52top/itv_proxy.m3u          
-          wget -O ./m3u/52top/mytvsuper.m3u https://noisy-nikoletta-jamin-9f6d6e7b.koyeb.app/mytvsuper.m3u || true
+          wget -O ./m3u/52top/mytvsuper.m3u "http://95.179.139.113:5566/mytvsuper.m3u || true
           sed -i '/#EXTM3U/d; /^\s*$/d' ./m3u/52top/mytvsuper.m3u
+          wget -O ./m3u/52top/hami.m3u "http://95.179.139.113:5566/hami.m3u || true
+          sed -i '/#EXTM3U/d; /^\s*$/d' ./m3u/52top/hami.m3u
           wget -O ./m3u/mewatchsg.m3u8 https://raw.githubusercontent.com/samleong123/mewatchsg/main/mewatchsg_drm_wv_url.m3u8 || true
           sed -i '/#EXTM3U/d; /^\s*$/d' ./m3u/mewatchsg.m3u8
                    
