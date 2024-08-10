@@ -29,10 +29,10 @@ jobs:
           wget -O ./m3u/letalqttv.txt https://raw.githubusercontent.com/letallthewind/live/main/qttv.txt || true
           wget -O ./m3u/letalsmart.txt https://raw.githubusercontent.com/letallthewind/live/main/smart.txt || true
           wget -O ./m3u/letalubtv.txt https://raw.githubusercontent.com/letallthewind/live/main/ubtv.txt || true
-          wget -O ./m3u/52top/52topysp.m3u https://noisy-nikoletta-jamin-9f6d6e7b.koyeb.app/ysp.m3u || true
-          wget -O ./m3u/52top/52topbeesport.m3u https://noisy-nikoletta-jamin-9f6d6e7b.koyeb.app/beesport.m3u || true
-          wget -O ./m3u/52top/52toptptv_proxy.m3u https://noisy-nikoletta-jamin-9f6d6e7b.koyeb.app/tptv_proxy.m3u || true
-          wget -O ./m3u/52top/52topsxg.m3u https://noisy-nikoletta-jamin-9f6d6e7b.koyeb.app/sxg.m3u || true
+          wget -O ./m3u/52top/52topysp.m3u http://95.179.139.113:5566/ysp.m3u || true
+          wget -O ./m3u/52top/52topbeesport.m3u http://95.179.139.113:5566/beesport.m3u || true
+          wget -O ./m3u/52top/52toptptv_proxy.m3u http://95.179.139.113:5566/tptv_proxy.m3u || true
+          wget -O ./m3u/52top/52topsxg.m3u http://95.179.139.113:5566/sxg.m3u || true
           wget -O ./m3u/my.m3u https://raw.githubusercontent.com/weareblahs/freeview/main/mytv_broadcasting.m3u8 || true
           wget -O ./m3u/MuZu.html https://raw.githubusercontent.com/imanawesome2010/MuZu/main/index.html || true
           wget -O ./m3u/FreeviewMY.m3u8 https://raw.githubusercontent.com/itszairi/FreeviewMY/main/FreeviewMY.m3u8 || true
