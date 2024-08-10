@@ -4,3 +4,43 @@ https://ck-server.danng.me
 https://ck-server.danng.me/?username=Miepalong7&channelid=5110
 https://ck-server.danng.me/?username=HishamKamarul&channelid=5150
 https://ck-server.danng.me/?username=TURBOBOY&channelid=5128
+
+{
+            "key": "T4-heimuer",
+            "name": "黑木耳(T4)",
+            "type": 4,
+            "api": "https://tang.hz.cz/power/hme?token=b2637f2c",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "T4-欧乐",
+            "name": "欧乐(T4)",
+            "type": 4,
+            "api": "https://tang.hz.cz/power/olelive?token=b2637f2c",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "T4-安博",
+            "name": "安博(T4)",
+            "type": 4,
+            "api": "https://tang.hz.cz/power/ub18?token=b2637f2c",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0
+        },
+https://anbox118.serv00.net/iptv.php
+https://tang.hz.cz/zb/stv?token=fe4eb8f4
+https://tang.hz.cz/power/ub18?token=b1dbee0e
+{
+    "name": "ETH(JS)",
+    "api": "https://tang.hz.cz/js/ethtv.js",
+    "type": 3,
+    "ua": "okhttp/4.12.0"
+}
