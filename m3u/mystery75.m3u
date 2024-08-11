@@ -126,11 +126,6 @@ https://raw.githubusercontent.com/mystery75/m3u8/main/TV9.m3u8
 #EXTINF:-1 tvg-id="114.astro" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Al-Hijrah_v1.png" group-logo="" group-title="FHD",Al-Hijrah 
 https://linearjitp-playback.astro.com.my/dash-wv/linear/1113/default_primary.mpd
 
-#KODIPROP:inputstream.adaptive.license_type=clearkey 
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"ahNrZdLUVpnLHphQbfob7g", "kid":"+E++gm0VdV75HryrZ8V9EA" } ], "type":"temporary" }
-#EXTINF:-1 tvg-id="123.astro" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/433_144.png" group-logo="" group-title="FHD",Awesome 
-https://linearjitp-playback.astro.com.my/dash-wv/linear/211/default_primary.mpd
-
 #EXTINF:-1 tvg-id="107.unifi" tvg-logo="http://playtv.unifi.com.my:7040/CPS/images/universal/film/logo/202102/20210223/20210223181442797931.png" group-logo="" group-title="FHD", DIDIK TV KPM 
 https://raw.githubusercontent.com/mystery75/m3u8/main/DIDIKTVKPM.m3u8
 
@@ -203,7 +198,7 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/609/default_primary.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"ZU8tJaW/snyeWuCFJYShZg", "kid":"hL+a1oSL59sg+dFoI97vEA" } ], "type":"temporary" }
 #EXTINF:-1 tvg-id="108.astro" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Astro_Citra_v1.png" group-logo="" group-title="FHD",Citra 
-http://linears-playback.astro.com.my/vsg/41E31Eg8nkU_yC7pxD9pgzTyMBmgYEGzYM-3toQxmI-4c=A-m5/dash-wv/jitp-linearwm/2700/default_primary.mpd
+http://linears-playback.astro.com.my/vsg/41E31Eg8nkU_yC7pxD9pgzT_AJMpiurirV39PWfzpFFdM=HzNy/dash-wv/jitp-linearwm/2700/default_primary.mpd
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"XzX4FWmRQOJknYJfDSQCjg", "kid":"F9XWLcYZVLgu4BbaJkq9EA" } ], "type":"temporary" }
@@ -229,12 +224,12 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/608/default_primary.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"N2sAl5bkrVDqj2jXlmdmkg", "kid":"P3Jv1cu/WURDek2/q0MbEA" } ], "type":"temporary" }
 #EXTINF:-1 tvg-id="104.astro" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Astro_RIA_v1.png" group-logo="" group-title="FHD",Ria 
-http://linears-playback.astro.com.my/vsg/41qevwA9uMYnSKcebcslTfB_mYjEGX2K8XepIDs1so8ZI=A3Iu/dash-wv/jitp-linearwm/1004/default_primary.mpd
+http://linears-playback.astro.com.my/vsg/41qevwA9uMYnSKcebcslTfB4YMQuS_DNvEnK_UJJPsiU8=zfPa/dash-wv/jitp-linearwm/1004/default_primary.mpd
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"CoDiDFaOiOU8cIfBxkkzGA", "kid":"qixlPwwFVnrig8SjJxqYEA" } ], "type":"temporary" }
 #EXTINF:-1 tvg-id="107.astro" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Astro_Warna_v1.png" group-logo="" group-title="FHD",Warna 
-http://linears-playback.astro.com.my/vsg/41WdOiwCGy3v4v5qi0e1c5gLZnx5GT1LdDX7QS5mjt1no=Yd94/dash-wv/jitp-linearwm/2402/default_primary.mpd
+http://linears-playback.astro.com.my/vsg/41WdOiwCGy3v4v5qi0e1c5gCkVoa4eHrB6rXcyhL6BrEE=fOw9/dash-wv/jitp-linearwm/2402/default_primary.mpd
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"KMxTZ99mbES+Q4LmSvZNVw", "kid":"YHt9IlZcS8O5X/bDPOZUJQ" } ], "type":"temporary" }
@@ -267,14 +262,14 @@ https://tglmp03.akamaized.net/out/v1/14eb6e921cae41298efaa4d9db0f2875/manifest.m
 #####https://linears-playback.astro.com.my/vsg/41J0U2Z_AuaDSPdCY-74gTkBESm4Ym0m4WC28ZHg7TaMw=_WRo/dash-wv/jitp-dashisowm/2400/default_primary.mpd
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://udrmv3.kaltura.com/cenc/widevine/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwczovL3Jlc3QtYXMub3R0LmthbHR1cmEuY29tL2FwaV92My9zZXJ2aWNlL2Fzc2V0RmlsZS9hY3Rpb24vZ2V0Q29udGV4dD9rcz1kako4TXpJd09Yek5yQ05ETUN4SnFFOHExdTdaUS1EVFFlY0N6cHE0algyZTJhMUQ1MjQxYnNJZ1h2aUpzekhhUUtQUlFFS3F3NzdCVDdXYmRHZjYyd2pKX05wVVJ6M2ZuSzUySlpaT1A4b1U5VVhyS1VCcktQOUFISndlclE4Q08wSlNDN3lUVFJZNVhrdlEwMnNILThqS2J5STVuNktDUVJGeTJ3WnNFQVl4MTU2MUpOckJVazcySGdBWlNMZ2N1WmZyOUlWVThMa3hBSXFmRFhvYkE2TjBQZnFReUhSc3VleVhvZ1lEMVFjYVYxSmlkWXV1am5OMVQ0U3pFVjJIQVYtZk5zX09FVTJ6UUs1RkQwVkxrME5VaHVqSmRaZEE5VFZMS0pIZ25CbXl4Z1FCVURnNERCRG94NkFBQVA5U2ZjaTNocnJWOFpHTUJzcndBbWxockJsN1F2aDIxdnNkX2l1VG54eFU2cS1ZUDF5ZWE2WGVvc2s3SjRRS2VnOWNpa0RlTW9teTc3bE9QQXJrZXZDNnRhMjI2NkpyWW9uMHFpa3hhUTFmYUtRaDdvZ0szUGJPQjBYUE1jby1YRkVaUFVNN19FaThndHFoTjluZGhsRFBsdDlRcTVsWWpLWmZ2enpHSS1FNEVWQVVnTkxDVzlUWlhRPT0mY29udGV4dFR5cGU9bm9uZSZpZD0xOTE1NTg1OSIsImFjY291bnRfaWQiOjMwODk2MzMsImNvbnRlbnRfaWQiOiJmMGVmMjMzYTAwMjk0YWY0ODQzMWNhZTlhMTQ2NTExNyIsImZpbGVzIjoiIiwidXNlcl90b2tlbiI6ImRqSjhNekl3T1h6TnJDTkRNQ3hKcUU4cTF1N1pRLURUUWVjQ3pwcTRqWDJlMmExRDUyNDFic0lnWHZpSnN6SGFRS1BSUUVLcXc3N0JUN1diZEdmNjJ3akpfTnBVUnozZm5LNTJKWlpPUDhvVTlVWHJLVUJyS1A5QUhKd2VyUThDTzBKU0M3eVRUUlk1WGt2UTAyc0gtOGpLYnlJNW42S0NRUkZ5Mndac0VBWXgxNTYxSk5yQlVrNzJIZ0FaU0xnY3VaZnI5SVZVOExreEFJcWZEWG9iQTZOMFBmcVF5SFJzdWV5WG9nWUQxUWNhVjFKaWRZdXVqbk4xVDRTekVWMkhBVi1mTnNfT0VVMnpRSzVGRDBWTGswTlVodWpKZFpkQTlUVkxLSkhnbkJteXhnUUJVRGc0REJEb3g2QUFBUDlTZmNpM2hyclY4WkdNQnNyd0FtbGhyQmw3UXZoMjF2c2RfaXVUbnh4VTZxLVlQMXllYTZYZW9zazdKNFFLZWc5Y2lrRGVNb215NzdsT1BBcmtldkM2dGEyMjY2SnJZb24wcWlreGFRMWZhS1FoN29nSzNQYk9CMFhQTWNvLVhGRVpQVU03X0VpOGd0cWhOOW5kaGxEUGx0OVFxNWxZaktaZnZ6ekdJLUU0RVZBVWdOTENXOVRaWFE9PSIsInVkaWQiOiI0MjJkOGY5ZS0yNWI0LTRlNmUtOWU3MC00OGJlMjdhNTg5Y2JfV0VCLTE0MTFkMWNhLWFlMmEtNTA1OC02MjhiLTExYzY4ZmI3ODNmOCIsImFkZGl0aW9uYWxfY2FzX3N5c3RlbSI6MzIwOX0%3d&signature=aLNLFnbaHG%2frxbnSdr%2bXFDjHEWQ%3d&sessionId=3b31910a-9f91-842e-e2d5-532cb5b98df5:4306b63f-62bf-7e12-5c33-582e3a72c891&clientTag=html5:v7.124&referrer=aHR0cHM6Ly9zb29rYS5teS9lbi9wbGF5L2FlYy1oZC8xNDk3ODI0L3BsYXllcj9saW5lYXJJZD0xMDI2Mzg1NjAmaXNMaXZlPXRydWU=
+#KODIPROP:inputstream.adaptive.license_key=https://udrmv3.kaltura.com/cenc/widevine/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwczovL3Jlc3QtYXMub3R0LmthbHR1cmEuY29tL2FwaV92My9zZXJ2aWNlL2Fzc2V0RmlsZS9hY3Rpb24vZ2V0Q29udGV4dD9rcz1kako4TXpJd09Yek5yQ05ETUN4SnFFOHExdTdaUS1EVFFlY0N6cHE0algyZTJhMUQ1MjQxYnNJZ1h2aUpzekhhUUtQUlFFS3F3NzdCVDdXYmRHZjYyd2pKX05wVVJ6M2ZuSzUySlpaT1A4b1U5VVhyS1VCcktQOUFISndlclE4Q08wSlNDN3lUVFJZNVhrdlEwMnNILThqS2J5STVuNktDUVJGeTJ3WnNFQVl4MTU2MUpOckJVazcySGdBWlNMZ2N1WmZyOUlWVThMa3hBSXFmRFhvYkE2TjBQZnFReUhSc3VleVhvZ1lEMVFjYVYxSmlkWXV1am5OMVQ0U3pFVjJIQVYtZk5zX09FVTJ6UUs1RkQwVkxrME5VaHVqSmRaZEE5VFZMS0pIZ25CbXl4Z1FCVURnNERCRG94NkFBQVA5U2ZjaTNocnJWOFpHTUJzcndBbWxockJsN1F2aDIxdnNkX2l1VG54eFU2cS1ZUDF5ZWE2WGVvc2s3SjRRS2VnOWNpa0RlTW9teTc3bE9QQXJrZXZDNnRhMjI2NkpyWW9uMHFpa3hhUTFmYUtRaDdvZ0szUGJPQjBYUE1jby1YRkVaUFVNN19FaThndHFoTjluZGhsRFBsdDlRcTVsWWpLWmZ2enpHSS1FNEVWQVVnTkxDVzlUWlhRPT0mY29udGV4dFR5cGU9bm9uZSZpZD0xOTE1NTg1OSIsImFjY291bnRfaWQiOjMwODk2MzMsImNvbnRlbnRfaWQiOiJmMGVmMjMzYTAwMjk0YWY0ODQzMWNhZTlhMTQ2NTExNyIsImZpbGVzIjoiIiwidXNlcl90b2tlbiI6ImRqSjhNekl3T1h6TnJDTkRNQ3hKcUU4cTF1N1pRLURUUWVjQ3pwcTRqWDJlMmExRDUyNDFic0lnWHZpSnN6SGFRS1BSUUVLcXc3N0JUN1diZEdmNjJ3akpfTnBVUnozZm5LNTJKWlpPUDhvVTlVWHJLVUJyS1A5QUhKd2VyUThDTzBKU0M3eVRUUlk1WGt2UTAyc0gtOGpLYnlJNW42S0NRUkZ5Mndac0VBWXgxNTYxSk5yQlVrNzJIZ0FaU0xnY3VaZnI5SVZVOExreEFJcWZEWG9iQTZOMFBmcVF5SFJzdWV5WG9nWUQxUWNhVjFKaWRZdXVqbk4xVDRTekVWMkhBVi1mTnNfT0VVMnpRSzVGRDBWTGswTlVodWpKZFpkQTlUVkxLSkhnbkJteXhnUUJVRGc0REJEb3g2QUFBUDlTZmNpM2hyclY4WkdNQnNyd0FtbGhyQmw3UXZoMjF2c2RfaXVUbnh4VTZxLVlQMXllYTZYZW9zazdKNFFLZWc5Y2lrRGVNb215NzdsT1BBcmtldkM2dGEyMjY2SnJZb24wcWlreGFRMWZhS1FoN29nSzNQYk9CMFhQTWNvLVhGRVpQVU03X0VpOGd0cWhOOW5kaGxEUGx0OVFxNWxZaktaZnZ6ekdJLUU0RVZBVWdOTENXOVRaWFE9PSIsInVkaWQiOiI0MjJkOGY5ZS0yNWI0LTRlNmUtOWU3MC00OGJlMjdhNTg5Y2JfV0VCLTE0MTFkMWNhLWFlMmEtNTA1OC02MjhiLTExYzY4ZmI3ODNmOCIsImFkZGl0aW9uYWxfY2FzX3N5c3RlbSI6MzIwOX0%3d&signature=aLNLFnbaHG%2frxbnSdr%2bXFDjHEWQ%3d&sessionId=8f3caf24-0fe5-4464-3e35-7fb4ff8436f5:a598b37b-81e8-7e85-a139-5e3381f1d82b&clientTag=html5:v3.17.20&referrer=aHR0cHM6Ly9zb29rYS5teS9lbi9wbGF5L2FlYy1oZC8xNDk3ODI0L3BsYXllcj9saW5lYXJJZD0xMDI3NzYwMzEmaXNMaXZlPXRydWU=
 #EXTINF:-1 tvg-id="306.astro" tvg-logo="https://linear-poster.astro.com.my/prod/logo/Astro_AEC_v1.png" group-logo="" group-title="FHD",AEC
-https://a2ef74f67b1f43689b5bef947c40d9ed.mediatailor.ap-southeast-1.amazonaws.com/v1/dash/4ad19442a5c36709752f44aae3b98db617a3c3d7/AEC_Production/masterCH1.mpd?aws.sessionId=5dedd41b-46a2-4f17-bd6e-41c65222174a
+https://a2ef74f67b1f43689b5bef947c40d9ed.mediatailor.ap-southeast-1.amazonaws.com/v1/dash/4ad19442a5c36709752f44aae3b98db617a3c3d7/AEC_Production/masterCH1.mpd?aws.sessionId=f4a8407e-f4e4-4eb3-941c-094f543e7f27
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"F24pOLznldHIVVmiRAR39w", "kid":"KGrvTo2F22bgX+Slx5nkEA" } ], "type":"temporary" }
 #EXTINF:-1 tvg-id="311.astro" tvg-logo="https://linear-poster.astro.com.my/prod/logo/Astro_AOD_v1.png" group-logo="" group-title="FHD",AOD 
-http://linears-playback.astro.com.my/vsg/41C-rSd8jn4CQqXyylxHAQQY75UsokiSDaVnZJ7WWaCZo=mheK/dash-wv/jitp-linearwm/2706/default_primary.mpd
+http://linears-playback.astro.com.my/vsg/41C-rSd8jn4CQqXyylxHAQQTHfTFffp5KnVKiOdhqlnv4=KXSg/dash-wv/jitp-linearwm/2706/default_primary.mpd
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"yKD35puzHf1HXaJvxsYAOw", "kid":"YFB+8NycgT1fjHsiKUEvEA" } ], "type":"temporary" }
@@ -305,7 +300,7 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/2309/default_primary.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"aMXbOzCfq1UDpv21gN3ygQ", "kid":"x3N+3R1ngk+nDfcxVL+BEA" } ], "type":"temporary" }
 #EXTINF:-1 tvg-id="202.astro" ch-number="202" group-logo="" tvg-logo="http://linear-poster.astro.com.my/prod/logo/Vinmeen2024.png" group-title="FHD",Vinmeen 
-http://linears-playback.astro.com.my/vsg/41yTAZb_X81Bw3oVxc0yp_TxYRt-xhGSw95ajF7LbQUrQ=weRy/dash-wv/jitp-linearwm/2105/default_primary.mpd
+http://linears-playback.astro.com.my/vsg/41yTAZb_X81Bw3oVxc0yp_T2oTEXycHLUDbR11nIKy3lo=DPEy/dash-wv/jitp-linearwm/2105/default_primary.mpd
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"wSi75B6U0Vp/jML2JTpUsg", "kid":"nESvi1lLYVf1XTwxvWecEA" } ], "type":"temporary" }
