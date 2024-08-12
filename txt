@@ -44,3 +44,14 @@ https://tang.hz.cz/power/ub18?token=b1dbee0e
     "type": 3,
     "ua": "okhttp/4.12.0"
 }
+{
+      "name": "SMT",
+      "boot": false,
+      "pass": true,
+      "url": "https://t4.doube.eu.org/smt.txt",
+      "logo": "https://live.fanmingming.com/tv/{name}.png",
+      "header": {
+        "CLIENT-IP": "127.0.0.1",
+        "X-FORWARDED-FOR": "127.0.0.1"
+      }
+    }
