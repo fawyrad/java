@@ -1658,24 +1658,6 @@ https://tglmp04.akamaized.net/out/v1/421a3cd3bdcd492f8f4b5efb2363ed2c/manifest.m
 #EXTINF:-1 group-title="SINGAPORE" tvg-id="" tvg-chno="" group-logo="https://i.ibb.co/BzXszsr/flag-singapore-round-frame-1308-71152.jpg" tvg-logo="https://i.ibb.co/zsDGJDK/trtrtrt.jpg",ROCK ENTERTAINMENT (SGP)
 https://tglmp02.akamaized.net/out/v1/621a7089e63144e4be7891cd9bfb10e2/manifest.mpd
 ########################################################################RADIO#########################################################################################
-
-#EXTINF:-1 group-title="RTM" ch-number="991" tvg-id="991" tvg-chno="991" ,Channel 1 Paris 2024 Olympics
-https://d30aylox5wvifh.cloudfront.net/event/smil:ag1/playlist.m3u8?id=11
-
-#EXTINF:-1 group-title="RTM" ch-number="992" tvg-id="992" tvg-chno="992" ,Channel 2 Paris 2024 Olympics
-https://d30aylox5wvifh.cloudfront.net/event/smil:ag2/playlist.m3u8?id=12
-
-#EXTINF:-1 group-title="RTM" ch-number="993" tvg-id="993" tvg-chno="993" ,Channel 3 Paris 2024 Olympics
-https://d30aylox5wvifh.cloudfront.net/event/smil:ag3/playlist.m3u8?id=13
-
-#EXTINF:-1 group-title="RTM" ch-number="994" tvg-id="994" tvg-chno="994" ,Channel 4 Paris 2024 Olympics
-https://d30aylox5wvifh.cloudfront.net/event/smil:ag4/playlist.m3u8?id=14
-
-#EXTINF:-1 group-title="RTM" ch-number="995" tvg-id="995" tvg-chno="995" ,Channel 5 Paris 2024 Olympics
-https://d30aylox5wvifh.cloudfront.net/event/smil:ag5/playlist.m3u8?id=15
-
-#EXTINF:-1 group-title="RTM" ch-number="996" tvg-id="996" tvg-chno="996" ,Channel 6 Paris 2024 Olympics
-https://d25tgymtnqzu8s.cloudfront.net/event/smil:event1/playlist.m3u8?id=16
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV 1" tvg-logo="https://assets.livednow.com/logo/CCTV1.png" group-title="央视", CCTV 1
 http://95.179.139.113:5566/itv/wasusyt/6000000001000029752
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV 1 50 FPS" tvg-logo="https://assets.livednow.com/logo/CCTV1.png" group-title="央视", CCTV 1 50 FPS
