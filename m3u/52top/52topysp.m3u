@@ -193,6 +193,6 @@ http://95.179.139.113:5566/ysp/xinjiang
 #EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://assets.livednow.com/logo/兵团卫视.png" group-title="卫视", 兵团卫视
 http://95.179.139.113:5566/ysp/bingtuan
 
-#EXTINF:-1 tvg-id="2024614803" tvg-name="ATP1000男子网球大师赛 辛辛那提站 第二/三轮" tvg-logo="https://jietufengmian.yangshipin.cn/20240808/1633444692080/32bbc64a32156a85dbf740f300095d7d.webp?imageMogr2/format/png/thumbnail/500x" group-title="黄金赛事", ATP1000男子网球大师赛 辛辛那提站 第二/三轮
-http://95.179.139.113:5566/ysp/2024614803
+#EXTINF:-1 tvg-id="2024613003" tvg-name="ATP1000男子网球大师赛辛辛那提站1/4决赛" tvg-logo="https://jietufengmian.yangshipin.cn/20240808/1634185873294/32bbc64a32156a85dbf740f300095d7d.webp?imageMogr2/format/png/thumbnail/500x" group-title="黄金赛事", ATP1000男子网球大师赛辛辛那提站1/4决赛
+http://95.179.139.113:5566/ysp/2024613003
 
