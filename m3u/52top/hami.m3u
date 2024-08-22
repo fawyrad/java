@@ -22,36 +22,6 @@ http://95.179.139.113:5566/hami/OTT_LIVE_0000001854
 http://95.179.139.113:5566/hami/OTT_LIVE_0000001855
 #EXTINF:-1 tvg-id="ELTA體育-MAX4" tvg-name="愛爾達體育MAX4台" tvg-logo="https://assets.livednow.com/logo/ELTA體育-MAX4.png" group-title="體育", 愛爾達體育MAX4台
 http://95.179.139.113:5566/hami/OTT_LIVE_0000001856
-#EXTINF:-1 tvg-id="ELTA奧運-1台" tvg-name="愛爾達奧運1台" tvg-logo="https://assets.livednow.com/logo/ELTA奧運-1台.png" group-title="體育", 愛爾達奧運1台
-http://95.179.139.113:5566/hami/OTT_LIVE_0000001942
-#EXTINF:-1 tvg-id="ELTA奧運-2台" tvg-name="愛爾達奧運2台" tvg-logo="https://assets.livednow.com/logo/ELTA奧運-2台.png" group-title="體育", 愛爾達奧運2台
-http://95.179.139.113:5566/hami/OTT_LIVE_0000001943
-#EXTINF:-1 tvg-id="ELTA奧運-3台" tvg-name="愛爾達奧運3台" tvg-logo="https://assets.livednow.com/logo/ELTA奧運-3台.png" group-title="體育", 愛爾達奧運3台
-http://95.179.139.113:5566/hami/OTT_LIVE_0000001944
-#EXTINF:-1 tvg-id="ELTA奧運-4台" tvg-name="愛爾達奧運4台(羽球+)" tvg-logo="https://assets.livednow.com/logo/ELTA奧運-4台.png" group-title="體育", 愛爾達奧運4台(羽球+)
-http://95.179.139.113:5566/hami/OTT_LIVE_0000002047
-#EXTINF:-1 tvg-id="ELTA奧運-5台" tvg-name="愛爾達奧運5台(桌球+)" tvg-logo="https://assets.livednow.com/logo/ELTA奧運-5台.png" group-title="體育", 愛爾達奧運5台(桌球+)
-http://95.179.139.113:5566/hami/OTT_LIVE_0000002048
-#EXTINF:-1 tvg-id="ELTA奧運-6台" tvg-name="愛爾達奧運6台(網球+)" tvg-logo="https://assets.livednow.com/logo/ELTA奧運-6台.png" group-title="體育", 愛爾達奧運6台(網球+)
-http://95.179.139.113:5566/hami/OTT_LIVE_0000002049
-#EXTINF:-1 tvg-id="ELTA奧運-7台" tvg-name="愛爾達奧運7台(高球+)" tvg-logo="https://assets.livednow.com/logo/ELTA奧運-7台.png" group-title="體育", 愛爾達奧運7台(高球+)
-http://95.179.139.113:5566/hami/OTT_LIVE_0000002050
-#EXTINF:-1 tvg-id="Hami奧運1台" tvg-name="Hami奧運1台(免費)" tvg-logo="https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@27@1945_20240716090800.png" group-title="體育", Hami奧運1台(免費)
-http://95.179.139.113:5566/hami/OTT_LIVE_0000001945
-#EXTINF:-1 tvg-id="Hami奧運2台" tvg-name="Hami奧運2台(免費)" tvg-logo="https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@27@1946_20240716090809.png" group-title="體育", Hami奧運2台(免費)
-http://95.179.139.113:5566/hami/OTT_LIVE_0000001946
-#EXTINF:-1 tvg-id="Hami奧運3台" tvg-name="Hami奧運3台(免費)" tvg-logo="https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@27@1947_20240716090815.png" group-title="體育", Hami奧運3台(免費)
-http://95.179.139.113:5566/hami/OTT_LIVE_0000001947
-#EXTINF:-1 tvg-id="Hami奧運4台(羽球+)" tvg-name="Hami奧運4台(羽球+)(免費)" tvg-logo="https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@27@1813_20240716090718.png" group-title="體育", Hami奧運4台(羽球+)(免費)
-http://95.179.139.113:5566/hami/OTT_LIVE_0000001813
-#EXTINF:-1 tvg-id="Hami奧運5台(桌球+)" tvg-name="Hami奧運5台(桌球+)(免費)" tvg-logo="https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@27@1814_20240716090737.png" group-title="體育", Hami奧運5台(桌球+)(免費)
-http://95.179.139.113:5566/hami/OTT_LIVE_0000001814
-#EXTINF:-1 tvg-id="Hami奧運6台(網球+)" tvg-name="Hami奧運6台(網球+)(免費)" tvg-logo="https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@27@1815_20240716090745.png" group-title="體育", Hami奧運6台(網球+)(免費)
-http://95.179.139.113:5566/hami/OTT_LIVE_0000001815
-#EXTINF:-1 tvg-id="Hami奧運7台(高球+)" tvg-name="Hami奧運7台(高球+)(免費)" tvg-logo="https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@27@1817_20240716090752.png" group-title="體育", Hami奧運7台(高球+)(免費)
-http://95.179.139.113:5566/hami/OTT_LIVE_0000001817
-#EXTINF:-1 tvg-id="Hami奧運熱播台" tvg-name="Hami奧運熱播台(免費)" tvg-logo="https://apl-hamivideo.cdn.hinet.net/HamiVideo/getHamiVideoImg.php?imageId=sourceImages@Live@27@1948_20240716090823.png" group-title="體育", Hami奧運熱播台(免費)
-http://95.179.139.113:5566/hami/OTT_LIVE_0000001948
 #EXTINF:-1 tvg-id="Hami MLB 台" tvg-name="Hami MLB 台" tvg-logo="https://assets.livednow.com/logo/hami-mlb.png" group-title="體育", Hami MLB 台
 http://95.179.139.113:5566/hami/OTT_LIVE_0000002017
 #EXTINF:-1 tvg-id="Hami 羽球台" tvg-name="Hami 羽球台" tvg-logo="https://assets.livednow.com/logo/hami-yq.png" group-title="體育", Hami 羽球台
